@@ -27,10 +27,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};     
         
         faction = MNP_CA_WD; // Puts unit under new faction
-        vehicleClass = "MNP_Can_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
-        
-        
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -60,8 +57,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};     
         
         faction = MNP_CA_WD; // Puts unit under new faction
-        vehicleClass = "MNP_Can_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -146,10 +142,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};     
         
         faction = MNP_CA_DE; // Puts unit under new faction
-        vehicleClass = "MNP_Can_D_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
-        
-        
+
         linkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -179,8 +172,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};     
         
         faction = MNP_CA_DE; // Puts unit under new faction
-        vehicleClass = "MNP_Can_D_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
         linkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -265,8 +257,7 @@ class CfgVehicles {
 
         
         faction = MNP_GE_WD; // Puts unit under new faction
-        vehicleClass = "MNP_Ger_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
         linkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -296,8 +287,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
 
         faction = MNP_GE_WD; // Puts unit under new faction
-        vehicleClass = "MNP_Ger_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
         linkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -381,8 +371,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_GER_D.paa"};
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
         faction = MNP_GE_DE; // Puts unit under new faction
-        vehicleClass = "MNP_Ger_D_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
         linkedItems[] = {"MNP_Helmet_Germany_D", "MNP_Vest_Germany_D", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Germany_D", "MNP_Vest_Germany_D", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -411,8 +400,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_GER_D.paa"};
         hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
         faction = MNP_GE_DE; // Puts unit under new faction
-        vehicleClass = "MNP_Ger_D_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
         linkedItems[] = {"MNP_Boonie_GER_D", "MNP_Vest_Germany_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_GER_D", "MNP_Vest_Germany_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -440,8 +428,6 @@ class CfgVehicles {
         
         magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-    
-    
     };
     
     class MNP_GER_Soldier_MED_D : MNP_GER_Soldier_DF{
@@ -454,9 +440,7 @@ class CfgVehicles {
         attendant = 1;
         magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};    
-        
-    
-    };
+        };
     
     class MNP_GER_Soldier_GR_D : MNP_GER_Soldier_DF{
         displayName = "Grenadier";
@@ -468,9 +452,7 @@ class CfgVehicles {
         
         magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        
-    
-    };
+        };
         
     // US army Ranger units, UCP
     
@@ -502,7 +484,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_US_RAN; // Puts unit under new faction
-        vehicleClass = "MNP_USR_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -534,7 +516,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_US_RAN; // Puts unit under new faction
-        vehicleClass = "MNP_USR_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -595,7 +577,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_US_RAN; // Puts unit under new faction
-        vehicleClass = "MNP_USR_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -676,7 +658,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_US_Sco; // Puts unit under new faction
-        vehicleClass = "MNP_USAW_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -708,7 +690,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_US_Sco; // Puts unit under new faction
-        vehicleClass = "MNP_USAW_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -719,9 +701,7 @@ class CfgVehicles {
         
         magazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
         respawnmagazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
-        
-    
-    };
+        };
     
     class MNP_TS_Soldier_G : MNP_TS_Soldier_AR{
         displayName = "Grenadier";      
@@ -731,9 +711,7 @@ class CfgVehicles {
         
         magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        
-    
-    };
+        };
     
     class MNP_TS_Soldier_AT : MNP_TS_Soldier_F{
         displayName = "Rifleman (AT)";
@@ -791,7 +769,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Australia", "MNP_Vest_Australia", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_AUS; // Puts unit under new faction
-        vehicleClass = "MNP_Aus_Units"; // Puts unit in the vehicleclass    
+
         author = "Killoch";
     };
     
@@ -823,7 +801,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_AUS", "MNP_Vest_Australia", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         
         faction = MNP_AUS; // Puts unit under new faction
-        vehicleClass = "MNP_Aus_Units"; // Puts unit in the vehicleclass    
+
         author = "Killoch";
     };
 
@@ -838,9 +816,7 @@ class CfgVehicles {
         
         magazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"};
         respawnmagazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"};
-            
-    
-    };
+            };
     
     class MNP_AUS_Soldier_G : MNP_AUS_Soldier_F{
         displayName = "Grenadier";
@@ -865,9 +841,7 @@ class CfgVehicles {
         
         magazines[] = {"RPG32_F", "RPG32_HE_F", "HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
         respawnmagazines[] = {"RPG32_F", "RPG32_HE_F", "HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        
-    
-    };
+        };
     
     class MNP_AUS_Soldier_MD : MNP_AUS_Soldier_S{
         displayName = "Combat Medic";
@@ -915,7 +889,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_ROK", "G_Aviator", "MNP_Vest_ROK_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_ROK; // Puts unit under new faction
-        vehicleClass = "MNP_ROK_Units"; // Puts unit in the vehicleclass    
+
         author = "Killoch";
     };
     
@@ -950,7 +924,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_ROK", "G_Aviator", "MNP_Vest_ROK_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_ROK; // Puts unit under new faction
-        vehicleClass = "MNP_ROK_Units"; // Puts unit in the vehicleclass    
+
         author = "Killoch";
     };
 
@@ -961,9 +935,7 @@ class CfgVehicles {
         
         magazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
         respawnmagazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
-        
-    
-    };
+        };
     
     class MNP_ROK_Soldier_G : MNP_ROK_Soldier_F{
         displayName = "Grenadier";      
@@ -973,9 +945,7 @@ class CfgVehicles {
         
         magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        
-    
-    };
+        };
     
     class MNP_ROK_Soldier_AT : MNP_ROK_Soldier_F{
         displayName = "Rifleman (AT)";
@@ -1032,7 +1002,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_1", "G_Balaclava_lowprofile", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_USMCA_SN; // Puts unit under new faction
-        vehicleClass = "MNP_USMCA_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1064,8 +1034,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_2", "G_Balaclava_lowprofile", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_USMCA_SN; // Puts unit under new faction
-        vehicleClass = "MNP_USMCA_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
     };
     
     class MNP_USMCA_Soldier_AR : MNP_USMCA_Soldier_F{
@@ -1148,7 +1117,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_UKR", "MNP_Vest_UKR_A" , "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         
         faction = MNP_UKR; // Puts unit under new faction
-        vehicleClass = "MNP_UKR_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1160,8 +1129,6 @@ class CfgVehicles {
         
         magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-    
-    
     };
     
     class MNP_UKR_AR : MNP_UKR_A{
@@ -1248,7 +1215,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_ROKMC", "MNP_Vest_ROKMC_2" , "ItemMap", "G_Aviator", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_ROKMC; // Puts unit under new faction
-        vehicleClass = "MNP_ROKMC_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1260,8 +1227,6 @@ class CfgVehicles {
         
         magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
         respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-    
-    
     };
     
     class MNP_ROKMC_AR : MNP_ROKMC_A{
@@ -1345,7 +1310,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_Cap_oli_hs", "MNP_Vest_ISRKahki_1" , "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         
         faction = MNP_ISR; // Puts unit under new faction
-        vehicleClass = "MNP_ISR_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1357,8 +1322,6 @@ class CfgVehicles {
         
         magazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
         respawnmagazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-    
-    
     };
     
     class MNP_ISR_AR : MNP_ISR_A{
@@ -1439,7 +1402,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
     
         faction = MNP_POLICE; // Puts unit under new faction
-        vehicleClass = "MNP_POLICE_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1485,7 +1448,7 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\MNP_BLUFOR\Data\Officer.rvmat"};
 
         faction = MNP_6coIrregulars; // Puts unit under new faction
-        vehicleClass = "MNP_6coIrregulars_Units"; // Puts unit in the vehicleclass  
+
         author = "Killoch";
     };
     
@@ -1513,7 +1476,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         
         faction = MNP_6coIrregulars; // Puts unit under new faction
-        vehicleClass = "MNP_6coIrregulars_Units"; // Puts unit in the vehicleclass  
+
         author = "Killoch";
     };
 
@@ -1595,7 +1558,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_AMCU; // Puts unit under new faction
-        vehicleClass = "MNP_AMCU_Units"; // Puts unit in the vehicleclass
+
         author = "Killoch";
     };
     
@@ -1627,8 +1590,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     
         faction = MNP_AMCU; // Puts unit under new faction
-        vehicleClass = "MNP_AMCU_Units"; // Puts unit in the vehicleclass
-        author = "Killoch"; 
+
     };
     
     class MNP_AMCU_Soldier_AR : MNP_AMCU_Soldier_F{
