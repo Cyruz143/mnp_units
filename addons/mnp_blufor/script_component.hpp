@@ -56,6 +56,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"HandGrenade", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M"};
 
+#define G3_RIFLEMAN \
+    weapons[] = {"hlc_rifle_g3a3", "Throw", "put"}; \
+    respawnweapons[] = {"hlc_rifle_g3a3", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3"}; \
+    respawnmagazines[] = {"HandGrenade", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3"};
+
 // FTL
 #define M4A1_FTL \
     weapons[] = {"CUP_arifle_M4A1_BUIS_GL", "Throw", "put"}; \
@@ -104,6 +110,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"CUP_arifle_AK74_GL", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "SmokeShell"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "SmokeShell"};
+
+#define G3_FTL \
+    weapons[] = {"HLC_Rifle_g3ka4_GL", "Throw", "put"}; \
+    respawnweapons[] = {"HLC_Rifle_g3ka4_GL", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "SmokeShell"}; \
+    respawnmagazines[] = {"HandGrenade", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "CUP_1Rnd_HE_GP25_M", "CUP_1Rnd_HE_GP25_M", "SmokeShell"};
 
 // AR
 #define M249pip3_AR \
@@ -203,6 +215,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_PG7V_M"}; \
     respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_PG7V_M"};
 
+#define G3_AT \
+    weapons[] = {"hlc_rifle_g3a3", "CUP_launch_RPG7V", "Throw", "put"}; \
+    respawnweapons[] = {"hlc_rifle_g3a3", "CUP_launch_RPG7V", "Throw", "put"}; \
+    magazines[] = {"hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "CUP_PG7V_M"}; \
+    respawnmagazines[] = {"hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "CUP_PG7V_M"};
+
 // Med
 #define M4A1_MED \
     weapons[] = {"CUP_arifle_M4A1_black", "Throw", "put"}; \
@@ -251,6 +269,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"CUP_arifle_AK74", "Throw", "put"}; \
     magazines[] = {"SmokeShellBlue", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M"}; \
     respawnmagazines[] = {"SmokeShellBlue", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M"};
+
+#define G3_MED \
+    weapons[] = {"hlc_rifle_g3a3", "Throw", "put"}; \
+    respawnweapons[] = {"hlc_rifle_g3a3", "Throw", "put"}; \
+    magazines[] = {"SmokeShellBlue", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3"}; \
+    respawnmagazines[] = {"SmokeShellBlue", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_b_G3"};
 
 // MMG
 #define M240_MG \
