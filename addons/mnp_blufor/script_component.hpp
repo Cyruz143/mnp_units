@@ -27,14 +27,14 @@ MG: 0 frags, 3 boxes
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"};
 
 #define MK17_RIFLEMAN \
-    weapons[] = {"CUP_arifle_Mk16_STD", "Throw", "put"}; \
-    respawnweapons[] = {"CUP_arifle_Mk16_STD", "Throw", "put"}; \
+    weapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"};
 
 #define HK416_RIFLEMAN \
-    weapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
-    respawnweapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
+    weapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"};
 
