@@ -26,9 +26,6 @@ class CfgVehicleClasses {
     class MNP_USMCA_Units {
         displayName = "USMC arctic Warfare";
     };
-    class MNP_unsort_blue{
-        displayName = "Unsorted";
-    };
     class MNP_POLICE_Units {
         displayName = "Police";
     };
