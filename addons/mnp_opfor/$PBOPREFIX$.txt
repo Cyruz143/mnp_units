@@ -1,0 +1,6 @@
+///<'mnp_opfor.pbo' properties via Mikero's dos tools, dll version 6.44>///
+prefix=MNP_OPFOR
+Mikero=DePbo.dll
+//Pbo Type is: Arma Addon
+//Sha: 'EF19BC236E35F2CE72B411E86A81744B1BA59520'
+//////</properties>//////

@@ -1,0 +1,6 @@
+///<'mnp_indep.pbo' properties via Mikero's dos tools, dll version 6.44>///
+prefix=MNP_INDEP
+Mikero=DePbo.dll
+//Pbo Type is: Arma Addon
+//Sha: 'C86E400C2E2497D1420D215F07901FC41152013A'
+//////</properties>//////

@@ -1,0 +1,6 @@
+///<'mnp_blufor.pbo' properties via Mikero's dos tools, dll version 6.44>///
+prefix=MNP_BLUFOR
+Mikero=DePbo.dll
+//Pbo Type is: Arma Addon
+//Sha: '0EFBCA3CFCFB967CB4AC366D4AA69B591F63A7C7'
+//////</properties>//////
