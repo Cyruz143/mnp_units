@@ -1,14 +1,21 @@
-ambient[]={1,1,1,1};
-diffuse[]={1,1,1,1};
-forcedDiffuse[]={0,0,0,0};
-emmisive[]={0,0,0,1};
-specular[]={1,1,1,1};
-specularPower=80;
-PixelShaderID="Super";
-VertexShaderID="Super";
+
+#define _ARMA_
+
+class StageTI
+{
+	texture = "a3\characters_f\blufor\data\clothing1_ti_ca.paa";
+};
+ambient[] = {1,1,1,1};
+diffuse[] = {1,1,1,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {1,1,1,1};
+specularPower = 150;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
 class Stage1
 {
-	texture="MNP_OPFOR\data\sudequip_PLAH_nohq.paa";
+	texture = "x\mnp_units\addons\mnp_main\data\clothing1_nohq.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -32,7 +39,7 @@ class Stage2
 };
 class Stage3
 {
-	texture = "#(argb,8,8,3)color(0,0,0,0,MC)";
+	texture = "a3\characters_f\blufor\data\clothing1_injury_mc.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -44,7 +51,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "a3\characters_f\blufor\data\equip1_as.paa";
+	texture = "a3\characters_f\blufor\data\clothing1_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -56,7 +63,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="MNP_OPFOR\data\sudequip_nato_smdi.paa";
+	texture = "x\mnp_units\addons\mnp_main\data\clothing1_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{

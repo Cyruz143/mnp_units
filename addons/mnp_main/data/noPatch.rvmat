@@ -3,19 +3,19 @@
 
 class StageTI
 {
-	texture = "a3\characters_f\opfor\data\officer_ti_ca.paa";
+	texture = "a3\characters_f\blufor\data\clothing1_ti_ca.paa";
 };
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,0};
 emmisive[] = {0,0,0,1};
-specular[] = {0.2,0.2,0.2,1};
-specularPower = 100;
+specular[] = {1,1,1,1};
+specularPower = 150;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "MNP_OPFOR\Data\officer_hex_nohq.paa";
+	texture = "x\mnp_units\addons\mnp_main\data\clothing1_nohq.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -51,7 +51,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture = "x\mnp_units\addons\mnp_main\data\clothing1_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -63,7 +63,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "MNP_OPFOR\Data\officer_hex_smdi.paa";
+	texture = "x\mnp_units\addons\mnp_main\data\clothing1_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -75,7 +75,7 @@ class Stage5
 };
 class Stage6
 {
-	texture = "#(ai,64,64,1)fresnel(1,0.3)";
+	texture = "#(ai,64,64,1)fresnel(1,0.7)";
 	uvSource = "none";
 };
 class Stage7
@@ -91,4 +91,3 @@ class Stage7
 		pos[] = {0,0,0};
 	};
 };
-

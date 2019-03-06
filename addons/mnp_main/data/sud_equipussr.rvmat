@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="MNP_OPFOR\data\sud_equipussr_nohq.paa";
+	texture="x\mnp_units\addons\mnp_main\data\sud_equipussr_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="MNP_OPFOR\data\sud_equipussr_smdi.paa";
+	texture="x\mnp_units\addons\mnp_main\data\sud_equipussr_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
