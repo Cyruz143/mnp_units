@@ -44,6 +44,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"HandGrenade", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"}; \
     respawnmagazines[] = {"HandGrenade", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"};
 
+#define TRG_RIFLEMAN \
+    weapons[] = {"arifle_TRG21_F", "Throw", "put"}; \
+    respawnweapons[] = {"arifle_TRG21_F", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"}; \
+    respawnmagazines[] = {"HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+
 #define AK74_RIFLEMAN \
     weapons[] = {"CUP_arifle_AK74", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_AK74", "Throw", "put"}; \
@@ -86,6 +92,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"hlc_rifle_auga3_GL", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
     respawnmagazines[] = {"HandGrenade", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
+
+#define TRG_FTL \
+    weapons[] = {"arifle_TRG21_GL_F", "Throw", "put"}; \
+    respawnweapons[] = {"arifle_TRG21_GL_F", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
+    respawnmagazines[] = {"HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
 
 #define AK74_FTL \
     weapons[] = {"CUP_arifle_AK74_GL", "Throw", "put"}; \
@@ -130,6 +142,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"HandGrenade", "CUP_100Rnd_556x45_BetaCMag_ar15", "CUP_100Rnd_556x45_BetaCMag_ar15", "CUP_100Rnd_556x45_BetaCMag_ar15"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_100Rnd_556x45_BetaCMag_ar15", "CUP_100Rnd_556x45_BetaCMag_ar15", "CUP_100Rnd_556x45_BetaCMag_ar15"};
 
+#define MK200_AR \
+    weapons[] = {"LMG_Mk200_F", "Throw", "put"}; \
+    respawnweapons[] = {"LMG_Mk200_F", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"}; \
+    respawnmagazines[] = {"HandGrenade", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"};
+
 #define RPK74_AR \
     weapons[] = {"CUP_arifle_RPK74_45", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_RPK74_45", "Throw", "put"}; \
@@ -173,6 +191,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"}; \
     respawnmagazines[] = {"hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"};
 
+#define TRG_AT \
+    weapons[] = {"arifle_TRG20_F", "launch_MRAWS_green_rail_F", "Throw", "put"}; \
+    respawnweapons[] = {"arifle_TRG20_F", "launch_MRAWS_green_rail_F", "Throw", "put"}; \
+    magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "MRAWS_HEAT_F"}; \
+    respawnmagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "MRAWS_HEAT_F"};
+
 #define AK74_AT \
     weapons[] = {"CUP_arifle_AK74", "CUP_launch_RPG7V", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_AK74", "CUP_launch_RPG7V", "Throw", "put"}; \
@@ -215,6 +239,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"hlc_rifle_auga3", "Throw", "put"}; \
     magazines[] = {"SmokeShellBlue", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"}; \
     respawnmagazines[] = {"SmokeShellBlue", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_B_AUG"};
+
+#define TRG_MED \
+    weapons[] = {"arifle_TRG20_F", "Throw", "put"}; \
+    respawnweapons[] = {"arifle_TRG20_F", "Throw", "put"}; \
+    magazines[] = {"SmokeShellBlue", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"}; \
+    respawnmagazines[] = {"SmokeShellBlue", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
 
 #define AK74_MED \
     weapons[] = {"CUP_arifle_AK74", "Throw", "put"}; \

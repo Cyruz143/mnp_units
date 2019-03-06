@@ -629,10 +629,7 @@ class CfgVehicles {
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         genericnames = "AsianMen";
         identitytypes[] = {"Head_Asian"};
-        weapons[] = {"arifle_MX_Black_Hamr_pointer_F", "Throw", "put"};
-        respawnweapons[] = {"arifle_MX_Black_Hamr_pointer_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
+        HK416_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_ROKMC_A.paa", "\MNP_BLUFOR\Data\C_ROKMC_B.paa"};
         //hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
@@ -641,45 +638,30 @@ class CfgVehicles {
         faction = MNP_ROKMC; // Puts unit under new faction
         author = "Killoch";
     };
-    class MNP_ROKMC_G : MNP_ROKMC_A{
-        displayName = "Grenadier";      
-        weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "Throw", "put", "Binocular"};
-        respawnweapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "Throw", "put", "Binocular"};
-        magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
+    class MNP_ROKMC_MG : MNP_ROKMC_A{
+        displayName = "Machinegunner";      
+        M240_MG
     };
     class MNP_ROKMC_AR : MNP_ROKMC_A{
         displayName = "Automatic rifleman";
         backpack = "B_Kitbag_rgr";
-        weapons[] = {"arifle_MX_SW_Black_Hamr_pointer_F", "Throw", "put"};
-        respawnweapons[] = {"arifle_MX_SW_Black_Hamr_pointer_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer"};
+        HK416_AR
     };
     class MNP_ROKMC_AT : MNP_ROKMC_A{
         displayName = "Rifleman (AT)";
         backpack = "B_AssaultPack_rgr_LAT";
-        weapons[] = {"launch_NLAW_F", "arifle_MXC_Black_F", "Throw", "put"};
-        respawnweapons[] = {"launch_NLAW_F", "arifle_MXC_Black_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
+        HK416_AT
     };
     class MNP_ROKMC_O : MNP_ROKMC_A{
         displayName = "Team Leader";
         backpack = "B_Kitbag_rgr";
-        weapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "Throw", "put", "Binocular"};
-        respawnweapons[] = {"arifle_MX_GL_Black_Hamr_pointer_F", "Throw", "put", "Binocular"};
-        magazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        respawnmagazines[] = {"3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};       
+        HK416_FTL  
     };
     class MNP_ROKMC_MD : MNP_ROKMC_A{
         displayName = "Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
-        weapons[] = {"arifle_MXC_Black_F", "Throw", "put", "Binocular"};
-        respawnweapons[] = {"arifle_MXC_Black_F", "Throw", "put", "Binocular"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag"};    
+        HK416_MED
     };
     // Israeli Army
     class MNP_ISR_A : B_Soldier_base_F{
@@ -694,10 +676,7 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
         };
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        weapons[] = {"arifle_TRG21_ARCO_pointer_F", "Throw", "put"};
-        respawnweapons[] = {"arifle_TRG21_ARCO_pointer_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+        TRG_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_ISR_A.paa", "\MNP_BLUFOR\Data\C_ISR_B.paa"};
         //hiddenSelectionsMaterials[]={"\MNP_BLUFOR\Data\noPatch.rvmat"};
@@ -706,45 +685,30 @@ class CfgVehicles {
         faction = MNP_ISR; // Puts unit under new faction
         author = "Killoch";
     };
-    class MNP_ISR_G : MNP_ISR_A{
-        displayName = "Grenadier";      
-        weapons[] = {"arifle_TRG21_GL_F", "Throw", "put", "Binocular"};
-        respawnweapons[] = {"arifle_TRG21_GL_F", "Throw", "put", "Binocular"};
-        magazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        respawnmagazines[] = {"1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+    class MNP_ISR_MG : MNP_ISR_A{
+        displayName = "Machinegunner";      
+        M240_MG
     };
     class MNP_ISR_AR : MNP_ISR_A{
         displayName = "Automatic rifleman";
         backpack = "B_Kitbag_cbr";
-        weapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "put"};
-        respawnweapons[] = {"LMG_Mk200_MRCO_F", "hgun_P07_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box"};
+        MK200_AR
     };
     class MNP_ISR_AT : MNP_ISR_A{
         displayName = "Rifleman (AT)";
         backpack = "B_AssaultPack_rgr_LAT";
-        weapons[] = {"launch_NLAW_F", "arifle_TRG20_Holo_F", "Throw", "put"};
-        respawnweapons[] = {"launch_NLAW_F", "arifle_TRG20_Holo_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+        TRG_AT
     };
     class MNP_ISR_O : MNP_ISR_A{
         displayName = "Grenadier";
         backpack = "B_Kitbag_cbr";
-        weapons[] = {"arifle_TRG21_ARCO_pointer_F", "hgun_P07_F", "Throw", "put"};
-        respawnweapons[] = {"arifle_TRG21_ARCO_pointer_F", "hgun_P07_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+        TRG_FTL
     };
     class MNP_ISR_MD : MNP_ISR_A{
         displayName = "Corpsman";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
-        weapons[] = {"arifle_TRG20_Holo_F", "Throw", "put"};
-        respawnweapons[] = {"arifle_TRG20_Holo_F", "Throw", "put"};
-        magazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
-        respawnmagazines[] = {"HandGrenade", "HandGrenade", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag"};
+        TRG_MED
     };
     class MNP_US6co_Soldier_F : B_Soldier_base_F {
         scope = 2;
