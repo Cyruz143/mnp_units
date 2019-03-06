@@ -716,23 +716,21 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_6CO"; //the uniform item
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_WD_FP";       
-        side = 2;       
+        backpack = "MNP_B_WD_FP";        
         G3_RIFLEMAN
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_6co_A.paa"};
         hiddenSelectionsMaterials[] = {"\MNP_BLUFOR\Data\Officer.rvmat"};
-        faction = MNP_6coIrregulars; // Puts unit under new faction
+        faction = MNP_Irregulars; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_US6co_Soldier_O : B_Soldier_base_F {
         scope = 2;
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_6CO_B"; //the uniform item
-        side = 2;       
+        uniformClass = "MNP_CombatUniform_6CO_B"; //the uniform item   
         hiddenSelections[] = {"Camo1", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\MNP_BLUFOR\Data\C_6co_A.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -740,7 +738,7 @@ class CfgVehicles {
         G3_FTL
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
-        faction = MNP_6coIrregulars; // Puts unit under new faction
+        faction = MNP_Irregulars; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_US6Co_Soldier_AR : MNP_US6co_Soldier_F{

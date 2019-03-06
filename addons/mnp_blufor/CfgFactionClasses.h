@@ -90,7 +90,7 @@ class CfgFactionClasses {
         priority = 6;
         side = 1;
     };
-    class MNP_6coIrregulars {
+    class MNP_Irregulars {
         displayName = "Desert Irregulars";
         author = "Killoch";
         icon = "\MNP_BLUFOR\Data\Icon.paa";
