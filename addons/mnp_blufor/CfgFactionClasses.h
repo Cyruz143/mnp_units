@@ -62,13 +62,6 @@ class CfgFactionClasses {
         priority = 1;
         side = 1;
     };
-    class MNP_POLICE {
-        displayName = "Police";
-        author = "Killoch";
-        icon = "\MNP_BLUFOR\Data\Icon.paa";
-        priority = 1;
-        side = 1;
-    };
     class MNP_UKR {
         displayName = "Ukrainian Armed Forces";
         author = "Killoch";

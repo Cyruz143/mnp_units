@@ -26,9 +26,15 @@ MG: 0 frags, 3 boxes
     magazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"};
 
+#define MK17_RIFLEMAN \
+    weapons[] = {"CUP_arifle_Mk16_STD", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk16_STD", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"}; \
+    respawnmagazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"};
+
 #define HK416_RIFLEMAN \
-    weapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
-    respawnweapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
+    weapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk17_STD", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"};
 
@@ -62,6 +68,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"CUP_arifle_Mk16_STD_EGLM", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
+
+#define MK17_FTL \
+    weapons[] = {"CUP_arifle_Mk17_STD_EGLM", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk17_STD_EGLM", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
+    respawnmagazines[] = {"HandGrenade", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
 
 #define HK416_FTL \
     weapons[] = {"CUP_arifle_HK416_AGL_Black", "Throw", "put"}; \
@@ -100,6 +112,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"HandGrenade", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249"}; \
     respawnmagazines[] = {"HandGrenade", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 
+#define MK48_DE_AR \
+    weapons[] = {"CUP_lmg_Mk48_des", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_lmg_Mk48_des", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"}; \
+    respawnmagazines[] = {"HandGrenade", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+
 #define HK416_AR \
     weapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
@@ -137,6 +155,12 @@ MG: 0 frags, 3 boxes
     magazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"}; \
     respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"};
 
+#define MK17_AT \
+    weapons[] = {"CUP_arifle_Mk17_CQC_FG", "CUP_launch_M136", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk17_CQC_FG", "CUP_launch_M136", "Throw", "put"}; \
+    magazines[] = {"CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"}; \
+    respawnmagazines[] = {"CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"};
+
 #define HK416_AT \
     weapons[] = {"CUP_arifle_HK416_Black", "CUP_launch_M136", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_HK416_Black", "CUP_launch_M136", "Throw", "put"}; \
@@ -173,6 +197,12 @@ MG: 0 frags, 3 boxes
     respawnweapons[] = {"CUP_arifle_Mk16_CQC_FG", "Throw", "put"}; \
     magazines[] = {"SmokeShellBlue", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"}; \
     respawnmagazines[] = {"SmokeShellBlue", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16", "CUP_30Rnd_556x45_Stanag_Mk16"};
+
+#define MK17_MED \
+    weapons[] = {"CUP_arifle_Mk17_CQC_FG", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_Mk16_CQC_FG", "Throw", "put"}; \
+    magazines[] = {"SmokeShellBlue", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"}; \
+    respawnmagazines[] = {"SmokeShellBlue", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR", "CUP_20Rnd_762x51_B_SCAR"};
 
 #define HK416_MED \
     weapons[] = {"CUP_arifle_HK416_Black", "Throw", "put"}; \
