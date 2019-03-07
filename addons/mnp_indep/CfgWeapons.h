@@ -598,8 +598,6 @@ class cfgWeapons {
             hiddenSelections[] = {"camo"};
         };
     };
-    class MNP_Vest_ASA_1 : MNP_Vest_Olive_1 {scope = 1;};
-    class MNP_Vest_ASA_2 : MNP_Vest_Olive_2 {scope = 1;};
     // Finland
     class MNP_CombatUniform_Fin_A : Uniform_Base {
         scope = 2;
