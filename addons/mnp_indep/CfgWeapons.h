@@ -1,31 +1,13 @@
 class cfgWeapons {
     class Uniform_Base;
     class UniformItem;
-    class V_PlateCarrierIA1_dgtl;
     class V_PlateCarrierIA2_dgtl;
     class H_HelmetIA; 
-    class ItemCore;
     class HeadgearItem;
-    class Vest_Base;
     class VestItem;
-    class U_O_OfficerUniform_ocamo ;
-    class V_PlateCarrier3_rgr;
-    class U_B_CombatUniform_mcam_tshirt;
-    class U_B_CombatUniform_mcam_vest;
     class H_Booniehat_khk;
-    class H_Beret_blk;
     class H_Beret_02;
-    class U_O_CombatUniform_ocamo;
-    class U_B_HeliPilotCoveralls;
     class H_MilCap_gry;
-    class B_FieldPack_cbr;
-    class B_Carryall_cbr;
-    class B_FieldPack_oucamo_Medic;
-    class B_FieldPack_cbr_AT;
-    class B_Carryall_Base;
-    class B_FieldPack_Base;
-    class U_BG_Guerrilla_6_1;
-    class U_I_OfficerUniform;
     class MNP_CombatUniform_Ireland : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irish DPM Fatigues";
@@ -34,6 +16,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Irish_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply50"; //how much it can carry
@@ -41,7 +24,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Ireland_S : U_B_CombatUniform_mcam_vest {
+    class MNP_CombatUniform_Ireland_S : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irish DPM Fatigues";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -49,8 +32,9 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_Irish_Soldier_S"; //would be same as our made soldier class
+            uniformClass = "MNP_Irish_Soldier_MG"; //would be same as our made soldier class
             containerClass = "Supply50"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -64,6 +48,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire_D.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Irish_Soldier_D"; //would be same as our made soldier class
             containerClass = "Supply50"; //how much it can carry
@@ -71,7 +56,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Ireland_DS : U_B_CombatUniform_mcam_vest {
+    class MNP_CombatUniform_Ireland_DS : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irish DPM Fatigues (Desert)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -79,8 +64,9 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire_D.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_Irish_Soldier_DS"; //would be same as our made soldier class
+            uniformClass = "MNP_Irish_Soldier_DMG"; //would be same as our made soldier class
             containerClass = "Supply50"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -236,7 +222,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_UEDP.paa"};
     }; 
     // REBELS WITHOUT A CAUSE ( LVM )
-    class MNP_CombatUniform_Militia_A : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_A : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (Tigerstripe)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -245,6 +231,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -252,7 +239,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_B : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_B : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (Woodland)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -261,14 +248,15 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep2_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_Militia_Soldier_G"; //would be same as our made soldier class
+            uniformClass = "MNP_Militia_Soldier_MG"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
             mass = 80; //how much it weights
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_C : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_C : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (ATACS)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -277,6 +265,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep3_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_AR"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -284,7 +273,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_E : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_E : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (ERDL, T-Shirt)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -293,6 +282,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\smocks_strepI_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_M"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -300,7 +290,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_F : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_F : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (DPM, T-Shirt)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -309,6 +299,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\smocks_strepII_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_RAT"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -317,7 +308,7 @@ class cfgWeapons {
         };
     };
     // In the Desert
-    class MNP_CombatUniform_Militia_DA : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_DA : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (Desert Jigsaw)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -326,6 +317,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D1.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_DO"; //would be same as our made soldier class
             containerClass = "Supply40"; //how much it can carry
@@ -333,7 +325,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_DB : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_DB : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (Desert DPM)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -342,14 +334,15 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D2.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_Militia_Soldier_DG"; //would be same as our made soldier class
+            uniformClass = "MNP_Militia_Soldier_DMG"; //would be same as our made soldier class
             containerClass = "Supply40"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_DC : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_DC : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (3 Color Desert, Iranian DPM)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -358,6 +351,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D3.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_DAR"; //would be same as our made soldier class
             containerClass = "Supply40"; //how much it can carry
@@ -365,7 +359,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_DE : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_DE : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (3 Color Desert, T-Shirt)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -374,6 +368,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D4.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_DM"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -381,7 +376,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_Militia_DF : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Militia_DF : Uniform_Base {
         scope = 2;
         displayName = "MNP: Rebel Gear (Desert T-Shirt)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -390,6 +385,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D5.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Militia_Soldier_DRAT"; //would be same as our made soldier class
             containerClass = "Supply20"; //how much it can carry
@@ -398,7 +394,7 @@ class cfgWeapons {
         };
     };
     // REBELS WITH A CAUSE
-    class MNP_CombatUniform_Rebel_A : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Rebel_A : Uniform_Base {
             scope = 2;
             displayName = "MNP: Revolutionary Jumper";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -406,6 +402,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo", "insignia", "clan"};
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\rev_2.paa"};
             class ItemInfo : UniformItem {
+            modelSides[] = {6};
                 uniformModel = "\A3\characters_f_bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
                 uniformClass = "MNP_Rev_Soldier_AR"; //would be same as our made soldier class
                 containerClass = "Supply100"; //how much it can carry
@@ -413,7 +410,7 @@ class cfgWeapons {
                 hiddenSelections[] = {"Camo"};
             };
         };
-    class MNP_CombatUniform_Rebel_B : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_Rebel_B : Uniform_Base {
             scope = 2;
             displayName = "MNP: Revolutionary Officer";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -422,6 +419,7 @@ class cfgWeapons {
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\rev_1.paa"};
             //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
             class ItemInfo : UniformItem {
+            modelSides[] = {6};
                 uniformModel = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
                 uniformClass = "MNP_Rev_Soldier_O"; //would be same as our made soldier class
                 containerClass = "Supply100"; //how much it can carry
@@ -430,7 +428,7 @@ class cfgWeapons {
             };
         };
     // ASA Stuff
-    class MNP_CombatUniform_ASA_GC : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (M81)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -438,6 +436,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T.paa"};        
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -445,7 +444,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_ASA_GC_B : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC_B : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (M81)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -453,6 +452,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_AT"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -460,7 +460,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_ASA_GC2 : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC2 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (DMC)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -468,6 +468,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T2.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -475,7 +476,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_ASA_GC2_B : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC2_B : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (DMC)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -483,6 +484,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T2.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_M"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -490,7 +492,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_ASA_GC3 : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC3 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (A-TACS)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -498,6 +500,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T3.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_G"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -505,7 +508,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_ASA_GC3_B : U_BG_Guerrilla_6_1 {
+    class MNP_CombatUniform_ASA_GC3_B : Uniform_Base {
         scope = 2;
         displayName = "MNP: Irregular Fatigues (A-TACS)";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -513,6 +516,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T3.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_ASA_Soldier_AR"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
@@ -607,6 +611,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Fin_T.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Fin_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -622,6 +627,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Fin_T.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Fin_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -637,6 +643,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Fin_A.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_AFIN_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -652,6 +659,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Fin_A.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_AFIN_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -800,6 +808,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NZ_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -815,6 +824,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NZ_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -936,6 +946,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NOR_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -951,6 +962,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NOR_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1072,6 +1084,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NOR_D_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1087,6 +1100,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_NOR_D_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1208,6 +1222,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CZ.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_CZ_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1223,6 +1238,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CZ.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_CZ_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1334,7 +1350,7 @@ class cfgWeapons {
         displayName = "MNP: Czech Cap";
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CZ.paa"};
     };
-    class MNP_CombatUniform_AMerc_1 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_1 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Bush Uniform";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1342,6 +1358,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Bushcam_A.paa", "\x\mnp_units\addons\mnp_main\data\C_Beige_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_1F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1349,7 +1366,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_AMerc_2 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_2 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Bush Uniform + Lizard";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1357,6 +1374,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Bushcam_A.paa", "\x\mnp_units\addons\mnp_main\data\C_FrLiz_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_2F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1364,7 +1382,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_AMerc_3 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_3 : Uniform_Base {
         scope = 2;
         displayName = "MNP: 'Duck' Uniform";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1372,6 +1390,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Duck_A.paa", "\x\mnp_units\addons\mnp_main\data\C_Beige_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_3F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1379,7 +1398,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_AMerc_4 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_4 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Lizard Uniform";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1387,6 +1406,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FrLiz_A.paa", "\x\mnp_units\addons\mnp_main\data\C_FrLiz_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_4F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1394,7 +1414,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_AMerc_5 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_5 : Uniform_Base {
         scope = 2;
         displayName = "MNP: Splinter Uniform";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1402,6 +1422,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SPLRain_A.paa", "\x\mnp_units\addons\mnp_main\data\C_Beige_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_5F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1409,7 +1430,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_AMerc_6 : U_I_OfficerUniform {
+    class MNP_CombatUniform_AMerc_6 : Uniform_Base {
         scope = 2;
         displayName = "MNP: 'Duck' Uniform";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1417,6 +1438,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Duck_A.paa", "\x\mnp_units\addons\mnp_main\data\C_Duck_B.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_Amerc_6F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1432,6 +1454,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PPU.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_PPU_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
@@ -1447,6 +1470,7 @@ class cfgWeapons {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PPU.paa"};
         class ItemInfo : UniformItem {
+            modelSides[] = {6};
             uniformmodel = "-";
             uniformClass = "MNP_PPU_Soldier_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry

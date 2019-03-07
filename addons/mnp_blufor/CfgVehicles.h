@@ -3,6 +3,7 @@ class CfgVehicles {
     // Canadian Rifles
     class MNP_Canada_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Canada"; //the uniform item
@@ -22,6 +23,7 @@ class CfgVehicles {
     };
     class MNP_Canada_Soldier_S : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Canada_S"; //the uniform item
@@ -64,6 +66,7 @@ class CfgVehicles {
     // Canadian Desert Rifles
     class MNP_Canada_Soldier_DF : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Canada_D"; //the uniform item
@@ -82,6 +85,7 @@ class CfgVehicles {
     };
     class MNP_Canada_Soldier_DS : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Canada_DS"; //the uniform item
@@ -122,6 +126,7 @@ class CfgVehicles {
     // GERMANY
     class MNP_GER_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Germany"; //the uniform item
@@ -140,6 +145,7 @@ class CfgVehicles {
     };
     class MNP_GER_Soldier_S : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Germany_S"; //the uniform item
@@ -181,6 +187,7 @@ class CfgVehicles {
     // German Desert
     class MNP_GER_Soldier_DF : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Germany_D"; //the uniform item
@@ -200,6 +207,7 @@ class CfgVehicles {
     };
     class MNP_GER_Soldier_DS : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Germany_SD"; //the uniform item
@@ -241,6 +249,7 @@ class CfgVehicles {
     // US army Ranger units, UCP
     class MNP_USR_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ranger_A"; //the uniform item
@@ -261,6 +270,7 @@ class CfgVehicles {
     };
     class MNP_USR_Soldier_AR : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Autorifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ranger_B"; //the uniform item
@@ -331,6 +341,7 @@ class CfgVehicles {
     // Dark Multicam
     class MNP_TS_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_TS_A"; //the uniform item
@@ -351,6 +362,7 @@ class CfgVehicles {
     };
     class MNP_TS_Soldier_AR : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Autorifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_TS_B"; //the uniform item
@@ -391,6 +403,7 @@ class CfgVehicles {
     // Australia
     class MNP_AUS_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Australia"; //the uniform item
@@ -410,6 +423,7 @@ class CfgVehicles {
     };
     class MNP_AUS_Soldier_S : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Australia_S"; //the uniform item
@@ -451,6 +465,7 @@ class CfgVehicles {
     // Republic of Korea
     class MNP_ROK_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ROK_B"; //the uniform item
@@ -471,6 +486,7 @@ class CfgVehicles {
     };
     class MNP_ROK_Soldier_O : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ROK_A"; //the uniform item
@@ -511,6 +527,7 @@ class CfgVehicles {
     // US Arctic Warfare
     class MNP_USMCA_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_USMC_arctic"; //the uniform item
@@ -530,6 +547,7 @@ class CfgVehicles {
     };
     class MNP_USMCA_Soldier_O : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_USMC_arctic_B"; //the uniform item
@@ -571,6 +589,7 @@ class CfgVehicles {
     // Ukrainian 
     class MNP_UKR_A : B_Soldier_base_F{
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ukrainian"; //the uniform item
@@ -617,6 +636,7 @@ class CfgVehicles {
     // ROK Marines
     class MNP_ROKMC_A : B_Soldier_base_F{
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ROKMC"; //the uniform item
@@ -666,6 +686,7 @@ class CfgVehicles {
     // Israeli Army
     class MNP_ISR_A : B_Soldier_base_F{
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ISR"; //the uniform item
@@ -712,6 +733,7 @@ class CfgVehicles {
     };
     class MNP_US6co_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_6CO"; //the uniform item
@@ -728,6 +750,7 @@ class CfgVehicles {
     };
     class MNP_US6co_Soldier_O : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_6CO_B"; //the uniform item   
@@ -765,6 +788,7 @@ class CfgVehicles {
     // Australian Multicam
     class MNP_AMCU_Soldier_F : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_AMCU_T"; //the uniform item
@@ -785,6 +809,7 @@ class CfgVehicles {
     };
     class MNP_AMCU_Soldier_O : B_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_AMCU_ST"; //the uniform item
@@ -830,6 +855,7 @@ class CfgVehicles {
     class MNP_B_ACU_AP : B_AssaultPack_blk{
         displayName = "MNP: ACU Assault Pack";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ACU_AP.paa"};
         class TransportMagazines {};
@@ -838,6 +864,7 @@ class CfgVehicles {
     class MNP_B_ROK_AP : B_AssaultPack_blk{
         displayName = "MNP: ROK Assault Pack";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ROK_AP.paa"};
         class TransportMagazines {};
@@ -846,6 +873,7 @@ class CfgVehicles {
     class MNP_B_WB_AP : B_AssaultPack_blk{
         displayName = "MNP: USMC Winter Assault Pack";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_WB_AP.paa"};
         class TransportMagazines {};
@@ -854,6 +882,7 @@ class CfgVehicles {
     class MNP_B_ACU_KB : B_Kitbag_rgr{
         displayName = "MNP: ACU Kitbag";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ACU_KB.paa"};
         class TransportMagazines {};
@@ -862,6 +891,7 @@ class CfgVehicles {
     class MNP_B_ROK_KB : B_Kitbag_rgr{
         displayName = "MNP: ROK Kitbag";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ROK_KB.paa"};
         class TransportMagazines {};
@@ -870,6 +900,7 @@ class CfgVehicles {
     class MNP_B_WB_KB : B_Kitbag_rgr{
         displayName = "MNP: USMC Winter Kitbag";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_WB_KB.paa"};
         class TransportMagazines {};
@@ -880,6 +911,7 @@ class CfgVehicles {
     class MNP_B_WD_FP : B_FieldPack_Base{
         displayName = "MNP: M81 Woodland Field Pack";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\FP_USW.paa"};
         class TransportMagazines {};
@@ -888,6 +920,7 @@ class CfgVehicles {
     class MNP_B_WD_CA : B_Carryall_Base{
         displayName = "MNP: M81 Woodland CarryAll";
         scope = 2;
+        modelSides[] = {3,1,0,2};
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\CA_USW.paa"};
         class TransportMagazines {};

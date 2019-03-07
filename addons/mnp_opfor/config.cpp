@@ -10,6 +10,5 @@ class CfgPatches {
 };
 
 #include "CfgFactionClasses.h"
-#include "CfgVehicleClasses.h"
 #include "CfgVehicles.h"
 #include "CfgWeapons.h"

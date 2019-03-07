@@ -3,6 +3,7 @@ class CfgVehicles {
     class I_G_Soldier_lite_F;    
     class MNP_Irish_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland"; //the uniform item
@@ -18,6 +19,7 @@ class CfgVehicles {
     };
     class MNP_Irish_Soldier_MG : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_S"; //the uniform item
@@ -61,6 +63,7 @@ class CfgVehicles {
     };
     class MNP_Irish_Soldier_D : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Irish Rifleman (D)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_D"; //the uniform item
@@ -76,6 +79,7 @@ class CfgVehicles {
     };
     class MNP_Irish_Soldier_DMG : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_DS"; //the uniform item
@@ -120,6 +124,7 @@ class CfgVehicles {
     // Local Volunteer Militia
     class MNP_Militia_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_A"; //the uniform item
@@ -134,6 +139,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_MG : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_B"; //the uniform item
@@ -148,6 +154,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_AR : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Automatic Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_C"; //the uniform item
@@ -162,6 +169,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_M : I_G_Soldier_lite_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Field Medic";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_E"; //the uniform item
@@ -178,6 +186,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_RAT : I_G_Soldier_lite_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman (AT)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_F"; //the uniform item
@@ -198,6 +207,7 @@ class CfgVehicles {
     // Desert Militiamen
     class MNP_Militia_Soldier_DO : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DA"; //the uniform item
@@ -212,6 +222,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_DMG : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DB"; //the uniform item
@@ -226,6 +237,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_DAR : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Automatic Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DC"; //the uniform item
@@ -240,6 +252,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_DM : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Field Medic";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DE"; //the uniform item
@@ -255,6 +268,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_DRAT : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Rifleman (AT)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DF"; //the uniform item
@@ -277,6 +291,7 @@ class CfgVehicles {
     // Fins
     class MNP_FIN_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_A"; //the uniform item
@@ -292,6 +307,7 @@ class CfgVehicles {
     };
     class MNP_FIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Finnish Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_B"; //the uniform item
@@ -329,6 +345,7 @@ class CfgVehicles {
     // Cold Fins
     class MNP_AFIN_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_A"; //the uniform item
@@ -344,6 +361,7 @@ class CfgVehicles {
     };
     class MNP_AFIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_B"; //the uniform item
@@ -381,6 +399,7 @@ class CfgVehicles {
     // Kiwis
     class MNP_NZ_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NZ RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_A"; //the uniform item
@@ -396,6 +415,7 @@ class CfgVehicles {
     };
     class MNP_NZ_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NZ Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_B"; //the uniform item
@@ -433,6 +453,7 @@ class CfgVehicles {
     // Norweegis
     class MNP_NOR_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NOR RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_A"; //the uniform item
@@ -448,6 +469,7 @@ class CfgVehicles {
     };
     class MNP_NOR_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NOR Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_B"; //the uniform item
@@ -485,6 +507,7 @@ class CfgVehicles {
     // Desert Norweegies
     class MNP_NOR_D_Soldier_F : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NOR RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_A"; //the uniform item
@@ -500,6 +523,7 @@ class CfgVehicles {
     };
     class MNP_NOR_D_Soldier_O : I_Soldier_base_F {
         scope = 2;
+        modelSides[] = {3,1,0,2};
         displayName = "NOR Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_B"; //the uniform item
