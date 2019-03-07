@@ -1,20 +1,13 @@
 class cfgWeapons {
     class Uniform_Base;
     class UniformItem;
-    class V_PlateCarrierIA1_dgtl;
     class V_PlateCarrierIA2_dgtl;
     class H_HelmetIA; 
-    class ItemCore;
     class HeadgearItem;
     class VestItem;
     class V_PlateCarrier3_rgr;
-    class U_B_CombatUniform_mcam_tshirt;
-    class U_B_CombatUniform_mcam_vest;
     class H_Booniehat_khk;
-    class U_O_CombatUniform_ocamo;
-    class U_O_OfficerUniform_ocamo;
     class H_MilCap_gry;
-    class V_press_F;
     // USMC Gear
     class MNP_CombatUniform_USMC_T : Uniform_Base {
         scope = 2;
@@ -1571,7 +1564,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ROK.paa"};
     };  
     // M81
-    class MNP_CombatUniform_M81_Sh : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_M81_Sh : Uniform_Base {
             scope = 2;
             displayName = "MNP: M81 Woodland BDU (Shemagh)";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1588,7 +1581,7 @@ class cfgWeapons {
                 hiddenSelections[] = {"Camo"};
             };
         };
-    class MNP_CombatUniform_M81_Rg : U_O_OfficerUniform_ocamo {
+    class MNP_CombatUniform_M81_Rg : Uniform_Base {
         scope = 2;
         displayName = "MNP: M81 Woodland BDU";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1738,7 +1731,7 @@ class cfgWeapons {
         };
     };
     // OD
-    class MNP_CombatUniform_OD_Sh : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_OD_Sh : Uniform_Base {
             scope = 2;
             displayName = "MNP: Olive Drab BDU";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -1755,7 +1748,7 @@ class cfgWeapons {
                 hiddenSelections[] = {"Camo"};
             };
     };
-    class MNP_CombatUniform_OD_Rg : U_O_OfficerUniform_ocamo {
+    class MNP_CombatUniform_OD_Rg : Uniform_Base {
         scope = 2;
         displayName = "MNP: Olive Drab BDU";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -3347,7 +3340,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_US3Co_Sh : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_US3Co_Sh : Uniform_Base {
             scope = 2;
             displayName = "MNP: 3 Color Desert BDU (Shemagh)";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -3364,7 +3357,7 @@ class cfgWeapons {
                 hiddenSelections[] = {"Camo"};
             };
         };
-    class MNP_CombatUniform_US3Co_Rg : U_O_OfficerUniform_ocamo {
+    class MNP_CombatUniform_US3Co_Rg : Uniform_Base {
         scope = 2;
         displayName = "MNP: 3 Color Desert BDU";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -3490,7 +3483,7 @@ class cfgWeapons {
             hiddenSelections[] = {"Camo"};
         };
     };
-    class MNP_CombatUniform_6CO_B : U_O_CombatUniform_ocamo {
+    class MNP_CombatUniform_6CO_B : Uniform_Base {
             scope = 2;
             displayName = "MNP: 6-Color Desert BDU (Shemagh)";
             picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
@@ -3507,7 +3500,7 @@ class cfgWeapons {
                 hiddenSelections[] = {"Camo"};
             };
         };
-    class MNP_CombatUniform_6CO : U_O_OfficerUniform_ocamo {
+    class MNP_CombatUniform_6CO : Uniform_Base {
         scope = 2;
         displayName = "MNP: 6-Color Desert BDU";
         picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
