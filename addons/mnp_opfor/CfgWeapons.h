@@ -5,6 +5,7 @@ class cfgWeapons {
     class H_HelmetIA; 
     class HeadgearItem;
     class VestItem;
+    class H_MilCap_gry;
     class H_Booniehat_khk;
     class H_Beret_02;
     //- VDV Regular Gear

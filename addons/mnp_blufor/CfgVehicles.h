@@ -801,7 +801,7 @@ class CfgVehicles {
         AUGA3_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_AMCU.paa"};
-        hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};//
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         linkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_AMCU; // Puts unit under new faction
@@ -823,7 +823,7 @@ class CfgVehicles {
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_AMCU.paa"};
-        hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};     
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};     
         linkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_AMCU", "MNP_Vest_AMCU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_AMCU; // Puts unit under new faction
