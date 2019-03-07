@@ -1,15 +1,20 @@
 class cfgWeapons {
     class Uniform_Base;
     class UniformItem;
+    class V_PlateCarrierIA1_dgtl;
     class V_PlateCarrierIA2_dgtl;
     class H_HelmetIA; 
+    class ItemCore;
     class HeadgearItem;
     class VestItem;
     class V_PlateCarrier3_rgr;
+    class U_B_CombatUniform_mcam_tshirt;
+    class U_B_CombatUniform_mcam_vest;
     class H_Booniehat_khk;
     class U_O_CombatUniform_ocamo;
     class U_O_OfficerUniform_ocamo;
     class H_MilCap_gry;
+    class V_press_F;
     // USMC Gear
     class MNP_CombatUniform_USMC_T : Uniform_Base {
         scope = 2;
@@ -51,7 +56,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_T.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -106,7 +111,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_D.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -127,7 +132,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -166,7 +171,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -237,7 +242,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_CANADA_T.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -258,7 +263,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CANADA_T.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -297,7 +302,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CANADA_T.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -368,7 +373,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_CANADA_D.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -389,7 +394,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CANADA_D.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -428,7 +433,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CANADA_D.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -501,7 +506,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_GER_T.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -522,7 +527,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_GER_T.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -561,7 +566,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_GER_T.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -634,7 +639,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_GER_D.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -655,7 +660,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_GER_D.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -694,7 +699,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_GER_D.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -735,7 +740,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_UN.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -757,7 +762,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_DSLY_K.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F\Common\headgear_helmet_heli_shield";
             mass = 130;
             class HitpointsProtectionInfo
             {
@@ -785,7 +790,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_ST.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F\Common\headgear_helmet_heli_shield";
             mass = 60;
             class HitpointsProtectionInfo
             {
@@ -859,7 +864,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ACU.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -898,7 +903,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ACU.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -938,7 +943,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_ACU.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1020,7 +1025,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_TS.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1059,7 +1064,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_TS.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1099,7 +1104,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_TS.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1181,7 +1186,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_SD.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1220,7 +1225,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_SD.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1260,7 +1265,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_SD.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1313,7 +1318,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_AUS.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1334,7 +1339,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_AUS.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1373,7 +1378,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_AUS.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1443,7 +1448,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ROK.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1482,7 +1487,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ROK.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -1522,7 +1527,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_ROK.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1551,7 +1556,7 @@ class cfgWeapons {
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_A.paa"};
             //hiddenSelectionsMaterials[]={"\MNP_INDEP\Data\officer.rvmat"};
             class ItemInfo : UniformItem {
-            uniformModel = "-";
+                uniformModel = "-";
                 uniformClass = "MNP_M81_Soldier_O"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
@@ -1581,7 +1586,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_M81.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1620,7 +1625,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_M81.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1660,7 +1665,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_BLK.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1714,7 +1719,7 @@ class cfgWeapons {
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_OD.paa"};
             //hiddenSelectionsMaterials[]={"\MNP_INDEP\Data\officer.rvmat"};
             class ItemInfo : UniformItem {
-            uniformModel = "-";
+                uniformModel = "-";
                 uniformClass = "MNP_OD_Soldier_O"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
@@ -1744,7 +1749,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_OD.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1783,7 +1788,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_OD.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -1823,7 +1828,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_OD.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1881,7 +1886,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_A.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -1903,7 +1908,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_M81.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 30;
             class HitpointsProtectionInfo
@@ -1948,7 +1953,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_OD.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 30;
             class HitpointsProtectionInfo
@@ -2026,7 +2031,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_UKR.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2065,7 +2070,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_UKR.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2107,7 +2112,7 @@ class cfgWeapons {
         displayName = "MNP: Ukrainian TTSkO PASGT";
         model = "\MNP_BLUFOR\sud_UKRA_helmet01";
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\MNP_BLUFOR\sud_UKRA_helmet01";
             mass = 50;
             modelSides[] = {6};
             class HitpointsProtectionInfo
@@ -2152,7 +2157,7 @@ class cfgWeapons {
         displayName = "MNP: M81 Woodland PASGT";
         model = "\MNP_BLUFOR\sud_US81_helmet01";
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\MNP_BLUFOR\sud_US81_helmet01";
             mass = 50;
             modelSides[] = {6};
             class HitpointsProtectionInfo
@@ -2175,7 +2180,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USW.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -2235,7 +2240,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_DPM.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 20;
             class HitpointsProtectionInfo
@@ -2280,7 +2285,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_DDPM.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 20;
             class HitpointsProtectionInfo
@@ -2355,7 +2360,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RKMC.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -2394,7 +2399,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RKMC.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -2434,7 +2439,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_RKMC.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -2471,7 +2476,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC_URB.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2510,7 +2515,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC_URB.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2549,7 +2554,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC_URB2.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2588,7 +2593,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_USMC_URB2.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -2628,7 +2633,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_URB.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -2683,7 +2688,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_AMCU.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -2708,7 +2713,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_AMCU.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -2747,7 +2752,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_AMCU.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -2812,7 +2817,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_M81_A.paa","\x\mnp_units\addons\mnp_main\data\V_M81_B.paa"};
         class ItemInfo: VestItem
         {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
             containerClass = "Supply160";
             mass = 30;
             class HitpointsProtectionInfo
@@ -2853,7 +2858,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_M81_A.paa","\x\mnp_units\addons\mnp_main\data\V_M81_B.paa"};
         class ItemInfo: VestItem
         {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
             containerClass = "Supply160";
             mass = 30;
             class HitpointsProtectionInfo
@@ -2891,7 +2896,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\LBV_OD.paa","\x\mnp_units\addons\mnp_main\data\LBV_OD_B.paa"};
         class ItemInfo: VestItem
         {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
             containerClass = "Supply160";
             mass = 30;
             class HitpointsProtectionInfo
@@ -2929,7 +2934,7 @@ class cfgWeapons {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\LBV_OD.paa","\x\mnp_units\addons\mnp_main\data\LBV_OD_B.paa"};
         class ItemInfo: VestItem
         {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
             containerClass = "Supply160";
             mass = 30;
             class HitpointsProtectionInfo
@@ -2999,7 +3004,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_Scorpion.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -3038,7 +3043,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_Scorpion.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -3078,7 +3083,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_Scorpion.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -3123,7 +3128,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ISR.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -3162,7 +3167,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_ISR.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
             class HitpointsProtectionInfo
@@ -3301,7 +3306,7 @@ class cfgWeapons {
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3Co_A.paa"};
             //hiddenSelectionsMaterials[]={"\MNP_INDEP\Data\officer.rvmat"};
             class ItemInfo : UniformItem {
-            uniformModel = "-";
+                uniformModel = "-";
                 uniformClass = "MNP_US3Co_Soldier_O"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
@@ -3338,7 +3343,7 @@ class cfgWeapons {
         displayName = "MNP: 3 Color Desert PASGT";
         model = "\MNP_BLUFOR\sud_3coD_helmet01";
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\MNP_BLUFOR\sud_3coD_helmet01";
             mass = 50;
             modelSides[] = {6};
             class HitpointsProtectionInfo
@@ -3366,7 +3371,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_3co.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
@@ -3439,7 +3444,7 @@ class cfgWeapons {
             hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
             //hiddenSelectionsMaterials[]={"\MNP_INDEP\Data\officer.rvmat"};
             class ItemInfo : UniformItem {
-            uniformModel = "-";
+                uniformModel = "-";
                 uniformClass = "MNP_US6co_Soldier_O"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
@@ -3476,7 +3481,7 @@ class cfgWeapons {
         displayName = "MNP: 6 Color Desert PASGT";
         model = "\MNP_BLUFOR\sud_6coD_helmet01";
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\MNP_BLUFOR\sud_6coD_helmet01";
             mass = 50;
             modelSides[] = {6};
             class HitpointsProtectionInfo
@@ -3498,7 +3503,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_6co.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -3537,7 +3542,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_6co.paa"};
         class ItemInfo : VestItem {
-            uniformModel = "-";
+            uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
             class HitpointsProtectionInfo
@@ -3577,7 +3582,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_6co.paa"};
         class ItemInfo : HeadgearItem {
-            uniformModel = "-";
+            uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
             class HitpointsProtectionInfo
             {
