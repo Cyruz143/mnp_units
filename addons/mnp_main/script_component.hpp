@@ -134,6 +134,13 @@ MG: 0 frags, 2 boxes
     magazines[] = {"HandGrenade", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"}; \
     respawnmagazines[] = {"HandGrenade", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"};
 
+#define FAL_RIFLEMAN \
+    displayName = "Rifleman"; \
+    weapons[] = {"CUP_arifle_FNFAL5061", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_FNFAL5061", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"}; \
+    respawnmagazines[] = {"HandGrenade", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"};
+
 // FTL
 #define M4A1_FTL \
     displayName = "Team Leader"; \
@@ -246,6 +253,13 @@ MG: 0 frags, 2 boxes
     respawnweapons[] = {"arifle_Katiba_C_F", "Throw", "put"}; \
     magazines[] = {"HandGrenade", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
     respawnmagazines[] = {"HandGrenade", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
+
+#define FAL_FTL \
+    displayName = "Team Leader"; \
+    weapons[] = {"CUP_arifle_FNFAL5061", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_FNFAL5061", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"}; \
+    respawnmagazines[] = {"HandGrenade", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "SmokeShell"};
 
 // AR
 #define M249pip1_AR \
@@ -486,6 +500,13 @@ MG: 0 frags, 2 boxes
     magazines[] = {"30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"}; \
     respawnmagazines[] = {"30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"};
 
+#define FAL_AT \
+    displayName = "Rifleman (AT)"; \
+    weapons[] = {"CUP_arifle_FNFAL", "CUP_launch_M72A6", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_FNFAL", "CUP_launch_M72A6", "Throw", "put"}; \
+    magazines[] = {"CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"}; \
+    respawnmagazines[] = {"CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"};
+
 // Med
 #define M4A1_MED \
     displayName = "Combat Medic"; \
@@ -612,6 +633,13 @@ MG: 0 frags, 2 boxes
     respawnweapons[] = {"arifle_Katiba_F", "Throw", "put"}; \
     magazines[] = {"SmokeShellBlue", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"}; \
     respawnmagazines[] = {"SmokeShellBlue", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green", "30Rnd_65x39_caseless_green"};
+
+#define FAL_MED \
+    displayName = "Combat Medic"; \
+    weapons[] = {"CUP_arifle_FNFAL", "Throw", "put"}; \
+    respawnweapons[] = {"CUP_arifle_FNFAL", "Throw", "put"}; \
+    magazines[] = {"SmokeShellBlue", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"}; \
+    respawnmagazines[] = {"SmokeShellBlue", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M", "CUP_20Rnd_762x51_FNFAL_M"};
 
 // MMG
 #define M240_MG \

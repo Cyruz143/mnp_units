@@ -666,7 +666,7 @@ class CfgVehicles {
         uniformClass = "MNP_CombatUniform_6CO"; //the uniform item
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_WD_FP";        
-        G3_RIFLEMAN
+        FAL_RIFLEMAN
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -684,7 +684,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         backpack = "MNP_B_WD_FP";       
-        G3_FTL
+        FAL_FTL
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         faction = MNP_Irregulars; // Puts unit under new faction
@@ -692,20 +692,20 @@ class CfgVehicles {
     };
     class MNP_US6Co_Soldier_AR : MNP_US6co_Soldier_F{
         backpack = "B_Kitbag_cbr";
-        RPK74_AR
+        FNMAG_MG
     };
     class MNP_US6Co_Soldier_AT : MNP_US6co_Soldier_O{
         backpack = "B_Kitbag_rgr_RPG7";
-        G3_AT
+        FAL_AT
     };
     class MNP_US6Co_Soldier_MG : MNP_US6co_Soldier_F{
         backpack = "B_Kitbag_cbr";
-        PKM_MG
+        FNMAG_MG
     };
     class MNP_US6Co_Soldier_MD : MNP_US6co_Soldier_O{
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
-        G3_MED
+        FAL_MED
     };
     // Australian Multicam
     class MNP_AMCU_Soldier_F : B_Soldier_base_F {
