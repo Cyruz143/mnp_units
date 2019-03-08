@@ -4,7 +4,6 @@ class CfgVehicles {
     class MNP_Irish_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland"; //the uniform item
         backpack = "B_AssaultPack_rgr";
@@ -20,7 +19,6 @@ class CfgVehicles {
     class MNP_Irish_Soldier_MG : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_S"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -34,27 +32,23 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_Irish_Soldier_AR : MNP_Irish_Soldier_MG {
-        displayName = "Automatic Rifleman";
         backpack = "B_Carryall_oli";
         M249mini_AR
         linkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_Officer : MNP_Irish_Soldier_MG {
-        displayName = "Team Leader";
         AUGA3_FTL
         linkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_RAT : MNP_Irish_Soldier_MG {
-        displayName = "Rifleman (AT)";
         backpack = "B_Kitbag_rgr";
         AUGA3_AT
         linkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_Medic : MNP_Irish_Soldier_F {
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         AUGA3_MED
@@ -64,7 +58,6 @@ class CfgVehicles {
     class MNP_Irish_Soldier_D : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Irish Rifleman (D)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_D"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -80,7 +73,6 @@ class CfgVehicles {
     class MNP_Irish_Soldier_DMG : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_DS"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -94,27 +86,23 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_Ireland_D", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DAR : MNP_Irish_Soldier_DMG {
-        displayName = "Automatic Rifleman";
         backpack = "B_Carryall_oli";
         M249mini_AR
         linkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DOfficer : MNP_Irish_Soldier_DMG {
-        displayName = "Team Leader";
         AUGA3_FTL
         linkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DRAT : MNP_Irish_Soldier_D {
-        displayName = "Rifleman (AT)";
         backpack = "B_Kitbag_rgr";
         AUGA3_AT
         linkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DMedic : MNP_Irish_Soldier_DMG{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         AUGA3_MED
         attendant = 1;
@@ -125,7 +113,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_A"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -140,7 +127,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_MG : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_B"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -155,7 +141,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_AR : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Automatic Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_C"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -170,7 +155,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_M : I_G_Soldier_lite_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Field Medic";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_E"; //the uniform item
         backpack = "B_AssaultPack_rgr_Medic";
@@ -187,7 +171,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_RAT : I_G_Soldier_lite_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Rifleman (AT)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_F"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -201,14 +184,12 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_F : MNP_Militia_Soldier_RAT{
-        displayName = "Rifleman";
         AKME_RIFLEMAN
     };
     // Desert Militiamen
     class MNP_Militia_Soldier_DO : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DA"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -223,7 +204,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_DMG : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Machinegunner";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DB"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -238,7 +218,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_DAR : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Automatic Rifleman";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DC"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -253,7 +232,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_DM : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Field Medic";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DE"; //the uniform item
         backpack = "B_AssaultPack_rgr_Medic";
@@ -269,7 +247,6 @@ class CfgVehicles {
     class MNP_Militia_Soldier_DRAT : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Rifleman (AT)";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DF"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -283,7 +260,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_Jigsaw", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_DF : MNP_Militia_Soldier_DRAT{
-        displayName = "Rifleman";
         AKME_RIFLEMAN
         linkedItems[] = {"MNP_Boonie_DDPM", "V_TacVest_brn","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_DDPM", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -292,7 +268,6 @@ class CfgVehicles {
     class MNP_FIN_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_A"; //the uniform item
         backpack = "B_AssaultPack_rgr";
@@ -308,7 +283,6 @@ class CfgVehicles {
     class MNP_FIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Finnish Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_B"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -322,22 +296,18 @@ class CfgVehicles {
         author = "Killoch";    
     };
     class MNP_FIN_Soldier_AR : MNP_FIN_Soldier_F{
-        displayName = "Automatic rifleman";
         backpack = "B_Kitbag_rgr";
         PKP_MG
     };
     class MNP_FIN_Soldier_AT : MNP_FIN_Soldier_O{
-        displayName = "Rifleman (AT)";
         backpack = "B_AssaultPack_rgr_LAT";
         RK62_AT
     };
     class MNP_FIN_Soldier_MG : MNP_FIN_Soldier_F{
-        displayName = "Machinegunner";
         backpack = "B_Kitbag_cbr";
         PKP_MG
     };
     class MNP_FIN_Soldier_MD : MNP_FIN_Soldier_O{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         RK62_MED
@@ -346,7 +316,6 @@ class CfgVehicles {
     class MNP_AFIN_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_A"; //the uniform item
         backpack = "B_AssaultPack_rgr";
@@ -362,7 +331,6 @@ class CfgVehicles {
     class MNP_AFIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_B"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -376,22 +344,18 @@ class CfgVehicles {
         author = "Killoch";    
     };
     class MNP_AFIN_Soldier_AR : MNP_AFIN_Soldier_F{
-        displayName = "Automatic rifleman";
         backpack = "B_Kitbag_rgr";
         PKP_MG
     };
     class MNP_AFIN_Soldier_AT : MNP_AFIN_Soldier_F{
-        displayName = "Rifleman (AT)";
         backpack = "B_AssaultPack_rgr_LAT";
         RK62_AT
     };
     class MNP_AFIN_Soldier_MG : MNP_AFIN_Soldier_O{
-        displayName = "Machinegunner";
         backpack = "B_Kitbag_cbr";
         PKP_MG
     };
     class MNP_AFIN_Soldier_MD : MNP_AFIN_Soldier_O{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         RK62_MED
@@ -400,7 +364,6 @@ class CfgVehicles {
     class MNP_NZ_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NZ RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_A"; //the uniform item
         backpack = "B_AssaultPack_rgr";
@@ -416,7 +379,6 @@ class CfgVehicles {
     class MNP_NZ_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NZ Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_B"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -430,22 +392,18 @@ class CfgVehicles {
         author = "Killoch";    
     };
     class MNP_NZ_Soldier_AR : MNP_NZ_Soldier_O{
-        displayName = "Automatic Rifleman";
         backpack = "B_Carryall_oli";
         M249mini_AR
     };
     class MNP_NZ_Soldier_AT : MNP_NZ_Soldier_O{
-        displayName = "Rifleman (AT)";
         backpack = "B_Kitbag_rgr";
         AUGA3_AT
     };
     class MNP_NZ_Soldier_MG : MNP_NZ_Soldier_O{
-        displayName = "Machinegunner";
         backpack = "B_Kitbag_rgr";
         FNMAG_MG
     };
     class MNP_NZ_Soldier_Md : MNP_NZ_Soldier_O{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         AUGA3_MED
@@ -454,7 +412,6 @@ class CfgVehicles {
     class MNP_NOR_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NOR RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_A"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -470,7 +427,6 @@ class CfgVehicles {
     class MNP_NOR_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NOR Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_B"; //the uniform item
         backpack = "B_Kitbag_rgr";
@@ -484,22 +440,18 @@ class CfgVehicles {
         author = "Killoch";    
     };
     class MNP_NOR_Soldier_AR : MNP_NOR_Soldier_O{
-        displayName = "Automatic Rifleman";
         backpack = "B_Carryall_oli";
         M249pip1_AR
     };
     class MNP_NOR_Soldier_AT : MNP_NOR_Soldier_O{
-        displayName = "Rifleman (AT)";
         backpack = "B_Kitbag_rgr";
         HK416_AT2
     };
     class MNP_NOR_Soldier_MG : MNP_NOR_Soldier_O{
-        displayName = "Machinegunner";
         backpack = "B_Kitbag_rgr";
         FNMAGRIS_MG
     };
     class MNP_NOR_Soldier_Md : MNP_NOR_Soldier_O{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         HK416_MED
@@ -508,7 +460,6 @@ class CfgVehicles {
     class MNP_NOR_D_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NOR RifleMan";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_A"; //the uniform item
         backpack = "B_Kitbag_cbr";
@@ -524,7 +475,6 @@ class CfgVehicles {
     class MNP_NOR_D_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
-        displayName = "NOR Team Leader";
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_B"; //the uniform item
         backpack = "B_Kitbag_cbr";
@@ -538,20 +488,16 @@ class CfgVehicles {
         author = "Killoch";    
     };
     class MNP_NOR_D_Soldier_AR : MNP_NOR_D_Soldier_O{
-        displayName = "Automatic Rifleman";
         backpack = "B_Carryall_oli";
         M249pip1_AR
     };
     class MNP_NOR_D_Soldier_AT : MNP_NOR_D_Soldier_O{
-        displayName = "Rifleman (AT)";
         HK416_AT2
     };
     class MNP_NOR_D_Soldier_MG : MNP_NOR_D_Soldier_O{
-        displayName = "Machinegunner";
         FNMAGRIS_MG
     };
     class MNP_NOR_D_Soldier_Md : MNP_NOR_D_Soldier_O{
-        displayName = "Combat Medic";
         backpack = "B_AssaultPack_rgr_Medic";
         attendant = 1;
         HK416_MED
