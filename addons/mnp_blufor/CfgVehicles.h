@@ -692,7 +692,7 @@ class CfgVehicles {
     };
     class MNP_US6Co_Soldier_AR : MNP_US6co_Soldier_F{
         backpack = "B_Kitbag_cbr";
-        FNMAG_MG
+        M249pip1_AR
     };
     class MNP_US6Co_Soldier_AT : MNP_US6co_Soldier_O{
         backpack = "B_Kitbag_rgr_RPG7";
