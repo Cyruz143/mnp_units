@@ -10,7 +10,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_AssaultPack_rgr";
         M16A4_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CANADA_T.paa"};
@@ -30,7 +29,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
-        backpack = "B_Kitbag_rgr";
         M16A4_FTL
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CANADA_T.paa"};
@@ -41,11 +39,11 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_AR : MNP_Canada_Soldier_S{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_WD_CA";
         M249pip3_AR
     };
     class MNP_Canada_Soldier_MG : MNP_Canada_Soldier_S{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_WD_CA";
         M240_MG
     };
     class MNP_Canada_Soldier_M : MNP_Canada_Soldier_F{
@@ -54,7 +52,7 @@ class CfgVehicles {
         M16A4_MED
     };
     class MNP_Canada_Soldier_AT : MNP_Canada_Soldier_S{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_WD_CA";
         M16A4_AT
     };
     // Canadian Desert Rifles
@@ -67,7 +65,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_AssaultPack_rgr";
         M16A4_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CANADA_D.paa"};
@@ -86,7 +83,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
-        backpack = "B_Kitbag_rgr";
         M16A4_FTL
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_CANADA_D.paa"};
@@ -96,19 +92,19 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_DAR : MNP_Canada_Soldier_DS{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Kitbag_sgg";
         M249pip3_AR
     };
     class MNP_Canada_Soldier_DMG : MNP_Canada_Soldier_DS{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Kitbag_sgg";
         M240_MG
     };
     class MNP_Canada_Soldier_DM : MNP_Canada_Soldier_DF{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_tna_F";
         M16A4_MED
     };
     class MNP_Canada_Soldier_DAT : MNP_Canada_Soldier_DS{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Kitbag_sgg";
         M16A4_AT
     };
     // GERMANY
@@ -121,7 +117,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_Kitbag_rgr";
         HK416_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_GER_T.paa"};
@@ -140,7 +135,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
-        backpack = "B_Kitbag_rgr";
         HK416_FTL
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_GER_T.paa"};
@@ -150,20 +144,20 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_GER_Soldier_AR : MNP_GER_Soldier_S{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_RU1_CA";
         HK416_AR
     };
     class MNP_GER_Soldier_AT : MNP_GER_Soldier_S{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_RU1_CA";
         HK416_AT
     };
     class MNP_GER_Soldier_MED : MNP_GER_Soldier_F{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_RU1_CA";
         attendant = 1;
         HK416_MED
     };
     class MNP_GER_Soldier_MG : MNP_GER_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_RU1_CA";
         MG3_MG
     };
     // German Desert
@@ -177,7 +171,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        backpack = "B_Kitbag_rgr";
         HK416_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_GER_D.paa"};
@@ -196,7 +189,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
-        backpack = "B_Kitbag_rgr";
         HK416_FTL
         hiddenSelections[] = {"Camo", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_GER_D.paa"};
@@ -206,20 +198,20 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_GER_D", "MNP_Vest_Germany_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_GER_Soldier_AR_D : MNP_GER_Soldier_DS{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         HK416_AR
     };
     class MNP_GER_Soldier_AT_D : MNP_GER_Soldier_DS{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Carryall_khk";
         HK416_AT
     };
     class MNP_GER_Soldier_MED_D : MNP_GER_Soldier_DF{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_khk";
         attendant = 1;
         HK416_MED
     };
     class MNP_GER_Soldier_MG_D : MNP_GER_Soldier_DF{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         MG3_MG
     };
     // US army Ranger units, UCP
@@ -238,8 +230,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-        linkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -247,19 +239,20 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_Ranger_B"; //the uniform item
+        uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
         class Wounds
         {
             tex[] = {};
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         M249pip4_AR
+        backpack = "MNP_B_ACU_KB";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -273,10 +266,10 @@ class CfgVehicles {
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR_2.paa"};
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_ACU_KB";
         M240_MG
-        linkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_USR_Soldier_M : MNP_USR_Soldier_AR {
         uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
@@ -288,22 +281,21 @@ class CfgVehicles {
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR_2.paa"};
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_ACU_AP";
         attendant = 1;
         MK16_MED
-        linkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier3_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_USR_Soldier_O : MNP_USR_Soldier_AR {
-        backpack = "B_Kitbag_rgr";
         MK16_FTL
-        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_rgr", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_USR_Soldier_AT : MNP_USR_Soldier_MG {
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_ACU_KB";
         MK16_AT
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "V_PlateCarrier1_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "V_PlateCarrier1_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -340,6 +332,7 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         MK48_DE_AR
+        backpack = "MNP_B_ACU_KB";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_TS.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
@@ -353,15 +346,16 @@ class CfgVehicles {
         MK17_FTL
     };
     class MNP_TS_Soldier_MG : MNP_TS_Soldier_AR{
+        backpack = "MNP_B_ACU_KB";
         M240_MG
     };
     class MNP_TS_Soldier_AT : MNP_TS_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_ACU_KB";
         MK17_AT
     };
     class MNP_TS_Soldier_M : MNP_TS_Soldier_AR{
         attendant = 1;
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_ACU_AP";
         MK17_MED
     };
     // Australia
@@ -404,7 +398,7 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_AUS_Soldier_AR : MNP_AUS_Soldier_S{
-        backpack = "B_Carryall_oli";
+        backpack = "B_Kitbag_rgr";
         M249mini_AR
     };
     class MNP_AUS_Soldier_MG : MNP_AUS_Soldier_F{
@@ -462,18 +456,20 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_ROK_Soldier_AR : MNP_ROK_Soldier_F{
+        backpack = "B_FieldPack_blk";
         M249mini_AR
     };
     class MNP_ROK_Soldier_MG : MNP_ROK_Soldier_F{
+        backpack = "B_FieldPack_blk";
         M240_MG
     };
     class MNP_ROK_Soldier_AT : MNP_ROK_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_FieldPack_blk";
         M16A4_AT
     };
     class MNP_ROK_Soldier_M : MNP_ROK_Soldier_O{
         attendant = 1;
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_blk";
         M16A4_MED
     };
     // US Arctic Warfare
@@ -486,7 +482,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_AssaultPack_cbr";
         M4A1_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_A.paa"};
@@ -505,7 +500,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_AssaultPack_cbr";
         M4A1_FTL
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
@@ -516,19 +510,19 @@ class CfgVehicles {
         faction = MNP_USMCA_SN; // Puts unit under new faction
     };
     class MNP_USMCA_Soldier_AR : MNP_USMCA_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "MNP_B_WB_KB";
         M27_AR
     };
     class MNP_USMCA_Soldier_AT : MNP_USMCA_Soldier_F{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_WB_KB";
         M4A1_AT
     };
     class MNP_USMCA_Soldier_MG : MNP_USMCA_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "MNP_B_WB_KB";
         M240_MG
     };
     class MNP_USMCA_Soldier_MD : MNP_USMCA_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_WB_AP";
         attendant = 1;
         M4A1_MED
     };
@@ -543,7 +537,6 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
         };
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        backpack = "B_FieldPack_khk";
         AK74_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_UKR_A.paa", "\x\mnp_units\addons\mnp_main\data\C_UKR_B.paa"};
@@ -554,10 +547,11 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_UKR_MG : MNP_UKR_A{
+        backpack = "B_FieldPack_khk";
         PKM_MG
     };
     class MNP_UKR_AR : MNP_UKR_A{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_FieldPack_khk";
         RPK74_AR
     };
     class MNP_UKR_AT : MNP_UKR_A{
@@ -565,11 +559,10 @@ class CfgVehicles {
         AK74_AT
     };
     class MNP_UKR_O : MNP_UKR_A{
-        backpack = "B_Kitbag_rgr";
         AK74_FTL
     };
     class MNP_UKR_MD : MNP_UKR_A{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_khk";
         attendant = 1;
         AK74_MED
     };
@@ -579,7 +572,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ROKMC"; //the uniform item
-        Backpack = "B_AssaultPack_rgr";
         class Wounds
         {
             tex[] = {};
@@ -598,22 +590,22 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_ROKMC_MG : MNP_ROKMC_A{
+        backpack = "MNP_B_ROK_KB";
         M240_MG
     };
     class MNP_ROKMC_AR : MNP_ROKMC_A{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_ROK_KB";
         HK416_AR
     };
     class MNP_ROKMC_AT : MNP_ROKMC_A{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_ROK_KB";
         HK416_AT
     };
     class MNP_ROKMC_O : MNP_ROKMC_A{
-        backpack = "B_Kitbag_rgr";
         HK416_FTL  
     };
     class MNP_ROKMC_MD : MNP_ROKMC_A{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_ROK_AP";
         attendant = 1;
         HK416_MED
     };
@@ -623,7 +615,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_ISR"; //the uniform item
-        Backpack = "B_AssaultPack_rgr";
         class Wounds
         {
             tex[] = {};
@@ -640,22 +631,22 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_ISR_MG : MNP_ISR_A{
+        backpack = "B_Kitbag_rgr"
         M240_MG
     };
     class MNP_ISR_AR : MNP_ISR_A{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Kitbag_rgr";
         MK200_AR
     };
     class MNP_ISR_AT : MNP_ISR_A{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Kitbag_rgr"; // Needs proper AT backpack!
         TRG_AT
     };
     class MNP_ISR_O : MNP_ISR_A{
-        backpack = "B_Kitbag_cbr";
         TRG_FTL
     };
     class MNP_ISR_MD : MNP_ISR_A{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_rgr";
         attendant = 1;
         TRG_MED
     };
@@ -664,8 +655,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_6CO"; //the uniform item
-        Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_WD_FP";        
+        Model = "\A3\Characters_F\OPFOR\O_officer.p3d";   
         FAL_RIFLEMAN
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
@@ -683,7 +673,6 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
-        backpack = "MNP_B_WD_FP";       
         FAL_FTL
         linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
@@ -695,15 +684,15 @@ class CfgVehicles {
         M249pip1_AR
     };
     class MNP_US6Co_Soldier_AT : MNP_US6co_Soldier_O{
-        backpack = "B_Kitbag_rgr_RPG7";
+        backpack = "B_FieldPack_cbr";
         FAL_AT
     };
     class MNP_US6Co_Soldier_MG : MNP_US6co_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_FieldPack_cbr";
         FNMAG_MG
     };
     class MNP_US6Co_Soldier_MD : MNP_US6co_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_cbr";
         attendant = 1;
         FAL_MED
     };
@@ -718,7 +707,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"x\mnp_units\addons\mnp_main\data\noPatch.rvmat","x\mnp_units\addons\mnp_main\data\noPatch_injury.rvmat","x\mnp_units\addons\mnp_main\data\noPatch_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_Kitbag_sgg";
         AUGA3_RIFLEMAN
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_AMCU.paa"};
@@ -738,7 +726,6 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"x\mnp_units\addons\mnp_main\data\noPatch.rvmat","x\mnp_units\addons\mnp_main\data\noPatch_injury.rvmat","x\mnp_units\addons\mnp_main\data\noPatch_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
-        backpack = "B_Kitbag_sgg";
         AUGA3_FTL
         model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
@@ -749,15 +736,15 @@ class CfgVehicles {
         faction = MNP_AMCU; // Puts unit under new faction
     };
     class MNP_AMCU_Soldier_AR : MNP_AMCU_Soldier_F{
-        backpack = "B_Kitbag_sgg";
+        backpack = "B_Kitbag_rgr";
         M249pip3_AR
     };
     class MNP_AMCU_Soldier_AT : MNP_AMCU_Soldier_O{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Kitbag_rgr";
         AUGA3_AT
     };
     class MNP_AMCU_Soldier_MG : MNP_AMCU_Soldier_F{
-        backpack = "B_Kitbag_sgg";
+        backpack = "B_Kitbag_rgr";
         M240_MG
     };
     class MNP_AMCU_Soldier_MD : MNP_AMCU_Soldier_O{
