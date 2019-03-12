@@ -39,20 +39,20 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_AR : MNP_Canada_Soldier_S{
-        backpack = "MNP_B_WD_CA";
+        backpack = "B_Kitbag_sgg";
         M249pip3_AR
     };
     class MNP_Canada_Soldier_MG : MNP_Canada_Soldier_S{
-        backpack = "MNP_B_WD_CA";
+        backpack = "B_Kitbag_sgg";
         M240_MG
     };
     class MNP_Canada_Soldier_M : MNP_Canada_Soldier_F{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_tna_F";
         attendant = 1;
         M16A4_MED
     };
     class MNP_Canada_Soldier_AT : MNP_Canada_Soldier_S{
-        backpack = "MNP_B_WD_CA";
+        backpack = "B_Kitbag_sgg";
         M16A4_AT
     };
     // Canadian Desert Rifles
@@ -92,19 +92,19 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_DAR : MNP_Canada_Soldier_DS{
-        backpack = "B_Kitbag_sgg";
+        backpack = "B_Kitbag_cbr";
         M249pip3_AR
     };
     class MNP_Canada_Soldier_DMG : MNP_Canada_Soldier_DS{
-        backpack = "B_Kitbag_sgg";
+        backpack = "B_Kitbag_cbr";
         M240_MG
     };
     class MNP_Canada_Soldier_DM : MNP_Canada_Soldier_DF{
-        backpack = "B_AssaultPack_tna_F";
+        backpack = "B_AssaultPack_cbr";
         M16A4_MED
     };
     class MNP_Canada_Soldier_DAT : MNP_Canada_Soldier_DS{
-        backpack = "B_Kitbag_sgg";
+        backpack = "B_Kitbag_cbr";
         M16A4_AT
     };
     // GERMANY
@@ -219,7 +219,7 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_Ranger_A"; //the uniform item
+        uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -230,8 +230,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-        linkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_ACU", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -251,8 +251,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier2_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -268,8 +268,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR_2.paa"};
         backpack = "MNP_B_ACU_KB";
         M240_MG
-        linkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_HelmetB_desert", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_USR_Soldier_M : MNP_USR_Soldier_AR {
         uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
@@ -284,21 +284,21 @@ class CfgVehicles {
         backpack = "MNP_B_ACU_AP";
         attendant = 1;
         MK16_MED
-        linkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Boonie_ACU", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_USR_Soldier_O : MNP_USR_Soldier_AR {
         MK16_FTL
-        linkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_Helmet_Kerry", "V_PlateCarrier1_blk", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_USR_Soldier_AT : MNP_USR_Soldier_MG {
         backpack = "MNP_B_ACU_KB";
         MK16_AT
-        linkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "V_PlateCarrier1_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "V_PlateCarrier1_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "MNP_Vest_ACU_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "MNP_Vest_ACU_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Dark Multicam
     class MNP_TS_Soldier_F : B_Soldier_base_F {
@@ -456,20 +456,20 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_ROK_Soldier_AR : MNP_ROK_Soldier_F{
-        backpack = "B_FieldPack_blk";
+        backpack = "MNP_B_ROK_KB";
         M249mini_AR
     };
     class MNP_ROK_Soldier_MG : MNP_ROK_Soldier_F{
-        backpack = "B_FieldPack_blk";
+        backpack = "MNP_B_ROK_KB";
         M240_MG
     };
     class MNP_ROK_Soldier_AT : MNP_ROK_Soldier_F{
-        backpack = "B_FieldPack_blk";
+        backpack = "MNP_B_ROK_KB";
         M16A4_AT
     };
     class MNP_ROK_Soldier_M : MNP_ROK_Soldier_O{
         attendant = 1;
-        backpack = "B_AssaultPack_blk";
+        backpack = "MNP_B_ROK_AP";
         M16A4_MED
     };
     // US Arctic Warfare
