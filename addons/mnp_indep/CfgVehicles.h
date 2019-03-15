@@ -1,12 +1,11 @@
 class CfgVehicles {
     class I_Soldier_base_F;
-    class I_G_Soldier_lite_F;    
+    class I_G_Soldier_lite_F;
     class MNP_Irish_Soldier_F : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland"; //the uniform item
-        backpack = "B_AssaultPack_rgr";
         AUGA3_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire.paa"};
@@ -14,14 +13,14 @@ class CfgVehicles {
         faction = MNP_IRE_WD; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_Ireland", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_Ireland", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_Irish_Soldier_MG : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_S"; //the uniform item
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_oli";
         FNMAG_MG
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -38,6 +37,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_Officer : MNP_Irish_Soldier_MG {
+        backpack = "";
         AUGA3_FTL
         linkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -49,7 +49,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_Medic : MNP_Irish_Soldier_F {
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_rgr";
         attendant = 1;
         AUGA3_MED
         linkedItems[] = {"MNP_Boonie_Ireland_T", "MNP_Vest_Ireland", "ItemMap", "Medikit", "FirstAidKit",  "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -60,8 +60,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_D"; //the uniform item
-        backpack = "B_Kitbag_rgr";
-        author = "Killoch";    
+        author = "Killoch";
         AUGA3_RIFLEMAN
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire_D.paa"};
@@ -75,8 +74,8 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland_DS"; //the uniform item
-        backpack = "B_Kitbag_rgr";
-        author = "Killoch";    
+        backpack = "B_Carryall_cbr";
+        author = "Killoch";
         FNMAG_MG
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         hiddenSelections[] = {"Camo"};
@@ -86,24 +85,25 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_Ireland_D", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DAR : MNP_Irish_Soldier_DMG {
-        backpack = "B_Carryall_oli";
+        backpack = "B_Carryall_cbr";
         M249mini_AR
         linkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DOfficer : MNP_Irish_Soldier_DMG {
         AUGA3_FTL
+        backpack = "";
         linkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Beret_Ireland", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DRAT : MNP_Irish_Soldier_D {
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_cbr";
         AUGA3_AT
         linkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Ireland_D", "FirstAidKit", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DMedic : MNP_Irish_Soldier_DMG{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_cbr";
         AUGA3_MED
         attendant = 1;
         linkedItems[] = {"MNP_Boonie_Ireland_D", "MNP_Vest_Ireland", "ItemMap", "Medikit", "FirstAidKit",  "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -130,6 +130,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_B"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
+        backpack = "CUP_B_AlicePack_Khaki";
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep2_co.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
@@ -144,6 +145,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_C"; //the uniform item
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
+        backpack = "CUP_B_AlicePack_Khaki";
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep3_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
@@ -157,7 +159,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_E"; //the uniform item
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "CUP_B_AlicePack_Bedroll";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_MED
         attendant = 1;
@@ -173,7 +175,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_F"; //the uniform item
-        backpack = "B_Kitbag_rgr";
+        backpack = "CUP_B_AlicePack_Khaki";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_AT
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -184,6 +186,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_F : MNP_Militia_Soldier_RAT{
+        backpack = "";
         AKME_RIFLEMAN
     };
     // Desert Militiamen
@@ -206,6 +209,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DB"; //the uniform item
+        backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         hiddenSelections[] = {"Camo1","insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D2.paa"};
@@ -220,6 +224,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DC"; //the uniform item
+        backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D3.paa"};
@@ -234,7 +239,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DE"; //the uniform item
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_MED
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -249,7 +254,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Militia_DF"; //the uniform item
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_AT
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -261,6 +266,7 @@ class CfgVehicles {
     };
     class MNP_Militia_Soldier_DF : MNP_Militia_Soldier_DRAT{
         AKME_RIFLEMAN
+        backpack = "";
         linkedItems[] = {"MNP_Boonie_DDPM", "V_TacVest_brn","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_DDPM", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -270,7 +276,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_A"; //the uniform item
-        backpack = "B_AssaultPack_rgr";
         RK62_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_T.paa"};
@@ -278,14 +283,13 @@ class CfgVehicles {
         faction = MNP_FIN_WD; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_T", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_T", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_FIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_B"; //the uniform item
-        backpack = "B_Kitbag_rgr";
         RK62_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_T.paa"};
@@ -293,22 +297,22 @@ class CfgVehicles {
         faction = MNP_FIN_WD; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_T", "MNP_Vest_Fin_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_T", "MNP_Vest_Fin_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_FIN_Soldier_AR : MNP_FIN_Soldier_F{
         backpack = "B_Kitbag_rgr";
         PKP_MG
     };
     class MNP_FIN_Soldier_AT : MNP_FIN_Soldier_O{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Kitbag_rgr";
         RK62_AT
     };
     class MNP_FIN_Soldier_MG : MNP_FIN_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Kitbag_rgr";
         PKP_MG
     };
     class MNP_FIN_Soldier_MD : MNP_FIN_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_rgr";
         attendant = 1;
         RK62_MED
     };
@@ -318,7 +322,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_A"; //the uniform item
-        backpack = "B_AssaultPack_rgr";
         RK62_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_A.paa"};
@@ -326,14 +329,13 @@ class CfgVehicles {
         faction = MNP_FIN_SN; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_A", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_A", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_AFIN_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_B"; //the uniform item
-        backpack = "B_Kitbag_rgr";
         RK62_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_A.paa"};
@@ -341,22 +343,22 @@ class CfgVehicles {
         faction = MNP_FIN_SN; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_A", "MNP_Vest_Fin_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_A", "MNP_Vest_Fin_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_AFIN_Soldier_AR : MNP_AFIN_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_RUW_CA";
         PKP_MG
     };
     class MNP_AFIN_Soldier_AT : MNP_AFIN_Soldier_F{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_RUW_CA";
         RK62_AT
     };
     class MNP_AFIN_Soldier_MG : MNP_AFIN_Soldier_O{
-        backpack = "B_Kitbag_cbr";
+        backpack = "MNP_B_RUW_CA";
         PKP_MG
     };
     class MNP_AFIN_Soldier_MD : MNP_AFIN_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "MNP_B_WB_AP";
         attendant = 1;
         RK62_MED
     };
@@ -366,7 +368,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_A"; //the uniform item
-        backpack = "B_AssaultPack_rgr";
         AUGA3_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
@@ -374,14 +375,13 @@ class CfgVehicles {
         faction = MNP_NZ; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Boonie_NZ", "MNP_Vest_NZ_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Boonie_NZ", "MNP_Vest_NZ_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NZ_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_B"; //the uniform item
-        backpack = "B_Kitbag_rgr";
         AUGA3_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
@@ -389,22 +389,22 @@ class CfgVehicles {
         faction = MNP_NZ; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "MNP_Boonie_NZ", "MNP_Vest_NZ_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Boonie_NZ", "MNP_Vest_NZ_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NZ_Soldier_AR : MNP_NZ_Soldier_O{
-        backpack = "B_Carryall_oli";
+        backpack = "B_Carryall_khk";
         M249mini_AR
     };
     class MNP_NZ_Soldier_AT : MNP_NZ_Soldier_O{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         AUGA3_AT
     };
     class MNP_NZ_Soldier_MG : MNP_NZ_Soldier_O{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         FNMAG_MG
     };
     class MNP_NZ_Soldier_Md : MNP_NZ_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_khk";
         attendant = 1;
         AUGA3_MED
     };
@@ -414,7 +414,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_A"; //the uniform item
-        backpack = "B_Kitbag_rgr";
         HK416_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
@@ -422,14 +421,13 @@ class CfgVehicles {
         faction = MNP_NOR_WD; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "H_HelmetB_light_grass", "MNP_Vest_NOR_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_grass", "MNP_Vest_NOR_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NOR_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_B"; //the uniform item
-        backpack = "B_Kitbag_rgr";
         HK416_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
@@ -437,22 +435,22 @@ class CfgVehicles {
         faction = MNP_NOR_WD; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "H_HelmetB_light_grass", "MNP_Vest_NOR_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_grass", "MNP_Vest_NOR_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NOR_Soldier_AR : MNP_NOR_Soldier_O{
-        backpack = "B_Carryall_oli";
+        backpack = "B_Carryall_khk";
         M249pip1_AR
     };
     class MNP_NOR_Soldier_AT : MNP_NOR_Soldier_O{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         HK416_AT2
     };
     class MNP_NOR_Soldier_MG : MNP_NOR_Soldier_O{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Carryall_khk";
         FNMAGRIS_MG
     };
     class MNP_NOR_Soldier_Md : MNP_NOR_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_khk";
         attendant = 1;
         HK416_MED
     };
@@ -462,7 +460,6 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_A"; //the uniform item
-        backpack = "B_Kitbag_cbr";
         HK416_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
@@ -470,14 +467,13 @@ class CfgVehicles {
         faction = MNP_NOR_DE; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "H_HelmetB_light_sand", "MNP_Vest_NOR_D_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_sand", "MNP_Vest_NOR_D_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NOR_D_Soldier_O : I_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_B"; //the uniform item
-        backpack = "B_Kitbag_cbr";
         HK416_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
@@ -485,20 +481,22 @@ class CfgVehicles {
         faction = MNP_NOR_DE; // Puts unit under new faction
         linkedItems[] = { "FirstAidKit", "H_HelmetB_light_sand", "MNP_Vest_NOR_D_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_sand", "MNP_Vest_NOR_D_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        author = "Killoch";    
+        author = "Killoch";
     };
     class MNP_NOR_D_Soldier_AR : MNP_NOR_D_Soldier_O{
-        backpack = "B_Carryall_oli";
+        backpack = "B_Carryall_mcamo";
         M249pip1_AR
     };
     class MNP_NOR_D_Soldier_AT : MNP_NOR_D_Soldier_O{
+        backpack = "B_Carryall_mcamo";
         HK416_AT2
     };
     class MNP_NOR_D_Soldier_MG : MNP_NOR_D_Soldier_O{
+        backpack = "B_Carryall_mcamo";
         FNMAGRIS_MG
     };
     class MNP_NOR_D_Soldier_Md : MNP_NOR_D_Soldier_O{
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_AssaultPack_mcamo";
         attendant = 1;
         HK416_MED
     };

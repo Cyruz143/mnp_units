@@ -1,4 +1,4 @@
-/* -- Loudout guide 
+/* -- Loudout guide
 Rifleman: 1 frag, 3 mags
 FTL: 1 frag, 1 white smoke, 3 mags, 2 203s
 AR: 1 frag, 3 boxes
@@ -404,6 +404,7 @@ MG: 0 frags, 2 boxes
     respawnmagazines[] = {"CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"};
 
 #define HK416_AT2 \
+    displayName = "Rifleman (AT)"; \
     weapons[] = {"CUP_arifle_HK416_Black", "CUP_launch_M72A6", "Throw", "put"}; \
     respawnweapons[] = {"CUP_arifle_HK416_Black", "CUP_launch_M72A6", "Throw", "put"}; \
     magazines[] = {"CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag", "CUP_30Rnd_556x45_Emag"}; \
