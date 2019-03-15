@@ -14,12 +14,11 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
         };
-        backpack = "MNP_B_FieldPack_PLA";
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLA_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLA_B.paa"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -31,13 +30,12 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_MilCap_CN_T", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CN_T", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -49,13 +47,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_Carryall_PLA_AR";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -68,13 +66,13 @@ class CfgVehicles {
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
-        backpack = "MNP_B_Carryall_PLA_Medic";
+        backpack = "MNP_B_FieldPack_PLA";
         CTAR_MED
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -86,13 +84,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA_AT";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -104,13 +102,13 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
-        backpack = "MNP_B_FieldPack_PLA";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -128,12 +126,11 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
         };
-        backpack = "MNP_B_FieldPack_PLA";
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLN_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLN_B.paa"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -145,13 +142,12 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
-        backpack = "MNP_B_FieldPack_PLA";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_MilCap_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -163,13 +159,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_Carryall_PLA_AR";
+        backpack = "MNP_B_ROK_KB";
         CTARS_AR
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -182,13 +178,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_Carryall_PLA_Medic";
+        backpack = "MNP_B_ROK_AP";
         CTAR_MED
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -200,13 +196,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA_AT";
+        backpack = "MNP_B_ROK_KB";
         CTAR_AT
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -218,13 +214,13 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
-        backpack = "MNP_B_FieldPack_PLA";
+        backpack = "MNP_B_ROK_KB";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_MAR; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -242,12 +238,11 @@ class CfgVehicles {
         };
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
-        backpack = "MNP_B_FieldPack_PLA_D";
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAD_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAD_B.paa"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -259,13 +254,12 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA_D";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_MilCap_CN_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CN_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -277,13 +271,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_Carryall_PLA_AR_D";
+        backpack = "MNP_B_Carryall_PLA_Basic_D";
         CTARS_AR
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -295,14 +289,14 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_Carryall_PLA_Medic_D";
+        backpack = "MNP_B_FieldPack_PLA_Basic_D";
         attendant = 1;
         CTAR_MED
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -314,13 +308,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA_AT_D";
+        backpack = "MNP_B_Carryall_PLA_Basic_D";
         CTAR_AT
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -332,13 +326,13 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_FieldPack_PLA_D";
+        backpack = "MNP_B_Carryall_PLA_Basic_D";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -354,18 +348,16 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-        backpack = "B_Bergen_sgg";
         AK74M_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RL_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_RU_VDV_DE; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_MilCap_RU_D", "MNP_Vest_RUMED", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_RU_D", "MNP_Vest_RUMED", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_O_D : MNP_RU_Soldier_MEDIUM_D{
-        backpack = "B_FieldPack_cbr";
         class Wounds
         {
             tex[] = {};
@@ -378,19 +370,22 @@ class CfgVehicles {
     class MNP_RU_Soldier_AR_D : MNP_RU_Soldier_MEDIUM_D{
         uniformClass = "MNP_CombatUniform_RU_Med_DB"; //the uniform item
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
+        backpack = "B_Kitbag_cbr";
         RPK74M_AR
     };
     class MNP_RU_Soldier_MG_D : MNP_RU_Soldier_MEDIUM_D{
+        backpack = "B_Kitbag_cbr";
         PKP_MG
     };
     class MNP_RU_Soldier_M_D : MNP_RU_Soldier_MEDIUM_D{
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "B_AssaultPack_cbr";
         AK74U_MED
         attendant = 1;
         linkedItems[] = {"MNP_Boonie_RU_T", "MNP_Vest_RUMED", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_RU_T", "MNP_Vest_RUMED", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_AT_D : MNP_RU_Soldier_MEDIUM_D{
+        backpack = "B_Kitbag_cbr";
         AK74M_AT
     };
     // North Korean Conscripts
@@ -428,17 +423,19 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_NK_Soldier_AR : MNP_NK_Soldier_F{
+        backpack = "B_FieldPack_oli";
         RPK47_AR
     };
     class MNP_NK_Soldier_AT : MNP_NK_Soldier_F{
-        backpack = "B_FieldPack_cbr_LAT";
+        backpack = "B_FieldPack_oli";
         AK47_AT
     };
     class MNP_NK_Soldier_MG : MNP_NK_Soldier_F{
+        backpack = "B_FieldPack_oli";
         PKM_MG
     };
     class MNP_NK_Soldier_MD : MNP_NK_Soldier_F{
-        backpack = "B_FieldPack_cbr_Medic";
+        backpack = "B_FieldPack_oli";
         attendant = 1;
         AKME_MED
     };
@@ -477,17 +474,19 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_NKC_Soldier_AR : MNP_NKC_Soldier_F{
+        backpack = "B_FieldPack_oli";
         RPK74_AR
     };
     class MNP_NKC_Soldier_AT : MNP_NKC_Soldier_F{
-        backpack = "B_FieldPack_cbr_LAT";
+        backpack = "B_FieldPack_oli"; // Needs proper AT backpack
         AK74_AT
     };
     class MNP_NKC_Soldier_MG : MNP_NKC_Soldier_F{
+        backpack = "B_FieldPack_oli";
         PKM_MG
     };
     class MNP_NKC_Soldier_MD : MNP_NKC_Soldier_F{
-        backpack = "B_FieldPack_cbr_Medic";
+        backpack = "B_FieldPack_oli";
         attendant = 1;
         AK74S_MED
     };
@@ -498,35 +497,37 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Russia_arctic"; //the uniform item
         model = "\A3\Characters_F\OPFOR\O_soldier_01.p3d";
-        backpack = "B_Bergen_rgr";
         KATIBA_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RU_A.paa", "\x\mnp_units\addons\mnp_main\data\H_RU_A.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_OPF_F_SN; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"MNP_Helmet_Russia_arctic", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Russia_arctic", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_Arctic_O : MNP_RU_Soldier_Arctic_F {
         KATIBA_FTL
-        linkedItems[] = {"MNP_MilCap_RU_T", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_MilCap_RU_T", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"CUP_H_ChDKZ_Beret", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"CUP_H_ChDKZ_Beret", "G_Balaclava_lowprofile", "V_HarnessO_gry", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_Arctic_AR : MNP_RU_Soldier_Arctic_F {
+        backpack = "MNP_B_RUW_CA";
         ZAFIR_AR
     };
     class MNP_RU_Soldier_Arctic_AT : MNP_RU_Soldier_Arctic_F {
+        backpack = "MNP_B_RUW_CA";
         KATIBA_AT
     };
     class MNP_RU_Soldier_Arctic_MG : MNP_RU_Soldier_Arctic_F {
+        backpack = "MNP_B_RUW_CA";
         ZAFIR_AR
     };
     class MNP_RU_Soldier_Arctic_M : MNP_RU_Soldier_Arctic_F {
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "MNP_B_WB_AP";
         attendant = 1;
         KATIBA_MED
-    };   
+    };
     // RU Airbourne
     class MNP_RO3_Soldier_F : O_Soldier_base_F {
         scope = 2;
@@ -540,7 +541,6 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
         linkedItems[] = {"MNP_Helmet_PAGST_RO", "V_TacVest_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_RO", "V_TacVest_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_FP";        
         faction = MNP_RU_AIR; // Puts unit under new faction
         author = "Killoch";
     };
@@ -555,21 +555,23 @@ class CfgVehicles {
         AK74S_FTL
         linkedItems[] = {"MNP_Helmet_PAGST_RO", "V_TacVest_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_RO", "V_TacVest_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_FP";        
         faction = MNP_RU_AIR; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_RO3_Soldier_AR : MNP_RO3_Soldier_F{
+        backpack = "MNP_B_RU2_CA";
         RPK74_AR
     };
     class MNP_RO3_Soldier_AT : MNP_RO3_Soldier_O{
+        backpack = "MNP_B_RU2_CA";
         AK74S_AT
     };
     class MNP_RO3_Soldier_MG : MNP_RO3_Soldier_O{
+        backpack = "MNP_B_RU2_CA";
         PKM_MG
     };
     class MNP_RO3_Soldier_M : MNP_RO3_Soldier_F{
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "MNP_B_RU2_FP";
         attendant = 1;
         AK74SU_MED
     };
@@ -580,7 +582,6 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_DPR_A"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        backpack = "B_FieldPack_oli";
         class Wounds
         {
             tex[] = {};
@@ -595,22 +596,22 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_RO", "V_TacVest_brn", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_DPR_Soldier_AR : MNP_DPR_Soldier_F{
-        backpack = "B_FieldPack_oli";
+        backpack = "B_Carryall_khk";
         RPK74M2_AR
     };
     class MNP_DPR_Soldier_AT : MNP_DPR_Soldier_F{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Carryall_khk";
         AK74M2_AT
     };
     class MNP_DPR_Soldier_MG : MNP_DPR_Soldier_F{
+        backpack = "B_Carryall_khk";
         PKP_MG
     };
     class MNP_DPR_Soldier_TL : MNP_DPR_Soldier_F{
-        backpack = "B_FieldPack_oli";
         AK74M2_FTL
     };
     class MNP_DPR_Soldier_MD : MNP_DPR_Soldier_F{
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "B_FieldPack_khk";
         attendant = 1;
         AK74M_MED
     };
@@ -635,22 +636,22 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_OD", "V_I_G_resistanceLeader_F", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_DPR_T_Soldier_AR : MNP_DPR_T_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "MNP_B_RU2_CA";
         RPK74M2_AR
     };
     class MNP_DPR_T_Soldier_AT : MNP_DPR_T_Soldier_F{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "MNP_B_RU2_CA";
         AK74M2_AT
     };
     class MNP_DPR_T_Soldier_MG : MNP_DPR_T_Soldier_F{
+        backpack = "MNP_B_RU2_CA";
         PKP_MG
     };
     class MNP_DPR_T_Soldier_TL : MNP_DPR_T_Soldier_F{
-        backpack = "B_AssaultPack_cbr";
         AK74M2_FTL
     };
     class MNP_DPR_T_Soldier_MD : MNP_DPR_T_Soldier_F{
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "MNP_B_RU2_FP";
         attendant = 1;
         AK74M_MED
     };
@@ -675,22 +676,22 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_IR_IRGC_Soldier_AR : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_Kitbag_rgr";
+        backpack = "B_Kitbag_cbr";
         MG3_AR
     };
     class MNP_IR_IRGC_Soldier_AT : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_Kitbag_cbr";
         G3KA4_AT
     };
     class MNP_IR_IRGC_Soldier_MG : MNP_IR_IRGC_Soldier_F{
+        backpack = "B_Kitbag_cbr";
         PKM_MG
     };
     class MNP_IR_IRGC_Soldier_TL : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_AssaultPack_cbr";
         G3_FTL
     };
     class MNP_IR_IRGC_Soldier_MD : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_FieldPack_ocamo_ReconMedic";
+        backpack = "B_FieldPack_cbr";
         attendant = 1;
         G3KA4_MED
     };
@@ -710,7 +711,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_IRN_WD_IRGC; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -730,23 +731,25 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_IRN_WD_IRGC; // Puts unit under new faction
-        author = "Killoch";    
+        author = "Killoch";
         linkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_IR_IRGC_Soldier_Med_AR : MNP_IR_IRGC_Soldier_MEDIUM{
+        backpack = "B_FieldPack_cbr";
         MG3_AR
     };
     class MNP_IR_IRGC_Soldier_MedMG : MNP_IR_IRGC_Soldier_Med_O{
+        backpack = "B_FieldPack_cbr";
         PKM_MG
     };
     class MNP_IR_IRGC_Soldier_Med_AT : MNP_IR_IRGC_Soldier_MEDIUM{
-        backpack = "B_AssaultPack_rgr_LAT";
+        backpack = "B_FieldPack_cbr";
         G3KA4_AT
     };
     class MNP_IR_IRGC_Soldier_Med_M : MNP_IR_IRGC_Soldier_Med_O{
         attendant = 1;
-        backpack = "B_AssaultPack_rgr_Medic";
+        backpack = "B_FieldPack_cbr";
         G3KA4_MED
     };
     // ______________---------------------------------__________________---------------------------------_________________________---------------------------------
@@ -789,21 +792,21 @@ class CfgVehicles {
                 magazine = "30Rnd_65x39_caseless_green";
                 count = 2;
             };
-            class _xx_SmokeShell 
-            {        
-                magazine = "SmokeShell";        
-                count = 4;    
+            class _xx_SmokeShell
+            {
+                magazine = "SmokeShell";
+                count = 4;
             };
         };
         class TransportItems
         {
-            class _xx_Medikit{        
-                name = "Medikit";        
-                count = 1;    
+            class _xx_Medikit{
+                name = "Medikit";
+                count = 1;
             };
-            class _xx_FirstAidKit{        
-                name = "FirstAidKit";        
-                count = 4;    
+            class _xx_FirstAidKit{
+                name = "FirstAidKit";
+                count = 4;
             };
         };
     };
@@ -856,7 +859,7 @@ class CfgVehicles {
         };
         class TransportItems
         {
-        };    
+        };
     };
     class MNP_B_FieldPack_PLA_Basic_D : MNP_B_FieldPack_PLA_D{
         scope = 2;
@@ -876,7 +879,7 @@ class CfgVehicles {
         };
         class TransportItems
         {
-        };    
+        };
     };
     class MNP_B_RU1_CA : B_Carryall_Base{
         scope = 2;
@@ -942,5 +945,5 @@ class CfgVehicles {
         class TransportItems
         {
         };
-    };  
+    };
 };
