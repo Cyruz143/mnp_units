@@ -478,7 +478,7 @@ class CfgVehicles {
         RPK74_AR
     };
     class MNP_NKC_Soldier_AT : MNP_NKC_Soldier_F{
-        backpack = "B_FieldPack_oli"; // Needs proper AT backpack
+        backpack = "B_FieldPack_oli_RPG7";
         AK74_AT
     };
     class MNP_NKC_Soldier_MG : MNP_NKC_Soldier_F{
