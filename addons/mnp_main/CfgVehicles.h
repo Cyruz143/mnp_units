@@ -54,7 +54,7 @@ class CfgVehicles {
         uniformClass = "MNP_CombatUniform_US3Co_Sh";
         hiddenSelections[] = {"Camo1", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3Co_A.paa"};
-        model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
+        model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
     };
     class C_mnp_9 : C_mnp_base {
         uniformClass = "MNP_CombatUniform_US3Co_A";

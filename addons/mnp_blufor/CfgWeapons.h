@@ -3430,10 +3430,6 @@ class cfgWeapons {
             hiddenSelections[] = {"camo"};
         };
     };
-    class MNP_CombatUniform_3Co_Sh : MNP_CombatUniform_US3Co_Sh {
-    scope = 1;  };
-    class MNP_CombatUniform_3Co_Rg : MNP_CombatUniform_US3Co_Sh {
-    scope = 1;};
     // 6Colour Replacement
     class MNP_CombatUniform_US6co : U_I_OfficerUniform {
         scope = 2;
