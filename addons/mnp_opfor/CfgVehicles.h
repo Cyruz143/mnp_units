@@ -739,7 +739,7 @@ class CfgVehicles {
         backpack = "B_FieldPack_cbr";
         MG3_AR
     };
-    class MNP_IR_IRGC_Soldier_MedMG : MNP_IR_IRGC_Soldier_Med_O{
+    class MNP_IR_IRGC_Soldier_Med_MG : MNP_IR_IRGC_Soldier_Med_O{
         backpack = "B_FieldPack_cbr";
         PKM_MG
     };

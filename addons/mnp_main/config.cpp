@@ -26,4 +26,15 @@ class CfgPatches {
             "hlcweapons_MG3s"
         };
     };
+    // Dummy classes for old names
+    class MNP_BLUFOR_CONFIG {
+        author = "ARK";
+        authors[] = {"ARK"};
+        url = "http://www.ark-group.org";
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+    };
+    class MNP_INDE_Config : MNP_BLUFOR_CONFIG {};
+    class MNP_OPFOR_CONFIG : MNP_BLUFOR_CONFIG {};
 };

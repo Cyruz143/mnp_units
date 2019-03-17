@@ -403,7 +403,7 @@ class CfgVehicles {
         backpack = "B_Carryall_khk";
         FNMAG_MG
     };
-    class MNP_NZ_Soldier_Md : MNP_NZ_Soldier_O{
+    class MNP_NZ_Soldier_MD : MNP_NZ_Soldier_O{
         backpack = "B_AssaultPack_khk";
         attendant = 1;
         AUGA3_MED
@@ -449,7 +449,7 @@ class CfgVehicles {
         backpack = "B_Carryall_khk";
         FNMAGRIS_MG
     };
-    class MNP_NOR_Soldier_Md : MNP_NOR_Soldier_O{
+    class MNP_NOR_Soldier_MD : MNP_NOR_Soldier_O{
         backpack = "B_AssaultPack_khk";
         attendant = 1;
         HK416_MED
@@ -495,7 +495,7 @@ class CfgVehicles {
         backpack = "B_Carryall_mcamo";
         FNMAGRIS_MG
     };
-    class MNP_NOR_D_Soldier_Md : MNP_NOR_D_Soldier_O{
+    class MNP_NOR_D_Soldier_MD : MNP_NOR_D_Soldier_O{
         backpack = "B_AssaultPack_mcamo";
         attendant = 1;
         HK416_MED
