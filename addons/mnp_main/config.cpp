@@ -38,3 +38,7 @@ class CfgPatches {
     class MNP_INDE_Config : MNP_BLUFOR_CONFIG {};
     class MNP_OPFOR_CONFIG : MNP_BLUFOR_CONFIG {};
 };
+
+#include "script_component.hpp"
+#include "CfgFactionClasses.h"
+#include "CfgVehicles.h"

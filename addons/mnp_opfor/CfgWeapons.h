@@ -2,7 +2,7 @@ class cfgWeapons {
     class Uniform_Base;
     class UniformItem;
     class V_PlateCarrierIA2_dgtl;
-    class H_HelmetIA; 
+    class H_HelmetIA;
     class HeadgearItem;
     class VestItem;
     class H_MilCap_gry;
@@ -274,7 +274,7 @@ class cfgWeapons {
             };
             hiddenSelections[] = {"camo"};
         };
-    };    
+    };
     class MNP_CombatUniform_Russia_Heavy_D :Uniform_Base {
         scope = 2;
         displayName = "MNP: Russian Heavy (Desert Digital)";
@@ -314,7 +314,7 @@ class cfgWeapons {
             };
             hiddenSelections[] = {"camo"};
         };
-    };    
+    };
     // Chinese Heavy Vests
     class MNP_Vest_ChinaH_T : V_PlateCarrierIA2_dgtl {
         scope = 2;
@@ -634,22 +634,22 @@ class cfgWeapons {
         displayName = "MNP: Type 07 Boonie (Universal)";
         picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_CN_T.paa"};
-    };  
+    };
     class MNP_Boonie_CN_D : H_Booniehat_khk {
         displayName = "MNP: Type 07 Boonie (Arid)";
         picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_CN_D.paa"};
-    };  
+    };
     class MNP_Boonie_RU_T : H_Booniehat_khk {
         displayName = "MNP: Russian Boonie";
         picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU_T.paa"};
-    };  
+    };
     class MNP_Boonie_RU_D : H_Booniehat_khk {
         displayName = "MNP: Russian Boonie (Desert)";
         picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU_D.paa"};
-    };  
+    };
     // PLN Marine Gear
     class MNP_CombatUniform_CMAR : Uniform_Base {
         scope = 2;
@@ -1263,7 +1263,7 @@ class cfgWeapons {
             };
             hiddenSelections[] = {"camo"};
         };
-    };    
+    };
     class MNP_Vest_Light_RU : V_PlateCarrierIA2_dgtl {
         scope = 2;
         displayName = "MNP: Flora Light Vest";
@@ -1419,7 +1419,7 @@ class cfgWeapons {
             class ItemInfo : UniformItem {
             modelSides[] = {6};
                 uniformModel = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
-                uniformClass = "MNP_RO_Soldier_O"; //would be same as our made soldier class
+                uniformClass = "C_mnp_33"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
                 hiddenSelections[] = {"Camo1"};
@@ -1436,7 +1436,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_RO_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_34"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1453,7 +1453,7 @@ class cfgWeapons {
             class ItemInfo : UniformItem {
             modelSides[] = {6};
                 uniformModel = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
-                uniformClass = "MNP_RO2_Soldier_O"; //would be same as our made soldier class
+                uniformClass = "C_mnp_37"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
                 hiddenSelections[] = {"Camo1"};
@@ -1470,7 +1470,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_RO2_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_38"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1521,7 +1521,7 @@ class cfgWeapons {
             class ItemInfo : UniformItem {
             modelSides[] = {6};
                 uniformModel = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
-                uniformClass = "MNP_RO4_Soldier_O"; //would be same as our made soldier class
+                uniformClass = "C_mnp_35"; //would be same as our made soldier class
                 containerClass = "Supply60"; //how much it can carry
                 mass = 40; //how much it weights
                 hiddenSelections[] = {"Camo1"};
@@ -1538,13 +1538,13 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_RO4_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_36"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
         };
     };
-    // Donetsk 
+    // Donetsk
     class MNP_CombatUniform_DPR_A : Uniform_Base {
         scope = 2;
         displayName = "MNP: DPR (Spekter-S - Autumn)";
@@ -1588,7 +1588,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_IR_BSJ_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_17"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1605,7 +1605,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_IR_BSJ_Soldier_MEDIUM"; //would be same as our made soldier class
+            uniformClass = "C_mnp_16"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1622,13 +1622,13 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_IR_BSJ_Soldier_Med_O"; //would be same as our made soldier class
+            uniformClass = "C_mnp_15"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
         };
     };
-    // Iranian RG 
+    // Iranian RG
     class MNP_CombatUniform_IR_IRGC_A : U_I_OfficerUniform {
         scope = 2;
         displayName = "MNP: IRGC Uniform";
@@ -1690,7 +1690,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_CNT_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_39"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1727,7 +1727,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_CNP_Soldier_F"; //would be same as our made soldier class
+            uniformClass = "C_mnp_40"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1810,5 +1810,5 @@ class cfgWeapons {
             };
             hiddenSelections[] = {"camo"};
         };
-    };   
+    };
 };
