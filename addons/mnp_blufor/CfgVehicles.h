@@ -631,7 +631,7 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_ISR_MG : MNP_ISR_A{
-        backpack = "B_Kitbag_rgr"
+        backpack = "B_Kitbag_rgr";
         M240_MG
     };
     class MNP_ISR_AR : MNP_ISR_A{
