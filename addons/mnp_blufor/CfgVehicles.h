@@ -219,7 +219,7 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DS_A"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -239,7 +239,7 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DS_B"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -257,7 +257,7 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_USR_Soldier_MG : MNP_USR_Soldier_F {
-        uniformClass = "MNP_CombatUniform_Ranger_E"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DS_B"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -272,7 +272,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_USR_Soldier_M : MNP_USR_Soldier_AR {
-        uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DS_A"; //the uniform item
         class Wounds
         {
             tex[] = {};
