@@ -128,7 +128,7 @@ class CfgVehicles {
         };
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLA_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLA_B.paa"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -143,8 +143,8 @@ class CfgVehicles {
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
@@ -161,8 +161,8 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
@@ -178,10 +178,10 @@ class CfgVehicles {
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
-        backpack = "MNP_B_FieldPack_PLA";
+        backpack = "MNP_B_FieldPack_PLA_Basic";
         CTAR_MED
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
@@ -198,8 +198,8 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
@@ -216,8 +216,8 @@ class CfgVehicles {
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_CH_WD; // Puts unit under new faction
         author = "Killoch";
