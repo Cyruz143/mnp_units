@@ -1,5 +1,5 @@
 class CfgFactionClasses {
-    class MNP_CH_WD {
+    class MNP_CH_UNI {
         displayName = "Chinese PLA Universal";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
@@ -14,7 +14,7 @@ class CfgFactionClasses {
         side = 2;
     };
     class MNP_CH_MAR {
-        displayName = "PLA Naval Marines";
+        displayName = "Chinese PLA Naval Marines";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 2;
@@ -41,15 +41,15 @@ class CfgFactionClasses {
         priority = 5;
         side = 2;
     };
-    class MNP_IRN_WD_IRGC {
-        displayName = "Iranian Revolutionary Guards (Woodland)";
+    class MNP_IRN_RG {
+        displayName = "Iranian Revolutionary Guards";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;
         side = 2;
     };
-    class MNP_IRN_DE_IRGC {
-        displayName = "Iranian Revolutionary Guards (Desert)";
+    class MNP_IRN {
+        displayName = "Iranian Army";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;
@@ -63,7 +63,7 @@ class CfgFactionClasses {
         side = 2;
     };
     class MNP_RU_AIR {
-        displayName = "Russian Infantry Airborne";
+        displayName = "Russian (Soviet) Infantry Airborne";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 6;

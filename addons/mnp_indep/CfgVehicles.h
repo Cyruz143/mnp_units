@@ -119,7 +119,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep_co.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_WD; // Puts unit under new faction
+        faction = MNP_LVM_WD; // Puts unit under new faction
         AKME_FTL
         linkedItems[] = {"H_Beret_blk", "V_TacVest_camo", "ItemWatch"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_camo", "ItemWatch"};
@@ -134,7 +134,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep2_co.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_WD; // Puts unit under new faction
+        faction = MNP_LVM_WD; // Puts unit under new faction
         PKM_MG
         linkedItems[] = {"MNP_Boonie_TIG","V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_TIG","V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -149,7 +149,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\officer_strep3_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_WD; // Puts unit under new faction
+        faction = MNP_LVM_WD; // Puts unit under new faction
         RPK47_AR
         linkedItems[] = { "MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -166,7 +166,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\smock_t1_co.paa","\x\mnp_units\addons\mnp_main\data\smocks_strepII_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_WD; // Puts unit under new faction
+        faction = MNP_LVM_WD; // Puts unit under new faction
         linkedItems[] = {"MNP_Boonie_DPM", "V_TacVest_camo","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_DPM", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -181,7 +181,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa", "\x\mnp_units\addons\mnp_main\data\smocks_strepI_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_WD; // Puts unit under new faction
+        faction = MNP_LVM_WD; // Puts unit under new faction
         linkedItems[] = {"MNP_Boonie_ERDL", "V_TacVest_camo","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -199,7 +199,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D1.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_DE; // Puts unit under new faction
+        faction = MNP_LVM_DE; // Puts unit under new faction
         AKME_FTL
         linkedItems[] = {"H_Beret_blk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -214,7 +214,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1","insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D2.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_DE; // Puts unit under new faction
+        faction = MNP_LVM_DE; // Puts unit under new faction
         PKM_MG
         linkedItems[] = {"H_ShemagOpen_khk","V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_ShemagOpen_khk","V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -229,7 +229,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_LVM_D3.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_DE; // Puts unit under new faction
+        faction = MNP_LVM_DE; // Puts unit under new faction
         RPK47_AR
         linkedItems[] = { "H_ShemagOpen_khk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "H_ShemagOpen_khk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -245,7 +245,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\C_LVM_D6.paa","\x\mnp_units\addons\mnp_main\data\C_LVM_D4.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_DE; // Puts unit under new faction
+        faction = MNP_LVM_DE; // Puts unit under new faction
         linkedItems[] = {"MNP_Boonie_3CO", "V_TacVest_brn","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_3CO", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -260,7 +260,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\C_LVM_D6.paa", "\x\mnp_units\addons\mnp_main\data\C_LVM_D5.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_MIL_DE; // Puts unit under new faction
+        faction = MNP_LVM_DE; // Puts unit under new faction
         linkedItems[] = {"MNP_Boonie_Jigsaw", "V_TacVest_brn","ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_Jigsaw", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };

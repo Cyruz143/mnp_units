@@ -1,12 +1,12 @@
 class CfgFactionClasses {
-    class MNP_MIL_WD {
+    class MNP_LVM_WD {
         displayName = "Local Volunteer Militia Woodland";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 1;
         side = 3;
     };
-    class MNP_MIL_DE {
+    class MNP_LVM_DE {
         displayName = "Local Volunteer Militia Desert";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
@@ -14,14 +14,14 @@ class CfgFactionClasses {
         side = 3;
     };
     class MNP_IRE_WD {
-        displayName = "Defence Forces Ireland Woodland";
+        displayName = "Ireland Defence Forces Woodland";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;
         side = 3;
     };
     class MNP_IRE_DE {
-        displayName = "Defence Forces Ireland Desert";
+        displayName = "Ireland Defence Forces Desert";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;

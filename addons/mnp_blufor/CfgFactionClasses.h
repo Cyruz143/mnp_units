@@ -1,13 +1,13 @@
 class CfgFactionClasses {
     class MNP_US_ACU {
-        displayName = "US Army ACU";
+        displayName = "United States Army ACU";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 2;
         side = 1;
     };
     class MNP_US_MC {
-        displayName = "US Army Multicam";
+        displayName = "United States Army Multicam";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 2;
@@ -27,8 +27,8 @@ class CfgFactionClasses {
         priority = 5;
         side = 1;
     };
-    class MNP_US_Sco {
-        displayName = "United States Army Scorpion";
+    class MNP_US_RAN {
+        displayName = "United States Army Rangers";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 3;
@@ -76,8 +76,8 @@ class CfgFactionClasses {
         priority = 4;
         side = 1;
     };
-    class MNP_ROKMC {
-        displayName = "Republic of Korea Marines";
+    class MNP_ROK_SEAL {
+        displayName = "Republic of Korea Seals";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 7;

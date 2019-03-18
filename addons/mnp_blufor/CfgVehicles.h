@@ -359,7 +359,7 @@ class CfgVehicles {
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "MNP_Vest_ACU_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "MNP_Vest_ACU_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    // Dark Multicam
+    // Dark Multicam -- Needs to be redressed as Rangers
     class MNP_TS_Soldier_F : B_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
@@ -377,7 +377,7 @@ class CfgVehicles {
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
         linkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_US_Sco; // Puts unit under new faction
+        faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_TS_Soldier_AR : B_Soldier_base_F {
@@ -398,7 +398,7 @@ class CfgVehicles {
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         linkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_US_Sco; // Puts unit under new faction
+        faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_TS_Soldier_O : MNP_TS_Soldier_F{
@@ -645,7 +645,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         linkedItems[] = {"MNP_Helmet_ROKMC", "MNP_Vest_ROKMC_2" , "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_ROKMC", "MNP_Vest_ROKMC_2" , "ItemMap", "G_Aviator", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_ROKMC; // Puts unit under new faction
+        faction = MNP_ROK_SEAL; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_ROKMC_MG : MNP_ROKMC_A{
