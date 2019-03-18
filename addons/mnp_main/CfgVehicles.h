@@ -158,18 +158,6 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_B.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
     };
-    class C_mnp_26 : C_mnp_base {
-        uniformClass = "MNP_CombatUniform_DS_A";
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
-        model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-    };
-    class C_mnp_27 : C_mnp_base {
-        uniformClass = "MNP_CombatUniform_DS_B";
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
-        model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-    };
     class C_mnp_28 : C_mnp_base {
         uniformClass = "MNP_CombatUniform_OD_Rg";
         hiddenSelections[] = {"Camo", "insignia", "clan"};

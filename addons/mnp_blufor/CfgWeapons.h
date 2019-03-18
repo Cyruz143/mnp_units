@@ -1170,7 +1170,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformModel = "-";
-            uniformClass = "C_mnp_26"; //would be same as our made soldier class
+            uniformClass = "MNP_US_MC_Soldier_F"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
             mass = 10; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1186,7 +1186,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformModel = "-";
-            uniformClass = "C_mnp_27"; //would be same as our made soldier class
+            uniformClass = "MNP_US_MC_Soldier_AR"; //would be same as our made soldier class
             containerClass = "Supply100"; //how much it can carry
             mass = 10; //how much it weights
             hiddenSelections[] = {"Camo"};

@@ -6,6 +6,13 @@ class CfgFactionClasses {
         priority = 2;
         side = 1;
     };
+    class MNP_US_MC {
+        displayName = "US Army Multicam";
+        author = "Killoch";
+        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
+        priority = 2;
+        side = 1;
+    };
     class MNP_CA_WD {
         displayName = "Canadian Army Woodland";
         author = "Killoch";
