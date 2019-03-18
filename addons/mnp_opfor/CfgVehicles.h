@@ -354,8 +354,8 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_RU_VDV_DE; // Puts unit under new faction
         author = "Killoch";
-        linkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_O_D : MNP_RU_Soldier_MEDIUM_D{
         class Wounds

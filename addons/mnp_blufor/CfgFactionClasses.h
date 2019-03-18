@@ -1,6 +1,6 @@
 class CfgFactionClasses {
-    class MNP_US_RAN {
-        displayName = "United States Rangers";
+    class MNP_US_ACU {
+        displayName = "US Army ACU";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 2;
