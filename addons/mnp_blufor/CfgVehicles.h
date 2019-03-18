@@ -214,8 +214,8 @@ class CfgVehicles {
         backpack = "B_Carryall_khk";
         MG3_MG
     };
-    // US army Ranger units, UCP -- NOW US ARMY ACU
-    class MNP_USR_Soldier_F : B_Soldier_base_F {
+    // US ARMY ACU
+    class MNP_USACU_Soldier_F : B_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
@@ -235,7 +235,7 @@ class CfgVehicles {
         faction = MNP_US_ACU; // Puts unit under new faction
         author = "Killoch";
     };
-    class MNP_USR_Soldier_AR : B_Soldier_base_F {
+    class MNP_USACU_Soldier_AR : B_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
@@ -256,7 +256,7 @@ class CfgVehicles {
         faction = MNP_US_ACU; // Puts unit under new faction
         author = "Killoch";
     };
-    class MNP_USR_Soldier_MG : MNP_USR_Soldier_F {
+    class MNP_USACU_Soldier_MG : MNP_USR_Soldier_F {
         uniformClass = "MNP_CombatUniform_Ranger_E"; //the uniform item
         class Wounds
         {
@@ -271,7 +271,7 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_ACU", "MNP_Vest_ACU_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_USR_Soldier_M : MNP_USR_Soldier_AR {
+    class MNP_USACU_Soldier_M : MNP_USR_Soldier_AR {
         uniformClass = "MNP_CombatUniform_Ranger_C"; //the uniform item
         class Wounds
         {
@@ -289,12 +289,12 @@ class CfgVehicles {
         faction = MNP_US_ACU; // Puts unit under new faction
         author = "Killoch";
     };
-    class MNP_USR_Soldier_O : MNP_USR_Soldier_AR {
+    class MNP_USACU_Soldier_O : MNP_USR_Soldier_AR {
         M4A1_FTL
         linkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Boonie_ACU", "MNP_Vest_ACU_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_USR_Soldier_AT : MNP_USR_Soldier_MG {
+    class MNP_USACU_Soldier_AT : MNP_USR_Soldier_MG {
         backpack = "MNP_B_ACU_KB";
         M4A1_AT
         linkedItems[] = { "FirstAidKit", "MNP_Helmet_ACU", "MNP_Vest_ACU_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
