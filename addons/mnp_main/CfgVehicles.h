@@ -228,12 +228,6 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
     };
-    class C_mnp_39 : C_mnp_base {
-        uniformClass = "MNP_CombatUniform_China_J";
-        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
-        model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-    };
     class C_mnp_40 : C_mnp_base {
         uniformClass = "MNP_CombatUniform_China_SF";
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};

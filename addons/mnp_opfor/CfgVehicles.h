@@ -112,6 +112,118 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
+    // Peoples Liberation Army units WOODLAND
+    class MNP_CW_Soldier_F : O_Soldier_base_F {
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        class Wounds
+        {
+            tex[] = {};
+            mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
+        };
+        CTAR_RIFLEMAN
+        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLA_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLA_B.paa"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
+    class MNP_CW_Soldier_O : O_Soldier_base_F {
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        model = "\A3\Characters_F\OPFOR\O_officer.p3d";
+        CTAR_FTL
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
+    class MNP_CW_Soldier_AR : O_Soldier_base_F {
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        model = "\A3\Characters_F\OPFOR\O_officer.p3d";
+        backpack = "MNP_B_Carryall_PLA_Basic";
+        CTARS_AR
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
+    class MNP_CW_Soldier_MED : O_Soldier_base_F{
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        model = "\A3\Characters_F\OPFOR\O_officer.p3d";
+        attendant = 1;
+        backpack = "MNP_B_FieldPack_PLA";
+        CTAR_MED
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
+    class MNP_CW_Soldier_RAT : O_Soldier_base_F {
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        model = "\A3\Characters_F\OPFOR\O_officer.p3d";
+        backpack = "MNP_B_Carryall_PLA_Basic";
+        CTAR_AT
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
+    class MNP_CW_Soldier_MG : O_Soldier_base_F{
+        scope = 2;
+        modelSides[] = {3,1,0,2};
+        nakedUniform = "U_BasicBody"; //class for "naked" body
+        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        model = "\A3\Characters_F\OPFOR\O_officer.p3d";
+        genericnames = "AsianMen";
+        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        backpack = "MNP_B_Carryall_PLA_Basic";
+        FNMAGRIS_MG_G
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
+        //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
+        faction = MNP_CH_WD; // Puts unit under new faction
+        author = "Killoch";
+        linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+    };
     // Peoples Liberation Navy units, Marine
     class MNP_CM_Soldier_F : O_Soldier_base_F{
         scope = 2;

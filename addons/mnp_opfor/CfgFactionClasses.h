@@ -6,6 +6,13 @@ class CfgFactionClasses {
         priority = 1;
         side = 2;
     };
+    class MNP_CH_WD {
+        displayName = "Chinese PLA Woodland";
+        author = "Killoch";
+        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
+        priority = 1;
+        side = 2;
+    };
     class MNP_CH_DE {
         displayName = "Chinese PLA Desert";
         author = "Killoch";
