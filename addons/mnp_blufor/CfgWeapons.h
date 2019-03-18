@@ -1171,7 +1171,7 @@ class cfgWeapons {
             modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "C_mnp_26"; //would be same as our made soldier class
-            containerClass = "C_mnp_26"; //how much it can carry
+            containerClass = "Supply100"; //how much it can carry
             mass = 10; //how much it weights
             hiddenSelections[] = {"Camo"};
         };
