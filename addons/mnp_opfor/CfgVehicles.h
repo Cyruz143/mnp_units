@@ -452,8 +452,8 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKC.paa"};
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
-        linkedItems[] = {"MNP_Helmet_SOVC_NK", "MNP_Vest_OD", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_SOVC_NK", "MNP_Vest_OD", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"CUP_H_SLA_Helmet", "MNP_Vest_OD", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "MNP_Vest_OD", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_KOR_WD; // Puts unit under new faction
         author = "Killoch";
     };
@@ -468,8 +468,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKC.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         AK74_FTL
-        linkedItems[] = {"MNP_Helmet_SOVC_NK", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_SOVC_NK", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_KOR_WD; // Puts unit under new faction
         author = "Killoch";
     };
