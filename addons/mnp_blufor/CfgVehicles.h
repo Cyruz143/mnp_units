@@ -227,7 +227,7 @@ class CfgVehicles {
         };
         M4A1_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
         linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -248,7 +248,7 @@ class CfgVehicles {
         M249pip1_AR
         backpack = "B_Carryall_khk";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USR.paa"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
