@@ -657,12 +657,12 @@ class CfgVehicles {
         uniformClass = "MNP_CombatUniform_6CO"; //the uniform item
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         FAL_RIFLEMAN
-        linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
-        respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
+        linkedItems[] = {"MNP_Helmet_PAGST_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
-        faction = MNP_Irregulars; // Puts unit under new faction
+        faction = MNP_IRG_DE; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_US6co_Soldier_O : B_Soldier_base_F {
@@ -674,9 +674,9 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         FAL_FTL
-        linkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
-        respawnLinkedItems[] = {"MNP_MC_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
-        faction = MNP_Irregulars; // Puts unit under new faction
+        linkedItems[] = {"MNP_Helmet_PAGST_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_US6co", "MNP_V_OD_Harness", "ItemMap", "ItemCompass", "ItemWatch", "itemRadio"};
+        faction = MNP_IRG_DE; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_US6Co_Soldier_AR : MNP_US6co_Soldier_F{

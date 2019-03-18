@@ -90,7 +90,7 @@ class CfgFactionClasses {
         priority = 6;
         side = 1;
     };
-    class MNP_Irregulars {
+    class MNP_IRG_DE {
         displayName = "Desert Irregulars";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
