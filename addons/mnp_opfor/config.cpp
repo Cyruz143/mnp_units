@@ -1,7 +1,7 @@
 #include "\x\mnp_units\addons\mnp_main\script_component.hpp"
 
 class CfgPatches {
-    class MNP_OPFOR_CONFIG {
+    class mnp_opfor {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.90;
