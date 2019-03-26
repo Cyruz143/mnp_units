@@ -832,7 +832,7 @@ class CfgVehicles {
     };
     class MNP_B_WB_AP : B_AssaultPack_blk{
         scope = 2;
-        displayName = "Assault Pack (WB)";
+        displayName = "Assault Pack (Winter)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_WB_AP.paa"};
         class TransportMagazines {};
@@ -856,7 +856,7 @@ class CfgVehicles {
     };
     class MNP_B_WB_KB : B_Kitbag_rgr{
         scope = 2;
-        displayName = "Kitbag (WB)";
+        displayName = "Kitbag (Winter)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_WB_KB.paa"};
         class TransportMagazines {};
@@ -864,17 +864,17 @@ class CfgVehicles {
     };
     class B_Carryall_Base;
     class B_FieldPack_Base;
-    class MNP_B_WD_FP : B_FieldPack_Base{
+    class MNP_B_WD_FP : B_FieldPack_Base {
         scope = 2;
-        displayName = "Field Pack (WD)";
+        displayName = "Field Pack (Woodland)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\FP_USW.paa"};
         class TransportMagazines {};
         class TransportItems {};
     };
-    class MNP_B_WD_CA : B_Carryall_Base{
+    class MNP_B_WD_CA : B_Carryall_Base {
         scope = 2;
-        displayName = "Field Pack (CA)";
+        displayName = "Carryall Backpack (Woodland)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\CA_USW.paa"};
         class TransportMagazines {};

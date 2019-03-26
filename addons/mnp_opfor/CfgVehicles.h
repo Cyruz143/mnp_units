@@ -928,7 +928,7 @@ class CfgVehicles {
         {};
     };
     class MNP_B_RUW_CA : MNP_B_RU1_CA {
-        displayName = "Carryall Backpack (RUW)";
+        displayName = "Carryall Backpack (Winter)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RUW_CA.paa"};
         class TransportMagazines
@@ -956,7 +956,7 @@ class CfgVehicles {
         {};
     };
     class MNP_B_RUW_FP : MNP_B_RU2_FP {
-        displayName = "Field Pack (RUW)";
+        displayName = "Field Pack (Winter)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RUW_FP.paa"};
         class TransportMagazines
