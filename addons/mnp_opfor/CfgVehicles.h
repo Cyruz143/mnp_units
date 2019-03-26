@@ -66,7 +66,7 @@ class CfgVehicles {
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
-        backpack = "MNP_B_FieldPack_PLA";
+        backpack = "MNP_B_FieldPack_PLA_Basic";
         CTAR_MED
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
@@ -864,198 +864,104 @@ class CfgVehicles {
         backpack = "B_FieldPack_cbr";
         G3KA4_MED
     };
-    // ______________---------------------------------__________________---------------------------------_________________________---------------------------------
+
     class B_Carryall_Base;
     class B_FieldPack_Base;
-    class B_FieldPack_cbr_AT;
-    class MNP_B_FieldPack_PLA : B_FieldPack_Base{
-        scope = 1;
+    class MNP_B_FieldPack_PLA_Basic : B_FieldPack_Base {
+        scope = 2;
+        displayName = "Field Pack (PLA)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Pack_CN.paa"};
         class TransportMagazines
-        {
-            class _xx_30Rnd_65x39_caseless_green
-            {
-                magazine = "30Rnd_65x39_caseless_green";
-                count = 7;
-            };
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_Carryall_PLA_AR: B_Carryall_Base{
-        scope = 1;
+    class MNP_B_Carryall_PLA_Basic : B_Carryall_Base {
+        scope = 2;
+        displayName = "Carryall Backpack (PLA)";
+        hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Carry_CN.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
         {
         };
     };
-    class MNP_B_Carryall_PLA_Medic: B_Carryall_Base{
-        scope = 1;
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Carry_CN.paa"};
-        class TransportMagazines
-        {
-            class _xx_30Rnd_65x39_caseless_green
-            {
-                magazine = "30Rnd_65x39_caseless_green";
-                count = 2;
-            };
-            class _xx_SmokeShell
-            {
-                magazine = "SmokeShell";
-                count = 4;
-            };
-        };
-        class TransportItems
-        {
-            class _xx_Medikit{
-                name = "Medikit";
-                count = 1;
-            };
-            class _xx_FirstAidKit{
-                name = "FirstAidKit";
-                count = 4;
-            };
-        };
-    };
-    class MNP_B_FieldPack_PLA_AT : B_FieldPack_Base{
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Pack_CN.paa"};
-        class TransportMagazines
-        {
-            class _xx_RPG32_F
-            {
-                magazine = "RPG32_F";
-                count = 1;
-            };
-            class _xx_RPG32_HE_F
-            {
-                magazine = "RPG32_HE_F";
-                count = 1;
-            };
-        };
-        class TransportItems
-        {
-        };
-    };
-    class MNP_B_FieldPack_PLA_D : MNP_B_FieldPack_PLA{
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Pack_CN_D.paa"};
-    };
-    class MNP_B_Carryall_PLA_AR_D : MNP_B_Carryall_PLA_AR{
+    class MNP_B_Carryall_PLA_Basic_D : B_Carryall_Base {
+        scope = 2;
+        displayName = "Carryall Backpack (PLA Desert)";
+        hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Carry_CN_D.paa"};
+        class TransportMagazines
+        {};
+        class TransportItems
+        {};
     };
-    class MNP_B_Carryall_PLA_Medic_D : MNP_B_Carryall_PLA_Medic{
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Carry_CN_D.paa"};
-    };
-    class MNP_B_FieldPack_PLA_AT_D : MNP_B_FieldPack_PLA_AT{
+    class MNP_B_FieldPack_PLA_Basic_D : B_FieldPack_Base {
+        scope = 2;
+        displayName = "Field Pack (PLA Desert)";
+        hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\Pack_CN_D.paa"};
-    };
-    class MNP_B_FieldPack_PLA_Basic : MNP_B_FieldPack_PLA{
-        scope = 2;
-        modelSides[] = {3,1,0,2};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_Carryall_PLA_Basic : MNP_B_Carryall_PLA_AR{
+    class MNP_B_RU1_CA : B_Carryall_Base {
         scope = 2;
-        modelSides[] = {3,1,0,2};
-        class TransportMagazines
-        {
-        };
-        class TransportItems
-        {
-        };
-    };
-    class MNP_B_FieldPack_PLA_Basic_D : MNP_B_FieldPack_PLA_D{
-        scope = 2;
-        modelSides[] = {3,1,0,2};
-        class TransportMagazines
-        {
-        };
-        class TransportItems
-        {
-        };
-    };
-    class MNP_B_Carryall_PLA_Basic_D : MNP_B_Carryall_PLA_AR_D{
-        scope = 2;
-        modelSides[] = {3,1,0,2};
-        class TransportMagazines
-        {
-        };
-        class TransportItems
-        {
-        };
-    };
-    class MNP_B_RU1_CA : B_Carryall_Base{
-        scope = 2;
-        modelSides[] = {3,1,0,2};
+        displayName = "Carryall Backpack (RU1)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU1_CA.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_RU2_CA : MNP_B_RU1_CA{
+    class MNP_B_RU2_CA : MNP_B_RU1_CA  {
+        displayName = "Carryall Backpack (RU2)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU2_CA.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_RUW_CA : MNP_B_RU1_CA{
+    class MNP_B_RUW_CA : MNP_B_RU1_CA {
+        displayName = "Carryall Backpack (RUW)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RUW_CA.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_RU2_FP : B_FieldPack_Base{
+    class MNP_B_RU2_FP : B_FieldPack_Base {
         scope = 2;
-        modelSides[] = {3,1,0,2};
+        displayName = "Field Pack (RU2)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU2_FP.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_RU1_FP : MNP_B_RU2_FP{
+    class MNP_B_RU1_FP : MNP_B_RU2_FP {
+        displayName = "Field Pack (RU1)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RU1_FP.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
-    class MNP_B_RUW_FP : MNP_B_RU2_FP{
-        armor = 2;
+    class MNP_B_RUW_FP : MNP_B_RU2_FP {
+        displayName = "Field Pack (RUW)";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_RUW_FP.paa"};
         class TransportMagazines
-        {
-        };
+        {};
         class TransportItems
-        {
-        };
+        {};
     };
 };
