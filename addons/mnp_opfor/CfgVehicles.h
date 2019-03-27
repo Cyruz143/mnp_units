@@ -767,7 +767,7 @@ class CfgVehicles {
         attendant = 1;
         AK74M_MED
     };
-    // IRGC
+    // Iran Army
     class MNP_IR_IRGC_Soldier_F : O_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
@@ -784,29 +784,34 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_IRN; // Puts unit under new faction
-        linkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_IR_IRGC_Soldier_AR : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Carryall_cbr";
         MG3_AR
     };
     class MNP_IR_IRGC_Soldier_AT : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Carryall_cbr";
         G3KA4_AT
     };
     class MNP_IR_IRGC_Soldier_MG : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_Kitbag_cbr";
+        backpack = "B_Carryall_cbr";
         PKM_MG
     };
     class MNP_IR_IRGC_Soldier_TL : MNP_IR_IRGC_Soldier_F{
+        uniformClass = "MNP_CombatUniform_IR_IRGC_Med_B"; //the uniform item
+        model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
+        linkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         G3_FTL
     };
     class MNP_IR_IRGC_Soldier_MD : MNP_IR_IRGC_Soldier_F{
-        backpack = "B_FieldPack_cbr";
+        backpack = "B_Kitbag_tan";
         attendant = 1;
         G3KA4_MED
     };
+    // fucker
     class MNP_IR_IRGC_Soldier_MEDIUM : O_Soldier_base_F{
         scope = 2;
         modelSides[] = {3,1,0,2};
