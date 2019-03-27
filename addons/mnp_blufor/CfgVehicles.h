@@ -364,7 +364,7 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_TS_A"; //the uniform item
+        uniformClass = "MNP_CombatUniform_Ranger_A"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -375,8 +375,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_TS.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-        linkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_1", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -384,7 +384,7 @@ class CfgVehicles {
         scope = 2;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_TS_B"; //the uniform item
+        uniformClass = "MNP_CombatUniform_Ranger_B"; //the uniform item
         class Wounds
         {
             tex[] = {};
@@ -396,8 +396,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_TS.paa"};
         // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-        linkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_TS", "MNP_Vest_TS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_2", "NVGoggles", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_US_RAN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -405,16 +405,16 @@ class CfgVehicles {
         MK17_FTL
     };
     class MNP_TS_Soldier_MG : MNP_TS_Soldier_AR{
-        backpack = "MNP_B_ACU_KB";
+        backpack = "B_Carryall_khk";
         M240_MG
     };
     class MNP_TS_Soldier_AT : MNP_TS_Soldier_F{
-        backpack = "MNP_B_ACU_KB";
+        backpack = "B_Carryall_khk";
         MK17_AT
     };
     class MNP_TS_Soldier_M : MNP_TS_Soldier_AR{
         attendant = 1;
-        backpack = "MNP_B_ACU_AP";
+        backpack = "B_AssaultPack_khk";
         MK17_MED
     };
     // Australia
