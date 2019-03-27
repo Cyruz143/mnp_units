@@ -93,10 +93,10 @@ class CfgVehicles {
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
     };
     class C_mnp_15 : C_mnp_base {
-        uniformClass = "MNP_CombatUniform_IR_BSJ_Med_B";
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
+        uniformClass = "MNP_CombatUniform_IR_IRGC_Med_B"; //the uniform item
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
     };
     class C_mnp_16 : C_mnp_base {
         uniformClass = "MNP_CombatUniform_IR_BSJ_Med";
@@ -105,10 +105,10 @@ class CfgVehicles {
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
     };
     class C_mnp_17 : C_mnp_base {
-        uniformClass = "MNP_CombatUniform_IR_BSJ_A";
-        hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
-        model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        uniformClass = "MNP_CombatUniform_IR_IRGC_Med"; //the uniform item
+        hiddenSelections[] = {"Camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
+        model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
     };
     class C_mnp_18 : C_mnp_base {
         uniformClass = "MNP_CombatUniform_ASA_GC3_B";

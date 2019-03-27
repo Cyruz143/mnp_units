@@ -1588,7 +1588,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "C_mnp_17"; //would be same as our made soldier class
+            uniformClass = "MNP_IR_IRGC_Soldier_MEDIUM"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1622,7 +1622,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "C_mnp_15"; //would be same as our made soldier class
+            uniformClass = "MNP_IR_IRGC_Soldier_Med_O"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1656,7 +1656,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_IR_IRGC_Soldier_MEDIUM"; //would be same as our made soldier class
+            uniformClass = "C_mnp_17"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
@@ -1673,7 +1673,7 @@ class cfgWeapons {
         class ItemInfo : UniformItem {
             modelSides[] = {6};
             uniformmodel = "-";
-            uniformClass = "MNP_IR_IRGC_Soldier_TL"; //would be same as our made soldier class
+            uniformClass = "C_mnp_15"; //would be same as our made soldier class
             containerClass = "Supply60"; //how much it can carry
             mass = 20; //how much it weights
             hiddenSelections[] = {"Camo"};
