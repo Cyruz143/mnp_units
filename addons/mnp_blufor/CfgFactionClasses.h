@@ -83,7 +83,7 @@ class CfgFactionClasses {
         priority = 7;
         side = 1;
     };
-    class MNP_ISR {
+    class MNP_IDF {
         displayName = "Israeli Defence Forces";
         author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";

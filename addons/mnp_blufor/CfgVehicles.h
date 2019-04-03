@@ -686,7 +686,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
         linkedItems[] = {"H_Cap_oli_hs", "MNP_Vest_ISRKahki_1" , "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Cap_oli_hs", "MNP_Vest_ISRKahki_1" , "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_ISR; // Puts unit under new faction
+        faction = MNP_IDF; // Puts unit under new faction
         author = "Killoch";
     };
     class MNP_ISR_MG : MNP_ISR_A{
@@ -695,7 +695,7 @@ class CfgVehicles {
     };
     class MNP_ISR_AR : MNP_ISR_A{
         backpack = "B_Kitbag_rgr";
-        MK200_AR
+        M249pip4_AR
     };
     class MNP_ISR_AT : MNP_ISR_A{
         backpack = "B_Kitbag_rgr_MRAWS";

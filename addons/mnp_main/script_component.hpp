@@ -433,10 +433,10 @@ MG: 0 frags, 2 boxes
 
 #define TRG_AT \
     displayName = "Rifleman (AT)"; \
-    weapons[] = {"arifle_TRG20_F", "launch_MRAWS_green_rail_F", "Throw", "put"}; \
-    respawnweapons[] = {"arifle_TRG20_F", "launch_MRAWS_green_rail_F", "Throw", "put"}; \
-    magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "MRAWS_HEAT_F"}; \
-    respawnmagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "MRAWS_HEAT_F"};
+    weapons[] = {"arifle_TRG20_F", "CUP_launch_Mk153Mod0", "Throw", "put"}; \
+    respawnweapons[] = {"arifle_TRG20_F", "CUP_launch_Mk153Mod0", "Throw", "put"}; \
+    magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "CUP_SMAW_HEAA_M"}; \
+    respawnmagazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag", "CUP_SMAW_HEAA_M"};
 
 #define AK74_AT \
     displayName = "Rifleman (AT)"; \
