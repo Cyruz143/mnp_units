@@ -484,19 +484,19 @@ class CfgVehicles {
         author = "Killoch";
     };
     class MNP_NOR_D_Soldier_AR : MNP_NOR_D_Soldier_O{
-        backpack = "B_Carryall_mcamo";
+        backpack = "B_Carryall_cbr";
         M249pip1_AR
     };
     class MNP_NOR_D_Soldier_AT : MNP_NOR_D_Soldier_O{
-        backpack = "B_Carryall_mcamo";
+        backpack = "B_Carryall_cbr";
         HK416_AT2
     };
     class MNP_NOR_D_Soldier_MG : MNP_NOR_D_Soldier_O{
-        backpack = "B_Carryall_mcamo";
+        backpack = "B_Carryall_cbr";
         FNMAGRIS_MG
     };
     class MNP_NOR_D_Soldier_MD : MNP_NOR_D_Soldier_O{
-        backpack = "B_AssaultPack_mcamo";
+        backpack = "B_AssaultPack_cbr";
         attendant = 1;
         HK416_MED
     };

@@ -47,7 +47,7 @@ class CfgVehicles {
         M240_MG
     };
     class MNP_Canada_Soldier_M : MNP_Canada_Soldier_F{
-        backpack = "B_AssaultPack_tna_F";
+        backpack = "B_AssaultPack_sgg";
         attendant = 1;
         M16A4_MED
     };
@@ -144,20 +144,20 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Germany", "MNP_Vest_Germany_2", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_GER_Soldier_AR : MNP_GER_Soldier_S{
-        backpack = "MNP_B_RU1_CA";
+        backpack = "B_Kitbag_cbr";
         MG3_AR
     };
     class MNP_GER_Soldier_AT : MNP_GER_Soldier_S{
-        backpack = "MNP_B_RU1_CA";
+        backpack = "B_Kitbag_cbr";
         G36_AT
     };
     class MNP_GER_Soldier_MED : MNP_GER_Soldier_F{
-        backpack = "MNP_B_RU1_CA";
+        backpack = "B_AssaultPack_cbr";
         attendant = 1;
         G36_MED
     };
     class MNP_GER_Soldier_MG : MNP_GER_Soldier_F{
-        backpack = "MNP_B_RU1_CA";
+        backpack = "B_Kitbag_cbr";
         MG3_MG
     };
     // German Desert
@@ -206,7 +206,7 @@ class CfgVehicles {
         G36_AT
     };
     class MNP_GER_Soldier_MED_D : MNP_GER_Soldier_DF{
-        backpack = "B_AssaultPack_khk";
+        backpack = "B_AssaultPack_cbr";
         attendant = 1;
         G36_MED
     };
@@ -621,7 +621,7 @@ class CfgVehicles {
         AK74_FTL
     };
     class MNP_UKR_MD : MNP_UKR_A{
-        backpack = "B_AssaultPack_khk";
+        backpack = "B_FieldPack_khk";
         attendant = 1;
         AK74_MED
     };
@@ -743,11 +743,11 @@ class CfgVehicles {
         M249pip1_AR
     };
     class MNP_US6Co_Soldier_AT : MNP_US6co_Soldier_O{
-        backpack = "B_FieldPack_cbr";
+        backpack = "B_Kitbag_cbr";
         FAL_AT
     };
     class MNP_US6Co_Soldier_MG : MNP_US6co_Soldier_F{
-        backpack = "B_FieldPack_cbr";
+        backpack = "B_Kitbag_cbr";
         FNMAG_MG
     };
     class MNP_US6Co_Soldier_MD : MNP_US6co_Soldier_O{

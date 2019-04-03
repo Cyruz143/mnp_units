@@ -271,7 +271,7 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_ROK_KB";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
@@ -290,7 +290,7 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_ROK_AP";
+        backpack = "MNP_B_FieldPack_PLA_Basic";
         CTAR_MED
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
@@ -308,7 +308,7 @@ class CfgVehicles {
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        backpack = "MNP_B_ROK_KB";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
@@ -326,7 +326,7 @@ class CfgVehicles {
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         genericnames = "AsianMen";
         identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
-        backpack = "MNP_B_ROK_KB";
+        backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
@@ -673,25 +673,25 @@ class CfgVehicles {
     class MNP_RO3_Soldier_AR : MNP_RO3_Soldier_F{
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_CA";
+        backpack = "CUP_B_SLA_Medicbag";
         RPK74_AR
     };
     class MNP_RO3_Soldier_AT : MNP_RO3_Soldier_O{
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_CA";
+        backpack = "CUP_B_SLA_Medicbag";
         AK74S_AT
     };
     class MNP_RO3_Soldier_MG : MNP_RO3_Soldier_O{
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_CA";
+        backpack = "CUP_B_SLA_Medicbag";
         PKM_MG
     };
     class MNP_RO3_Soldier_M : MNP_RO3_Soldier_F{
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_Light", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_Light", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        backpack = "MNP_B_RU2_FP";
+        backpack = "CUP_B_SLA_Medicbag";
         attendant = 1;
         AK74SU_MED
     };
