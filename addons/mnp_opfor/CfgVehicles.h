@@ -493,8 +493,8 @@ class CfgVehicles {
         backpack = "B_AssaultPack_cbr";
         AK74U_MED
         attendant = 1;
-        linkedItems[] = {"MNP_Boonie_RU_D", "MNP_Vest_RU_D1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Boonie_RU_D", "MNP_Vest_RU_D1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Boonie_RU_D", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Boonie_RU_D", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_AT_D : MNP_RU_Soldier_MEDIUM_D{
         backpack = "B_Kitbag_cbr";
