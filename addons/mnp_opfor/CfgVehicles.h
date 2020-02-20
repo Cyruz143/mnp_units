@@ -646,6 +646,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RO3_rg"; //the uniform item
+        identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","Head_Asian","NoGlasses"};
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK74S_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -661,6 +662,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RO3_Sh"; //the uniform item
+        identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","Head_Asian","NoGlasses"};
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RO3.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
