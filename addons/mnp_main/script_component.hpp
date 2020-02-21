@@ -1,11 +1,46 @@
-/* -- Loudout guide
-Rifleman: 1 frag, 3 mags
-FTL: 1 frag, 1 white smoke, 3 mags, 2 203s
-AR: 1 frag, 3 boxes
-AT: 0 frags, 3 mags, 1 AT round
-MED: 0 frags, 1 blue smoke, 3 mags
-MG: 0 frags, 2 boxes
-*/
+// IndentityTypes
+#define ARAB_MEN \
+    genericnames = "TakistaniMen";\
+    identityTypes[] = {"LanguagePER_F","Head_TK","NoGlasses"};
+
+#define ARAB_MEN_GOGGLES \
+    genericnames = "TakistaniMen";\
+    identityTypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+
+#define ASIAN_MEN \
+    genericnames = "ChineseMen";\
+    identityTypes[] = {"LanguageCHI_F","Head_Asian","NoGlasses"};
+
+#define ASIAN_MEN_GOGGLES \
+    genericnames = "ChineseMen";\
+    identityTypes[] = {"LanguageCHI_F","Head_Asian","G_NATO_default"};
+
+#define EURO_MEN \
+    genericnames = "NATOMen";\
+    identityTypes[] = {"LanguageENG_F","Head_Euro","Head_NATO","NoGlasses"};
+
+#define EURO_MEN_GOGGLES \
+    genericnames = "NATOMen";\
+    identityTypes[] = {"LanguageENG_F","Head_Euro","Head_NATO","G_NATO_default"};
+
+#define RUSSIAN_MEN \
+    genericnames = "RussianMen";\
+    identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","NoGlasses"};
+
+#define RUSSIAN_MEN_GOGGLES \
+    genericnames = "RussianMen";\
+    identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","CUP_G_RU"};
+
+/* 
+ * Loudout guide:
+ * ------------------------
+ * Rifleman: 1 frag, 3 mags
+ * FTL: 1 frag, 1 white smoke, 3 mags, 2 203s
+ * AR: 1 frag, 3 boxes
+ * AT: 0 frags, 3 mags, 1 AT round
+ * MED: 0 frags, 1 blue smoke, 3 mags
+ * MG: 0 frags, 2 boxes
+ */
 
 //Riflemen
 #define M4A1_RIFLEMAN \

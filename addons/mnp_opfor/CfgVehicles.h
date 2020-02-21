@@ -7,8 +7,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         class Wounds
         {
             tex[] = {};
@@ -27,8 +26,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -44,8 +42,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
@@ -62,8 +59,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
         backpack = "MNP_B_FieldPack_PLA_Basic";
@@ -81,8 +77,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
@@ -100,8 +95,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China"; //the uniform item
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -119,8 +113,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         class Wounds
         {
             tex[] = {};
@@ -139,8 +132,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -156,8 +148,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
@@ -174,8 +165,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
         backpack = "MNP_B_FieldPack_PLA_Basic";
@@ -193,8 +183,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
@@ -212,8 +201,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -231,8 +219,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         class Wounds
         {
             tex[] = {};
@@ -252,8 +239,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
@@ -268,8 +254,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTARS_AR
@@ -287,8 +272,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
         attendant = 1;
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_FieldPack_PLA_Basic";
         CTAR_MED
@@ -305,8 +289,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
         CTAR_AT
@@ -324,8 +307,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
         FNMAGRIS_MG_G
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -348,8 +330,7 @@ class CfgVehicles {
             tex[] = {};
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
         };
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAD_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAD_B.paa"};
@@ -363,8 +344,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -380,8 +360,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
         CTARS_AR
@@ -398,8 +377,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_FieldPack_PLA_Basic_D";
         attendant = 1;
@@ -417,8 +395,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
         CTAR_AT
@@ -435,8 +412,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
         FNMAGRIS_MG_G
@@ -454,6 +430,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RU_Med_D"; //the uniform item
+        RUSSIAN_MEN_GOGGLES
         class Wounds
         {
             tex[] = {};
@@ -506,8 +483,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NKR_rg"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK47_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -523,8 +499,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NKR_Sh"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKR.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -557,8 +532,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NKC_rg"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK74_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -574,8 +548,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NKC_Sh"; //the uniform item
-        genericnames = "AsianMen";
-        identityTypes[] = {"languagechi_f","Head_Asian","NoGlasses"};
+        ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKC.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -608,6 +581,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Russia_arctic"; //the uniform item
+        RUSSIAN_MEN_GOGGLES
         model = "\A3\Characters_F\OPFOR\O_soldier_01.p3d";
         KATIBA_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -646,7 +620,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RO3_rg"; //the uniform item
-        identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","Head_Asian","NoGlasses"};
+        RUSSIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK74S_RIFLEMAN
         hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -662,7 +636,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RO3_Sh"; //the uniform item
-        identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","Head_Asian","NoGlasses"};
+        RUSSIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RO3.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
         model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -704,6 +678,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_DPR_A"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        RUSSIAN_MEN
         class Wounds
         {
             tex[] = {};
@@ -744,6 +719,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_DPR_B"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        RUSSIAN_MEN
         class Wounds
         {
             tex[] = {};
@@ -784,6 +760,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_IR_IRGC_A"; //the uniform item
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        ARAB_MEN
         class Wounds
         {
             tex[] = {};
@@ -830,6 +807,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+        ARAB_MEN_GOGGLES
         class Wounds
         {
             tex[] = {};
