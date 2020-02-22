@@ -7,6 +7,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Ireland"; //the uniform item
         AUGA3_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -22,6 +23,7 @@ class CfgVehicles {
         uniformClass = "MNP_CombatUniform_Ireland_S"; //the uniform item
         backpack = "B_Carryall_oli";
         FNMAG_MG
+        EURO_MEN_GOGGLES
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire.paa"};
@@ -62,6 +64,7 @@ class CfgVehicles {
         uniformClass = "MNP_CombatUniform_Ireland_D"; //the uniform item
         author = "Killoch";
         AUGA3_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire_D.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -77,6 +80,7 @@ class CfgVehicles {
         backpack = "B_Carryall_cbr";
         author = "Killoch";
         FNMAG_MG
+        EURO_MEN_GOGGLES
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Ire_D.paa"};
@@ -121,6 +125,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_LVM_WD; // Puts unit under new faction
         AKME_FTL
+        RUSSIAN_MEN
         linkedItems[] = {"H_Beret_blk", "V_TacVest_camo", "ItemWatch"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_camo", "ItemWatch"};
     };
@@ -151,6 +156,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_LVM_WD; // Puts unit under new faction
         RPK47_AR
+        RUSSIAN_MEN
         linkedItems[] = { "MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -162,6 +168,7 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_Bedroll";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_MED
+        RUSSIAN_MEN
         attendant = 1;
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\smock_t1_co.paa","\x\mnp_units\addons\mnp_main\data\smocks_strepII_co.paa"};
@@ -178,6 +185,7 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_Khaki";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_AT
+        RUSSIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa", "\x\mnp_units\addons\mnp_main\data\smocks_strepI_co.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
@@ -201,6 +209,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_LVM_DE; // Puts unit under new faction
         AKME_FTL
+        RUSSIAN_MEN
         linkedItems[] = {"H_Beret_blk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -216,6 +225,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_LVM_DE; // Puts unit under new faction
         PKM_MG
+        RUSSIAN_MEN
         linkedItems[] = {"H_ShemagOpen_khk","V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_ShemagOpen_khk","V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -231,6 +241,7 @@ class CfgVehicles {
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_LVM_DE; // Puts unit under new faction
         RPK47_AR
+        RUSSIAN_MEN
         linkedItems[] = { "H_ShemagOpen_khk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = { "H_ShemagOpen_khk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -242,6 +253,7 @@ class CfgVehicles {
         backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
         AKME_MED
+        RUSSIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = { "\x\mnp_units\addons\mnp_main\data\C_LVM_D6.paa","\x\mnp_units\addons\mnp_main\data\C_LVM_D4.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
@@ -277,6 +289,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_A"; //the uniform item
         RK62_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_T.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -291,6 +304,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Fin_B"; //the uniform item
         RK62_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_T.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
@@ -323,6 +337,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_A"; //the uniform item
         RK62_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_A.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -337,6 +352,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Finarctic_B"; //the uniform item
         RK62_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_FIN_A.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
@@ -369,6 +385,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_A"; //the uniform item
         AUGA3_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -383,6 +400,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NZ_B"; //the uniform item
         AUGA3_FTL
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NZ.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
@@ -415,6 +433,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_A"; //the uniform item
         HK416_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -429,6 +448,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_B"; //the uniform item
         HK416_FTL
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
@@ -461,6 +481,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_A"; //the uniform item
         HK416_RIFLEMAN
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
@@ -475,6 +496,7 @@ class CfgVehicles {
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_NOR_D_B"; //the uniform item
         HK416_FTL
+        EURO_MEN_GOGGLES
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NOR_D.paa"};
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
