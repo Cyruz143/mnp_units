@@ -25,6 +25,9 @@ class CfgPatches {
 };
 
 #include "script_component.hpp"
-#include "CfgBackpacks.h"
 #include "CfgFactionClasses.h"
-#include "CfgVehicles.h"
+
+class CfgVehicles {
+    #include "CfgBackpacks.h"
+    #include "CfgPlaceholder.h"
+};
