@@ -331,25 +331,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -370,25 +370,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -409,25 +409,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -448,25 +448,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -488,25 +488,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -527,25 +527,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -566,25 +566,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -605,25 +605,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -735,25 +735,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -774,25 +774,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -1276,34 +1276,28 @@ class cfgWeapons {
             mass = 30;
             class HitpointsProtectionInfo
             {
-                class Neck
-                {
-                    hitpointName = "HitNeck";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 15;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -1321,34 +1315,28 @@ class cfgWeapons {
             mass = 30;
             class HitpointsProtectionInfo
             {
-                class Neck
-                {
-                    hitpointName = "HitNeck";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 15;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -1366,34 +1354,28 @@ class cfgWeapons {
             mass = 30;
             class HitpointsProtectionInfo
             {
-                class Neck
-                {
-                    hitpointName = "HitNeck";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 15;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 15;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -1748,25 +1730,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
@@ -1787,25 +1769,25 @@ class cfgWeapons {
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.2;
+                    armor = 16;
+                    PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.2;
+                    armor = 16;
+                    passThrough = 0.3;
                 };
-                class Body
+                class Neck
                 {
-                    hitpointName = "HitBody";
-                    passThrough = 0.2;
+                    hitpointName = "HitNeck";
+                    passThrough = 0.3;
                 };
             };
             hiddenSelections[] = {"camo"};
