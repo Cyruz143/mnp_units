@@ -152,9 +152,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -191,9 +191,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -285,9 +285,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -324,9 +324,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -418,9 +418,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -457,9 +457,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -553,9 +553,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -592,9 +592,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -688,9 +688,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -727,9 +727,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -892,9 +892,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -931,9 +931,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1057,9 +1057,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1096,9 +1096,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1222,9 +1222,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1261,9 +1261,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1377,9 +1377,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1416,9 +1416,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1488,9 +1488,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1527,9 +1527,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1628,9 +1628,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1667,9 +1667,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1795,9 +1795,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1834,9 +1834,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1956,9 +1956,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -1995,9 +1995,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2069,9 +2069,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2108,9 +2108,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2281,9 +2281,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2320,9 +2320,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2390,9 +2390,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2429,9 +2429,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2507,9 +2507,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2546,9 +2546,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2585,9 +2585,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2624,9 +2624,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2746,9 +2746,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2785,9 +2785,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2850,9 +2850,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2891,9 +2891,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2929,9 +2929,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -2967,9 +2967,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3039,9 +3039,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3078,9 +3078,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3164,9 +3164,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3203,9 +3203,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3548,9 +3548,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
@@ -3587,9 +3587,9 @@ class cfgWeapons {
                     armor = 16;
                     passThrough = 0.3;
                 };
-                class Neck
+                class Body
                 {
-                    hitpointName = "HitNeck";
+                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };
