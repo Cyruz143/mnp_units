@@ -34,20 +34,6 @@ class CfgFactionClasses {
         priority = 3;
         side = 1;
     };
-    class MNP_GE_WD {
-        displayName = "German Bundeswehr";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 4;
-        side = 1;
-    };
-    class MNP_GE_DE {
-        displayName = "German Bundeswehr Desert";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 4;
-        side = 1;
-    };
     class MNP_AUS {
         displayName = "Australian Army (Auscam)";
         author = "Killoch";
