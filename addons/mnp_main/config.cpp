@@ -28,6 +28,7 @@ class CfgPatches {
 #include "CfgFactionClasses.h"
 
 class CfgVehicles {
+    #include "gear\headgear.h"
     #include "CfgBackpacks.h"
     #include "CfgPlaceholder.h"
 };

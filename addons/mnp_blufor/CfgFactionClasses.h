@@ -1,93 +1,59 @@
 class CfgFactionClasses {
-    class MNP_US_ACU {
-        displayName = "United States Army ACU";
+    class MNP_BLU_FC_Base {
+        scope = 1;
         author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 2;
         side = 1;
-    };
-    class MNP_US_MC {
-        displayName = "United States Army Multicam";
-        author = "Killoch";
         icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 2;
-        side = 1;
     };
-    class MNP_CA_WD {
+
+    class MNP_CA_WD : MNP_BLU_FC_Base {
+        scope =2;
         displayName = "Canadian Army Woodland";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;
-        side = 1;
     };
-    class MNP_CA_DE {
+    class MNP_CA_DE : MNP_BLU_FC_Base {
+        scope =2;
         displayName = "Canadian Army Desert";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 5;
-        side = 1;
     };
-    class MNP_US_RAN {
-        displayName = "United States Army Rangers";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 3;
-        side = 1;
-    };
-    class MNP_AUS {
+    class MNP_AUS : MNP_BLU_FC_Base {
+        scope =2;
         displayName = "Australian Army (Auscam)";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 6;
-        side = 1;
     };
-    class MNP_ROK {
-        displayName = "Republic of Korea";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 7;
-        side = 1;
-    };
-    class MNP_USMCA_SN {
-        displayName = "USMC Snow";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 1;
-        side = 1;
-    };
-    class MNP_UKR {
-        displayName = "Ukrainian Armed Forces";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 4;
-        side = 1;
-    };
-    class MNP_ROK_SEAL {
-        displayName = "Republic of Korea Seals";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 7;
-        side = 1;
-    };
-    class MNP_IDF {
-        displayName = "Israeli Defence Forces";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
-        priority = 3;
-        side = 1;
-    };
-    class MNP_AMCU {
+    class MNP_AMCU : MNP_BLU_FC_Base {
+        scope =2;
         displayName = "Australian Multicam";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
         priority = 6;
-        side = 1;
     };
-    class MNP_IRG_DE {
-        displayName = "Desert Irregulars";
-        author = "Killoch";
-        icon = "\x\mnp_units\addons\mnp_main\data\icon.paa";
+    class MNP_ROK : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "Republic of Korea";
+        priority = 7;
+    };
+    class MNP_USMCA_SN : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "USMC Snow";
+        priority = 1;
+    };
+    class MNP_UKR : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "Ukrainian Armed Forces";
+        priority = 4;
+    };
+    class MNP_ROK_SEAL : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "Republic of Korea Seals";
+        priority = 7;
+    };
+    class MNP_IDF : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "Israeli Defence Forces";
         priority = 3;
-        side = 1;
+    };
+    class MNP_IRG_DE : MNP_BLU_FC_Base {
+        scope =2;
+        displayName = "Desert Irregulars";
+        priority = 3;
     };
 };
