@@ -244,8 +244,8 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_A.paa"};
         hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-        linkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol_ARM", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol_ARM", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_USMCA_SN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -414,7 +414,7 @@ class CfgVehicles {
         TRG_MED
     };
 
-    // MNP_IRG_DE
+    // MNP_IRG_DE -- These are Iran, needs classname changed and woodland version
     class MNP_US6co_Soldier_F : B_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};

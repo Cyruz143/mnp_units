@@ -99,35 +99,6 @@ class MNP_Helmet_Dslyecxi : H_HelmetIA {
     };
 };
 
-class MNP_Helmet_STPilot : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: Imperial Helmet";
-    model = "\A3\Characters_F\Common\headgear_helmet_heli_shield";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_ST.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F\Common\headgear_helmet_heli_shield";
-        mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 8;
-                passThrough = 0.5;
-            };
-            class Face
-            {
-                hitpointName = "HitFace";
-                armor = 4;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
 class MNP_Helmet_Australia : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;
@@ -360,10 +331,6 @@ class MNP_Boonie_ROK : H_Booniehat_khk {
     picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_ROK.paa"};
 };
-class MNP_Boonie_USW : H_Booniehat_khk{
-    displayName = "MNP: M81 Woodland Boonie";
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_USW.paa"};
-};
 class MNP_Boonie_DDPM : H_Booniehat_khk {
     displayName = "MNP: DPM Boonie (Desert)";
     picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
@@ -377,15 +344,6 @@ class MNP_Boonie_DPM : H_Booniehat_khk {
 class MNP_Boonie_AMCU : H_Booniehat_khk{
     displayName = "MNP: AMCU Boonie";
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_AMCU.paa"};
-};
-class MNP_Boonie_TIG : H_Booniehat_khk {
-    displayName = "MNP: Tiger Stripe Boonie";
-    picture = "\A3\characters_f\Data\UI\icon_H_booniehat_indp_ca.paa";
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_TIG.paa"};
-};
-class MNP_Boonie_3CO : H_Booniehat_khk{
-    displayName = "MNP: 3 Color Desert Boonie";
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\B_3co.paa"};
 };
 class MNP_Boonie_6CO : H_Booniehat_khk{
     displayName = "MNP: 6 Color Desert Boonie";
@@ -401,14 +359,6 @@ class MNP_MC_OD : H_MilCap_gry{
 class MNP_MC_UKR : H_MilCap_gry{
     displayName = "MNP: Ukrainian TTSkO Cap";
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_UKR.paa"};
-};
-class MNP_MC_USW : H_MilCap_gry{
-    displayName = "MNP: M81 Woodland Cap";
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_USW.paa"};
-};
-class MNP_MC_US3Co : H_MilCap_gry{
-    displayName = "MNP: 3 Color Desert Cap";
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_3co.paa"};
 };
 class MNP_MC_US6co : H_MilCap_gry{
     displayName = "MNP: 6 Color Desert Cap";

@@ -42,31 +42,6 @@ class C_mnp_6 : C_mnp_base {
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Duck_A.paa", "\x\mnp_units\addons\mnp_main\data\C_Duck_B.paa"};
     model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
 };
-class C_mnp_7 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_US3Co_Rg";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3Co_A.paa"};
-    hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
-    model = "\A3\Characters_F\OPFOR\O_officer.p3d";
-};
-class C_mnp_8 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_US3Co_Sh";
-    hiddenSelections[] = {"Camo1", "Insignia", "Clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3Co_A.paa"};
-    model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
-};
-class C_mnp_9 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_US3Co_A";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3co_B.paa"};
-    model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-};
-class C_mnp_10 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_US3Co_B";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_3Co_B.paa"};
-    model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-};
 class C_mnp_11 : C_mnp_base {
     uniformClass = "MNP_CombatUniform_US6co_A";
     hiddenSelections[] = {"Camo", "insignia", "clan"};
@@ -143,18 +118,6 @@ class C_mnp_23 : C_mnp_base {
     uniformClass = "MNP_CombatUniform_ASA_GC_B";
     hiddenSelections[] = {"Camo", "insignia", "clan"};
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_ASA_T.paa"};
-    model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-};
-class C_mnp_24 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_Wood_A";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_B.paa"};
-    model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-};
-class C_mnp_25 : C_mnp_base {
-    uniformClass = "MNP_CombatUniform_Wood_B";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_B.paa"};
     model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
 };
 class C_mnp_28 : C_mnp_base {
