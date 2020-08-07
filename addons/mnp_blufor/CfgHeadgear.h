@@ -1,28 +1,5 @@
 //Helmets
 class H_HelmetIA;
-class MNP_Helmet_USMC : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: MARPAT MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_T.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
 class MNP_Helmet_Canada_T : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;
@@ -196,6 +173,7 @@ class MNP_Helmet_ROK : H_HelmetIA {
     };
 };
 
+// Not used in MNP but we assign for PMC in hull etc!
 class MNP_Helmet_BLK : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;
@@ -203,29 +181,6 @@ class MNP_Helmet_BLK : H_HelmetIA {
     model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_BLK.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
-class MNP_Helmet_OD : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: Olive Drab MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_OD.paa"};
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
@@ -287,50 +242,6 @@ class MNP_Helmet_PAGST_UKR : H_HelmetIA {
     };
 };
 
-class MNP_Helmet_PAGST_M81 : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: M81 Woodland PASGT";
-    model = "\x\mnp_units\addons\mnp_blufor\sud_US81_helmet01";
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\x\mnp_units\addons\mnp_blufor\sud_US81_helmet01";
-        mass = 50;
-        modelSides[] = {6};
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-class MNP_Helmet_USW : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: M81 Woodland MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USW.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
 class MNP_Helmet_ROKMC : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;
@@ -338,29 +249,6 @@ class MNP_Helmet_ROKMC : H_HelmetIA {
     model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_RKMC.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
-class MNP_Helmet_USMC_Xtreme : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: T-Pattern MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_USMC_URB.paa"};
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
@@ -400,28 +288,6 @@ class MNP_Helmet_AMCU : H_HelmetIA {
     };
 };
 
-class MNP_Helmet_PAGST_US3Co : H_HelmetIA {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: 3 Color Desert PASGT";
-    model = "\x\mnp_units\addons\mnp_blufor\sud_3coD_helmet01";
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\x\mnp_units\addons\mnp_blufor\sud_3coD_helmet01";
-        mass = 50;
-        modelSides[] = {6};
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
 class MNP_Helmet_PAGST_US6co : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;
@@ -431,52 +297,6 @@ class MNP_Helmet_PAGST_US6co : H_HelmetIA {
         uniformmodel = "\x\mnp_units\addons\mnp_blufor\sud_6coD_helmet01";
         mass = 50;
         modelSides[] = {6};
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
-class MNP_Helmet_6Co : MNP_Helmet_PAGST_US6co{
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: 6 Color Desert MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_6co.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-        hiddenSelections[] = {"camo"};
-    };
-};
-
-class MNP_Helmet_3Co : MNP_Helmet_PAGST_US3Co {
-    scope = 2;
-    weaponPoolAvailable = 1;
-    displayName = "MNP: 3 Color Desert MICH";
-    model = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\H_3co.paa"};
-    class ItemInfo : HeadgearItem {
-        uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
-        mass = 40;
         class HitpointsProtectionInfo
         {
             class Head

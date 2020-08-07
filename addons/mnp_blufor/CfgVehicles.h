@@ -474,7 +474,7 @@ class CfgVehicles {
         TRG_MED
     };
 
-    // Who the fuck is this?
+    // MNP_IRG_DE
     class MNP_US6co_Soldier_F : B_Soldier_base_F {
         scope = 2;
         modelSides[] = {3,1,0,2};
