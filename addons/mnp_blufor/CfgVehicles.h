@@ -1,5 +1,6 @@
 class CfgVehicles {
     class B_Soldier_base_F;
+
     // Canadian Rifles
     class MNP_Canada_Soldier_F : B_Soldier_base_F {
         scope = 2;
@@ -110,67 +111,6 @@ class CfgVehicles {
     class MNP_Canada_Soldier_DAT : MNP_Canada_Soldier_DS{
         backpack = "B_Kitbag_cbr";
         M16A4_AT
-    };
-    // US Army Multicam
-    class MNP_US_MC_Soldier_F : B_Soldier_base_F {
-        scope = 2;
-        modelSides[] = {3,1,0,2};
-        nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_DS_A"; //the uniform item
-        class Wounds
-        {
-            tex[] = {};
-            mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
-        };
-        M4A1_RIFLEMAN
-        EURO_MEN_GOGGLES
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
-        // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-        model = "\A3\Characters_F_beta\indep\ia_soldier_01.p3d";
-        linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_1", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_1", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_US_MC; // Puts unit under new faction
-        author = "Killoch";
-    };
-    class MNP_US_MC_Soldier_AR : B_Soldier_base_F {
-        scope = 2;
-        modelSides[] = {3,1,0,2};
-        nakedUniform = "U_BasicBody"; //class for "naked" body
-        uniformClass = "MNP_CombatUniform_DS_B"; //the uniform item
-        class Wounds
-        {
-            tex[] = {};
-            mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
-        };
-        M249pip1_AR
-        EURO_MEN_GOGGLES
-        backpack = "B_Carryall_khk";
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_SD.paa"};
-        // hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-        model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
-        linkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_2", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_DS", "MNP_Vest_DS_2", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_US_MC; // Puts unit under new faction
-        author = "Killoch";
-    };
-    class MNP_US_MC_Soldier_MG : MNP_US_MC_Soldier_F {
-        backpack = "B_Carryall_khk";
-        M240_MG
-    };
-    class MNP_US_MC_Soldier_M : MNP_US_MC_Soldier_AR {
-        backpack = "B_AssaultPack_khk";
-        attendant = 1;
-        M4A1_MED
-    };
-    class MNP_US_MC_Soldier_O : MNP_US_MC_Soldier_AR {
-        backpack = "";
-        M4A1_FTL
-    };
-    class MNP_US_MC_Soldier_AT : MNP_US_MC_Soldier_F {
-        backpack = "B_Carryall_khk";
-        M4A1_AT
     };
 
     // Australia
@@ -304,8 +244,8 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_A.paa"};
         hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-        linkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_1", "G_Balaclava_lowprofile", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_1", "G_Balaclava_lowprofile", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol_ARM", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_Patrol_ARM", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_USMCA_SN; // Puts unit under new faction
         author = "Killoch";
     };
@@ -324,8 +264,8 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "Insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_A.paa"};
         hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-        linkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_2", "G_Balaclava_lowprofile", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "MNP_Vest_ACU_2", "G_Balaclava_lowprofile", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_TL", "CUP_G_ESS_BLK_Dark", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MNP_Helmet_USMC_arctic", "CUP_V_PMC_CIRAS_Winter_TL", "CUP_G_ESS_BLK_Dark", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         faction = MNP_USMCA_SN; // Puts unit under new faction
     };
     class MNP_USMCA_Soldier_AR : MNP_USMCA_Soldier_F{

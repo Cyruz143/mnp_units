@@ -1,5 +1,6 @@
 //Helmets
 class H_HelmetIA;
+class HeadgearItem;
 class MNP_Helmet_Canada_T : H_HelmetIA {
     scope = 2;
     weaponPoolAvailable = 1;

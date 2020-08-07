@@ -1,6 +1,7 @@
 class V_PlateCarrier3_rgr;
 class V_PlateCarrierIA2_dgtl;
 class V_HarnessO_brn;
+class VestItem;
 class MNP_Vest_Canada_T : V_PlateCarrier3_rgr {
     scope = 2;
     displayName = "MNP: CADPAT Plate Carrier";
