@@ -2,7 +2,7 @@ class CfgPatches {
     class mnp_main {
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = 1.98;
         requiredAddons[] = {
             "ark_main",
             "CUP_Weapons_LoadOrder",
@@ -28,7 +28,6 @@ class CfgPatches {
 #include "CfgFactionClasses.h"
 
 class CfgVehicles {
-    #include "gear\headgear.h"
     #include "CfgBackpacks.h"
     #include "CfgPlaceholder.h"
 };
