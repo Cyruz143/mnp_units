@@ -2,41 +2,6 @@ class Uniform_Base;
 class UniformItem;
 class U_I_OfficerUniform;
 
-class MNP_CombatUniform_USMC_T : Uniform_Base {
-    scope = 2;
-    displayName = "MNP: MARPAT Combat Fatigues";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-    hiddenSelections[] = {"Camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_T.paa"};
-    hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_USMC_Soldier_F"; //would be same as our made soldier class
-        containerClass = "Supply50"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-class MNP_CombatUniform_USMC_ST : Uniform_Base {
-    scope = 2;
-    displayName = "MNP: MARPAT Combat Fatigues";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-    hiddenSelections[] = {"Camo"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_T.paa"};
-    hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\noPatch.rvmat"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_USMC_Soldier_O"; //would be same as our made soldier class
-        containerClass = "Supply50"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
 class MNP_CombatUniform_Canada : Uniform_Base {
     scope = 2;
     displayName = "MNP: CADPAT Combat Fatigues";
@@ -163,41 +128,6 @@ class MNP_CombatUniform_ROK_B : Uniform_Base {
         modelSides[] = {6};
         uniformModel = "-";
         uniformClass = "MNP_ROK_Soldier_O"; //would be same as our made soldier class
-        containerClass = "Supply60"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
-class MNP_CombatUniform_M81_Sh : Uniform_Base {
-        scope = 2;
-        displayName = "MNP: M81 Woodland BDU (Shemagh)";
-        picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-        model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-        hiddenSelections[] = {"Camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_A.paa"};
-        //hiddenSelectionsMaterials[]={"\MNP_INDEP\Data\officer.rvmat"};
-        class ItemInfo : UniformItem {
-        modelSides[] = {6};
-            uniformModel = "-";
-            uniformClass = "MNP_M81_Soldier_O"; //would be same as our made soldier class
-            containerClass = "Supply60"; //how much it can carry
-            mass = 40; //how much it weights
-            hiddenSelections[] = {"Camo"};
-        };
-    };
-class MNP_CombatUniform_M81_Rg : Uniform_Base {
-    scope = 2;
-    displayName = "MNP: M81 Woodland BDU";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-    hiddenSelections[] = {"Camo", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_A.paa"};
-    hiddenSelectionsMaterials[]= {"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_M81_Soldier_F"; //would be same as our made soldier class
         containerClass = "Supply60"; //how much it can carry
         mass = 20; //how much it weights
         hiddenSelections[] = {"Camo"};
@@ -339,23 +269,6 @@ class MNP_CombatUniform_Ukrainian : U_I_OfficerUniform {
     };
 };
 
-class MNP_CombatUniform_USW : U_I_OfficerUniform {
-    scope = 2;
-    displayName = "MNP: M81 Woodland Uniform";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-    hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USW_A.paa", "\x\mnp_units\addons\mnp_main\data\C_USW_B.paa"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_USW_A"; //would be same as our made soldier class
-        containerClass = "Supply60"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
 class MNP_CombatUniform_DPMR : U_I_OfficerUniform {
     scope = 2;
     displayName = "MNP: DPM Uniform";
@@ -406,23 +319,6 @@ class MNP_CombatUniform_ROKMC : U_I_OfficerUniform {
     };
 };
 
-class MNP_CombatUniform_USMC_Xtreme : U_I_OfficerUniform {
-    scope = 2;
-    displayName = "MNP: T-Pattern Uniform";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-    hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_USMC_URB.paa", "\x\mnp_units\addons\mnp_main\data\C_USMC_URB_B.paa"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformClass = "MNP_USMCX_A"; //would be same as our made soldier class
-        uniformModel = "-";
-        containerClass = "Supply60"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
 class MNP_CombatUniform_AMCU_T : Uniform_Base {
     scope = 2;
     displayName = "MNP: AMCU Uniform";
@@ -458,39 +354,6 @@ class MNP_CombatUniform_AMCU_ST : Uniform_Base {
     };
 };
 
-class MNP_CombatUniform_Scorpion_A : Uniform_Base {
-    scope = 2;
-    displayName = "MNP: Scorpion Combat Fatigues";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-    hiddenSelections[] = {"Camo", "insignia", "Clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Scorpion.paa"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_Scorpion_Soldier_F"; //would be same as our made soldier class
-        containerClass = "Supply100"; //how much it can carry
-        mass = 10; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-class MNP_CombatUniform_Scorpion_B : Uniform_Base {
-    scope = 2;
-    displayName = "MNP: Scorpion Combat Fatigues";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\common\Suitpacks\suitpack_blufor_diver";
-    hiddenSelections[] = {"Camo", "insignia", "Clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_Scorpion.paa"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_Scorpion_Soldier_AR"; //would be same as our made soldier class
-        containerClass = "Supply100"; //how much it can carry
-        mass = 10; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
 class MNP_CombatUniform_ISR : U_I_OfficerUniform {
     scope = 2;
     displayName = "MNP: Israeli Drab Uniform";
@@ -502,23 +365,6 @@ class MNP_CombatUniform_ISR : U_I_OfficerUniform {
         modelSides[] = {6};
         uniformModel = "-";
         uniformClass = "MNP_ISR_A"; //would be same as our made soldier class
-        containerClass = "Supply60"; //how much it can carry
-        mass = 20; //how much it weights
-        hiddenSelections[] = {"Camo"};
-    };
-};
-
-class MNP_CombatUniform_TIG : U_I_OfficerUniform {
-    scope = 2;
-    displayName = "MNP: Tiger Stripe Uniform";
-    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-    hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
-    hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_TIG_A.paa", "\x\mnp_units\addons\mnp_main\data\C_TIG_B.paa"};
-    class ItemInfo : UniformItem {
-        modelSides[] = {6};
-        uniformModel = "-";
-        uniformClass = "MNP_TIG_A"; //would be same as our made soldier class
         containerClass = "Supply60"; //how much it can carry
         mass = 20; //how much it weights
         hiddenSelections[] = {"Camo"};
