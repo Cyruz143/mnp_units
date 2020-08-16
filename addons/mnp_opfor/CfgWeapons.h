@@ -323,6 +323,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CN_T.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
@@ -362,6 +363,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CN_T.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
@@ -401,6 +403,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CN_D.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
@@ -440,6 +443,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_CN_D.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
@@ -480,6 +484,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RU_T.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
@@ -519,6 +524,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RU_T.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
@@ -558,6 +564,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RU_D.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
@@ -597,6 +604,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RU_D.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
@@ -727,6 +735,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RUMED.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply140";
             mass = 70;
@@ -766,6 +775,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_RUMED.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply140";
             mass = 70;
@@ -1271,6 +1281,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_RU.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 30;
@@ -1310,6 +1321,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_R2.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 30;
@@ -1349,6 +1361,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\PV_R3.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F_epc\civil\equip_press_vest_01";
             containerClass = "Supply100";
             mass = 30;
@@ -1722,6 +1735,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_PLAT.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
@@ -1761,6 +1775,7 @@ class cfgWeapons {
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\V_PLAT.paa"};
         class ItemInfo : VestItem {
+            passThrough = 0.5;
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
