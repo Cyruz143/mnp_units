@@ -102,15 +102,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 10;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -142,15 +134,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 10;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -200,15 +184,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F\OPFOR\headgear_O_helmet_ballistic";
             mass = 20;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -223,15 +199,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F\OPFOR\headgear_O_helmet_ballistic";
             mass = 20;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -263,15 +231,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F\OPFOR\headgear_O_helmet_ballistic";
             mass = 20;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -303,15 +263,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F\OPFOR\headgear_O_helmet_ballistic";
             mass = 20;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -506,15 +458,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 10;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -569,15 +513,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 10;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -592,15 +528,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 10;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -614,15 +542,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PLAT_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -635,15 +555,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PLAD_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -656,15 +568,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PLAN_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -677,15 +581,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_RUPT_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -698,15 +594,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_RUPD_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -719,15 +607,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PGOD_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -740,15 +620,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PGBK_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -761,15 +633,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PGUN_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -782,15 +646,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_IRGC_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -803,15 +659,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_IBSJ_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -824,15 +672,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_RUPG_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -851,15 +691,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_ussr_helmetnk";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -878,15 +710,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_ussr_helmetru";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -902,15 +726,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_ussr_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1012,15 +828,7 @@ class cfgWeapons {
             uniformmodel = "\A3\Characters_F\OPFOR\headgear_O_helmet_ballistic";
             mass = 20;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1375,15 +1183,7 @@ class cfgWeapons {
             uniformmodel = "\x\mnp_units\addons\mnp_opfor\sud_PLAA_helmet01";
             mass = 50;
             modelSides[] = {6};
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };

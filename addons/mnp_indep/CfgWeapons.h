@@ -98,15 +98,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -120,15 +112,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -611,15 +595,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -633,15 +609,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -728,15 +696,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -818,15 +778,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -908,15 +860,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -998,15 +942,7 @@ class cfgWeapons {
         class ItemInfo : HeadgearItem {
             uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Head
-                {
-                    hitpointName = "HitHead";
-                    armor = 6;
-                    passThrough = 0.5;
-                };
-            };
+            HELMET_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };

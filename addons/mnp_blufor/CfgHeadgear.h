@@ -11,15 +11,7 @@ class MNP_Helmet_Canada_T : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -34,15 +26,7 @@ class MNP_Helmet_Canada_D : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -57,15 +41,7 @@ class MNP_Helmet_UN : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -109,15 +85,7 @@ class MNP_Helmet_Australia : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -132,15 +100,7 @@ class MNP_Helmet_ROK : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -156,15 +116,7 @@ class MNP_Helmet_BLK : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -179,15 +131,7 @@ class MNP_Helmet_USMC_arctic : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -201,15 +145,7 @@ class MNP_Helmet_PAGST_UKR : H_HelmetIA {
         uniformmodel = "\x\mnp_units\addons\mnp_blufor\sud_UKRA_helmet01";
         mass = 50;
         modelSides[] = {6};
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -224,15 +160,7 @@ class MNP_Helmet_ROKMC : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -247,15 +175,7 @@ class MNP_Helmet_AMCU : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F_beta\indep\headgear_helmet_canvas";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -269,15 +189,7 @@ class MNP_Helmet_PAGST_US6co : H_HelmetIA {
         uniformmodel = "\x\mnp_units\addons\mnp_blufor\sud_6coD_helmet01";
         mass = 50;
         modelSides[] = {6};
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };

@@ -55,6 +55,15 @@
         }; \
     };
 
+#define HELMET_ARMOUR_VALUES \
+    class HitpointsProtectionInfo { \
+        class Head { \
+            hitpointName = "HitHead"; \
+            armor = 6; \
+            passThrough = 0.5; \
+        }; \
+    };
+
 /*
  * Loudout guide:
  * ------------------------
