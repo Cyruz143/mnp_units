@@ -31,7 +31,31 @@
     genericnames = "RussianMen";\
     identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","CUP_G_RU"};
 
-/* 
+// Standardised armour values
+#define VEST_ARMOUR_VALUES \
+    class HitpointsProtectionInfo { \
+        class Chest { \
+            hitpointName = "HitChest"; \
+            armor = 8; \
+            passThrough = 0.5; \
+        }; \
+        class Diaphragm { \
+            hitpointName = "HitDiaphragm"; \
+            armor = 8; \
+            passThrough = 0.5; \
+        }; \
+        class Abdomen { \
+            hitpointName = "HitAbdomen"; \
+            armor = 8; \
+            passThrough = 0.5; \
+        }; \
+        class Body { \
+            hitpointName = "HitBody"; \
+            passThrough = 0.5; \
+        }; \
+    };
+
+/*
  * Loudout guide:
  * ------------------------
  * Rifleman: 1 frag, 3 mags

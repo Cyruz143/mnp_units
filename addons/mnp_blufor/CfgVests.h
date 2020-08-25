@@ -13,32 +13,7 @@ class MNP_Vest_Canada_T : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -53,32 +28,7 @@ class MNP_Vest_Canada_T2 : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -94,32 +44,7 @@ class MNP_Vest_Canada_D : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -134,32 +59,7 @@ class MNP_Vest_Canada_D2 : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -175,32 +75,7 @@ class MNP_Vest_Australia : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
         containerClass = "Supply120";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -215,32 +90,7 @@ class MNP_Vest_Australia_B : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
         containerClass = "Supply120";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -256,32 +106,7 @@ class MNP_Vest_ROK_1 : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -296,32 +121,7 @@ class MNP_Vest_ROK_2 : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -337,32 +137,7 @@ class MNP_Vest_UKR_A : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
         containerClass = "Supply120";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -377,32 +152,7 @@ class MNP_Vest_UKR_B : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
         containerClass = "Supply120";
         mass = 40;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -418,32 +168,7 @@ class MNP_Vest_ROKMC : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -458,32 +183,7 @@ class MNP_Vest_ROKMC_2 : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -499,32 +199,7 @@ class MNP_Vest_AMCU : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -539,32 +214,7 @@ class MNP_Vest_AMCU_2 : V_PlateCarrier3_rgr {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -581,32 +231,7 @@ class MNP_V_OD_Harness: V_HarnessO_brn{
         uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest01";
         containerClass = "Supply160";
         mass = 30;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"Camo1","Camo2"};
     };
 };
@@ -622,32 +247,7 @@ class MNP_V_OD_GL_Harness: V_HarnessO_brn{
         uniformModel = "\A3\Characters_F\OPFOR\equip_o_vest_gl";
         containerClass = "Supply160";
         mass = 30;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"Camo1","Camo2"};
     };
 };
@@ -663,32 +263,7 @@ class MNP_Vest_ISRKahki_1 : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
@@ -703,32 +278,7 @@ class MNP_Vest_ISRKahki_2 : V_PlateCarrierIA2_dgtl {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 60;
-        class HitpointsProtectionInfo
-        {
-            class Chest
-            {
-                HitpointName = "HitChest";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Diaphragm
-            {
-                HitpointName = "HitDiaphragm";
-                armor = 16;
-                PassThrough = 0.3;
-            };
-            class Abdomen
-            {
-                hitpointName = "HitAbdomen";
-                armor = 16;
-                passThrough = 0.3;
-            };
-            class Body
-            {
-                hitpointName = "HitBody";
-                passThrough = 0.3;
-            };
-        };
+        VEST_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };

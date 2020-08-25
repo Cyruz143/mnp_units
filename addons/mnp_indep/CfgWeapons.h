@@ -143,32 +143,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply120";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -183,32 +158,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply120";
             mass = 40;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -537,32 +487,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -577,32 +502,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -682,32 +582,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -722,32 +597,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -849,32 +699,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -889,32 +714,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -989,32 +789,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1029,32 +804,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1129,32 +879,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1169,32 +894,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1269,32 +969,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest02";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
@@ -1309,32 +984,7 @@ class cfgWeapons {
             uniformModel = "\A3\Characters_F_beta\indep\equip_ia_vest01";
             containerClass = "Supply140";
             mass = 60;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 16;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
+            VEST_ARMOUR_VALUES
             hiddenSelections[] = {"camo"};
         };
     };
