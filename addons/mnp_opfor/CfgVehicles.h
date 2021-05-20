@@ -689,8 +689,8 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_DPR_A.paa", "\x\mnp_units\addons\mnp_main\data\C_DPR_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
         faction = MNP_DPR_AUT; // Puts unit under new faction
-        linkedItems[] = {"CUP_H_RUS_6B27_olive", "V_TacVest_brn", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        respawnLinkedItems[] = {"CUP_H_RUS_6B27_olive", "V_TacVest_brn", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        linkedItems[] = {"CUP_H_RUS_6B27_olive", "CUP_V_RUS_Smersh_1", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"CUP_H_RUS_6B27_olive", "CUP_V_RUS_Smersh_1", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_DPR_Soldier_AR : MNP_DPR_Soldier_F{
         backpack = "B_Carryall_khk";

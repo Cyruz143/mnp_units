@@ -56,21 +56,7 @@ class MNP_Helmet_Dslyecxi : H_HelmetIA {
     class ItemInfo : HeadgearItem {
         uniformmodel = "\A3\Characters_F\Common\headgear_helmet_heli_shield";
         mass = 130;
-        class HitpointsProtectionInfo
-        {
-            class Head
-            {
-                hitpointName = "HitHead";
-                armor = 8;
-                passThrough = 0.5;
-            };
-            class Face
-            {
-                hitpointName = "HitFace";
-                armor = 4;
-                passThrough = 0.5;
-            };
-        };
+        HELMET_ARMOUR_VALUES
         hiddenSelections[] = {"camo"};
     };
 };
