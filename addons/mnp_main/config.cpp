@@ -2,11 +2,10 @@ class CfgPatches {
     class mnp_main {
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.98;
+        requiredVersion = 2.02;
         requiredAddons[] = {
             "ark_main",
             "CUP_Weapons_LoadOrder",
-            "hlcweapons_aks",
             "hlcweapons_AUG",
             "hlcweapons_g3"
         };

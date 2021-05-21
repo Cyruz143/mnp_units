@@ -183,10 +183,10 @@
 
 #define RK62_RIFLEMAN \
     displayName = "Rifleman"; \
-    weapons[] = {"hlc_rifle_RK62", "Throw", "put"}; \
-    respawnweapons[] = {"hlc_rifle_RK62", "Throw", "put"}; \
-    magazines[] = {"HandGrenade", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"}; \
-    respawnmagazines[] = {"HandGrenade", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"};
+    weapons[] = {"tob_rifle_RK62", "Throw", "put"}; \
+    respawnweapons[] = {"tob_rifle_RK62", "Throw", "put"}; \
+    magazines[] = {"HandGrenade", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"}; \
+    respawnmagazines[] = {"HandGrenade", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"};
 
 #define CTAR_RIFLEMAN \
     displayName = "Rifleman"; \
@@ -564,10 +564,10 @@
 
 #define RK62_AT \
     displayName = "Rifleman (AT)"; \
-    weapons[] = {"hlc_rifle_RK62", "CUP_launch_M72A6", "Throw", "put"}; \
-    respawnweapons[] = {"hlc_rifle_RK62", "CUP_launch_M72A6", "Throw", "put"}; \
-    magazines[] = {"hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"}; \
-    respawnmagazines[] = {"hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"};
+    weapons[] = {"tob_rifle_RK62", "CUP_launch_M72A6", "Throw", "put"}; \
+    respawnweapons[] = {"tob_rifle_RK62", "CUP_launch_M72A6", "Throw", "put"}; \
+    magazines[] = {"30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"}; \
+    respawnmagazines[] = {"30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"};
 
 #define CTAR_AT \
     displayName = "Rifleman (AT)"; \
@@ -705,10 +705,10 @@
 
 #define RK62_MED \
     displayName = "Combat Medic"; \
-    weapons[] = {"hlc_rifle_RK62", "Throw", "put"}; \
-    respawnweapons[] = {"hlc_rifle_RK62", "Throw", "put"}; \
-    magazines[] = {"SmokeShellBlue", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"}; \
-    respawnmagazines[] = {"SmokeShellBlue", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak"};
+    weapons[] = {"tob_rifle_RK62", "Throw", "put"}; \
+    respawnweapons[] = {"tob_rifle_RK62", "Throw", "put"}; \
+    magazines[] = {"SmokeShellBlue", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"}; \
+    respawnmagazines[] = {"SmokeShellBlue", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F"};
 
 #define CTAR_MED \
     displayName = "Combat Medic"; \
