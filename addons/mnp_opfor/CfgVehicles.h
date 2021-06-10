@@ -454,7 +454,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_RU_Med_D"; //the uniform item
-        RUSSIAN_MEN
+        RUSSIAN_MEN_GOGGLES
         UNIT_ARMOUR_VALUES
         class Wounds
         {
@@ -610,7 +610,7 @@ class CfgVehicles {
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         uniformClass = "MNP_CombatUniform_Russia_arctic"; //the uniform item
-        RUSSIAN_MEN
+        RUSSIAN_MEN_GOGGLES
         UNIT_ARMOUR_VALUES
         model = "\A3\Characters_F\OPFOR\O_soldier_01.p3d";
         KATIBA_RIFLEMAN
@@ -842,7 +842,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
-        ARAB_MEN
+        ARAB_MEN_GOGGLES
         UNIT_ARMOUR_VALUES
         class Wounds
         {
