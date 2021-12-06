@@ -560,7 +560,7 @@ class CfgVehicles {
         backpack = "B_Kitbag_cbr";
         RPK74M_AR
     };
-    class MNP_RU_Soldier_MG_D : MNP_RU_Soldier_MEDIUM_D
+    class MNP_RU_Soldier_MG_D : MNP_RU_Soldier_MEDIUM_D {
         backpack = "B_Kitbag_cbr";
         PKP_MG
     };
