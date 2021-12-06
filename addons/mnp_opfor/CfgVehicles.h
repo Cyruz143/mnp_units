@@ -174,7 +174,7 @@ class CfgVehicles {
         explosionShielding = 0.3;
     };
     class MNP_CN_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
         class Wounds
@@ -185,24 +185,24 @@ class CfgVehicles {
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLA_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLA_B.paa"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_MilCap_CN_T", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CN_T", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_AR : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -210,12 +210,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_MED : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
@@ -224,12 +224,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_RAT : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -237,12 +237,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_MG : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -250,13 +250,13 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_T.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_UNI; // Puts unit under new faction
+        faction = MNP_CH_UNI;
         linkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Peoples Liberation Army units WOODLAND
     class MNP_CW_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
         class Wounds
@@ -267,24 +267,24 @@ class CfgVehicles {
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_AR : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -292,12 +292,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_MED : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         attendant = 1;
@@ -306,12 +306,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_RAT : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -319,12 +319,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_MG : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China_J"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_J";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -332,13 +332,13 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAT_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAT_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_WD; // Puts unit under new faction
+        faction = MNP_CH_WD;
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Peoples Liberation Navy units, Marine
     class MNP_CM_Soldier_F : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
         class Wounds
@@ -349,24 +349,24 @@ class CfgVehicles {
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLN_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLN_B.paa"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_MilCap_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_AR : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -374,12 +374,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_MED : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         attendant = 1;
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -388,12 +388,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_RAT : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -401,12 +401,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_MG : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_CMAR"; //the uniform item
+        uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
         backpack = "MNP_B_Carryall_PLA_Basic";
@@ -414,13 +414,13 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CM.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_MAR; // Puts unit under new faction
+        faction = MNP_CH_MAR;
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Peoples Liberation Army Units, Arid
     class MNP_CD_Soldier_F : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         class Wounds
         {
@@ -431,24 +431,24 @@ class CfgVehicles {
         CTAR_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_PLAD_A.paa", "\x\mnp_units\addons\mnp_main\data\C_PLAD_B.paa"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         CTAR_FTL
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_MilCap_CN_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_CN_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_AR : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
@@ -456,12 +456,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_MED : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_FieldPack_PLA_Basic_D";
@@ -470,12 +470,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_RAT : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
@@ -483,12 +483,12 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_MG : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_China_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         backpack = "MNP_B_Carryall_PLA_Basic_D";
@@ -496,13 +496,13 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\MC_CN_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_CH_DE; // Puts unit under new faction
+        faction = MNP_CH_DE;
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Desert
     class MNP_RU_Soldier_MEDIUM_D : MNP_O_Soldier_base_F{
-        uniformClass = "MNP_CombatUniform_RU_Med_D"; //the uniform item
+        uniformClass = "MNP_CombatUniform_RU_Med_D";
         RUSSIAN_MEN_GOGGLES
         class Wounds
         {
@@ -514,7 +514,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RL_D.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_RU_VDV_DE; // Puts unit under new faction
+        faction = MNP_RU_VDV_DE;
         linkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -529,7 +529,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_MilCap_RU_D", "MNP_Vest_RU_D2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_RU_Soldier_AR_D : MNP_RU_Soldier_MEDIUM_D{
-        uniformClass = "MNP_CombatUniform_RU_Med_DB"; //the uniform item
+        uniformClass = "MNP_CombatUniform_RU_Med_DB";
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         backpack = "B_Kitbag_cbr";
         RPK74M_AR
@@ -551,7 +551,7 @@ class CfgVehicles {
     };
     // North Korean Conscripts
     class MNP_NK_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_NKR_rg"; //the uniform item
+        uniformClass = "MNP_CombatUniform_NKR_rg";
         ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK47_RIFLEMAN
@@ -560,10 +560,10 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
         linkedItems[] = {"CUP_H_SLA_Helmet", "V_HarnessO_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "V_HarnessO_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_KOR_OD; // Puts unit under new faction
+        faction = MNP_KOR_OD;
     };
     class MNP_NK_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_NKR_Sh"; //the uniform item
+        uniformClass = "MNP_CombatUniform_NKR_Sh";
         ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKR.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
@@ -571,7 +571,7 @@ class CfgVehicles {
         AK47_FTL
         linkedItems[] = {"CUP_H_SLA_Helmet", "V_HarnessO_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "V_HarnessO_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_KOR_OD; // Puts unit under new faction
+        faction = MNP_KOR_OD;
     };
     class MNP_NK_Soldier_AR : MNP_NK_Soldier_F{
         backpack = "B_FieldPack_oli";
@@ -592,7 +592,7 @@ class CfgVehicles {
     };
     // North Korean Regulars
     class MNP_NKC_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_NKC_rg"; //the uniform item
+        uniformClass = "MNP_CombatUniform_NKC_rg";
         ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK74_RIFLEMAN
@@ -601,10 +601,10 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
         linkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_KOR_WD; // Puts unit under new faction
+        faction = MNP_KOR_WD;
     };
     class MNP_NKC_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_NKC_Sh"; //the uniform item
+        uniformClass = "MNP_CombatUniform_NKC_Sh";
         ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_NKC.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
@@ -612,7 +612,7 @@ class CfgVehicles {
         AK74_FTL
         linkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "V_Chestrig_rgr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_KOR_WD; // Puts unit under new faction
+        faction = MNP_KOR_WD;
     };
     class MNP_NKC_Soldier_AR : MNP_NKC_Soldier_F{
         backpack = "B_FieldPack_oli";
@@ -633,14 +633,14 @@ class CfgVehicles {
     };
     // Russian arctic command
     class MNP_RU_Soldier_Arctic_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_Russia_arctic"; //the uniform item
+        uniformClass = "MNP_CombatUniform_Russia_arctic";
         RUSSIAN_MEN_GOGGLES
         model = "\A3\Characters_F\OPFOR\O_soldier_01.p3d";
         KATIBA_RIFLEMAN
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RU_A.paa", "\x\mnp_units\addons\mnp_main\data\H_RU_A.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_OPF_F_SN; // Puts unit under new faction
+        faction = MNP_OPF_F_SN;
         linkedItems[] = {"MNP_Helmet_Russia_arctic", "G_Balaclava_lowprofile", "V_HarnessO_gry", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_Russia_arctic", "G_Balaclava_lowprofile", "V_HarnessO_gry", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -668,7 +668,7 @@ class CfgVehicles {
     };
     // RU Airbourne
     class MNP_RO3_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_RO3_rg"; //the uniform item
+        uniformClass = "MNP_CombatUniform_RO3_rg";
         RUSSIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         AK74S_RIFLEMAN
@@ -677,10 +677,10 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {"\x\mnp_units\addons\mnp_main\data\Officer.rvmat"};
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_RU_AIR; // Puts unit under new faction
+        faction = MNP_RU_AIR;
     };
     class MNP_RO3_Soldier_O : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_RO3_Sh"; //the uniform item
+        uniformClass = "MNP_CombatUniform_RO3_Sh";
         RUSSIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_RO3.paa", "\x\mnp_units\addons\mnp_main\data\smock_t2_co.paa"};
@@ -688,7 +688,7 @@ class CfgVehicles {
         AK74S_FTL
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_RUS_Smersh_2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-        faction = MNP_RU_AIR; // Puts unit under new faction
+        faction = MNP_RU_AIR;
     };
     class MNP_RO3_Soldier_AR : MNP_RO3_Soldier_F{
         linkedItems[] = {"CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -717,7 +717,7 @@ class CfgVehicles {
     };
     // Autumn Novorussians
     class MNP_DPR_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_DPR_A"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DPR_A";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         RUSSIAN_MEN
         class Wounds
@@ -729,7 +729,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_DPR_A.paa", "\x\mnp_units\addons\mnp_main\data\C_DPR_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_DPR_AUT; // Puts unit under new faction
+        faction = MNP_DPR_AUT;
         linkedItems[] = {"CUP_H_RUS_6B27_olive", "CUP_V_RUS_Smersh_1", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_RUS_6B27_olive", "CUP_V_RUS_Smersh_1", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -755,7 +755,7 @@ class CfgVehicles {
     };
     // Summer Novorussians
     class MNP_DPR_T_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_DPR_B"; //the uniform item
+        uniformClass = "MNP_CombatUniform_DPR_B";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         RUSSIAN_MEN
         class Wounds
@@ -767,7 +767,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_DPR_T_A.paa", "\x\mnp_units\addons\mnp_main\data\C_DPR_T_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_DPR_SUM; // Puts unit under new faction
+        faction = MNP_DPR_SUM;
         linkedItems[] = {"CUP_H_RUS_6B27_olive", "V_I_G_resistanceLeader_F", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"CUP_H_RUS_6B27_olive", "V_I_G_resistanceLeader_F", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -793,7 +793,7 @@ class CfgVehicles {
     };
     // Iran Army
     class MNP_IR_IRGC_Soldier_F : MNP_O_Soldier_base_F {
-        uniformClass = "MNP_CombatUniform_IR_IRGC_A"; //the uniform item
+        uniformClass = "MNP_CombatUniform_IR_IRGC_A";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ARAB_MEN
         class Wounds
@@ -805,7 +805,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_IRGC_B.paa"};
         //hiddenSelectionsMaterials[]={"\x\mnp_units\addons\mnp_main\data\officer.rvmat"};
-        faction = MNP_IRN; // Puts unit under new faction
+        faction = MNP_IRN;
         linkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -822,7 +822,7 @@ class CfgVehicles {
         PKM_MG
     };
     class MNP_IR_IRGC_Soldier_TL : MNP_IR_IRGC_Soldier_F{
-        uniformClass = "MNP_CombatUniform_IR_IRGC_Med_B"; //the uniform item
+        uniformClass = "MNP_CombatUniform_IR_IRGC_Med_B";
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         linkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_IRGC", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
@@ -846,7 +846,7 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         AKME_RIFLEMAN
-        faction = MNP_IRN_RG; // Puts unit under new faction
+        faction = MNP_IRN_RG;
         linkedItems[] = {"MNP_Helmet_PAGST_IBSJ", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_IBSJ", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
@@ -861,7 +861,7 @@ class CfgVehicles {
             mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
         };
         AKME_FTL
-        faction = MNP_IRN_RG; // Puts unit under new faction
+        faction = MNP_IRN_RG;
         linkedItems[] = {"H_Beret_blk", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"H_Beret_blk", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
