@@ -3,19 +3,20 @@ class CfgVehicles {
     class I_G_Soldier_lite_F;
 
     class MNP_I_Soldier_base_F : I_Soldier_base_F {
-        scope = 2;
+        scope = 1;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody";
         author = "Killoch";
     };
     class MNP_I_G_Soldier_lite_F : I_G_Soldier_lite_F {
-        scope = 2;
+        scope = 1;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody";
         author = "Killoch";
     };
 
     class MNP_Irish_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Ireland";
         AUGA3_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -27,7 +28,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_Ireland", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_MG : MNP_I_Soldier_base_F {
-
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Ireland_S";
         backpack = "B_Carryall_oli";
         FNMAG_MG
@@ -65,6 +66,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_Ireland_T", "MNP_Vest_Ireland", "ItemMap", "Medikit", "FirstAidKit", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_D : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Ireland_D";
         AUGA3_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -76,6 +78,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Ireland_D", "MNP_Vest_Ireland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Irish_Soldier_DMG : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Ireland_DS";
         backpack = "B_Carryall_cbr";
         FNMAG_MG
@@ -115,6 +118,7 @@ class CfgVehicles {
 
     // Local Volunteer Militia
     class MNP_Militia_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_A";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
@@ -127,6 +131,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_camo", "ItemWatch"};
     };
     class MNP_Militia_Soldier_MG : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_B";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         backpack = "CUP_B_AlicePack_Khaki";
@@ -139,6 +144,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_TIG","V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_AR : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_C";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         backpack = "CUP_B_AlicePack_Khaki";
@@ -152,6 +158,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "MNP_Boonie_ERDL", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_M : MNP_I_G_Soldier_lite_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_E";
         backpack = "CUP_B_AlicePack_Bedroll";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
@@ -166,6 +173,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_DPM", "V_TacVest_camo", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_RAT : MNP_I_G_Soldier_lite_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_F";
         backpack = "CUP_B_AlicePack_Khaki";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
@@ -185,6 +193,7 @@ class CfgVehicles {
 
     // Desert Militiamen
     class MNP_Militia_Soldier_DO : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_DA";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
         hiddenSelections[] = {"Camo1", "insignia", "clan"};
@@ -197,6 +206,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_Beret_blk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_DMG : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_DB";
         backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -210,6 +220,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"H_ShemagOpen_khk","V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_DAR : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_DC";
         backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_leader.p3d";
@@ -223,6 +234,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "H_ShemagOpen_khk", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_DM : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_DE";
         backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
@@ -236,6 +248,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Boonie_3CO", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Militia_Soldier_DRAT : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Militia_DF";
         backpack = "B_FieldPack_cbr";
         Model = "\A3\Characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d";
@@ -256,6 +269,7 @@ class CfgVehicles {
 
     // Fins
     class MNP_FIN_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Fin_A";
         RK62_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -267,6 +281,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_T", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_FIN_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Fin_B";
         RK62_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -297,6 +312,7 @@ class CfgVehicles {
 
     // Cold Fins
     class MNP_AFIN_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Finarctic_A";
         RK62_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -308,6 +324,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Helmet_FIN_A", "MNP_Vest_Fin_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_AFIN_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Finarctic_B";
         RK62_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -338,6 +355,7 @@ class CfgVehicles {
 
     // Kiwis
     class MNP_NZ_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NZ_A";
         AUGA3_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -349,6 +367,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "MNP_Boonie_NZ", "MNP_Vest_NZ_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_NZ_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NZ_B";
         AUGA3_FTL
         EURO_MEN_GOGGLES
@@ -379,6 +398,7 @@ class CfgVehicles {
 
     // Norweegis
     class MNP_NOR_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NOR_A";
         HK416_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -390,6 +410,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_grass", "MNP_Vest_NOR_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_NOR_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NOR_B";
         HK416_FTL
         EURO_MEN_GOGGLES
@@ -420,6 +441,7 @@ class CfgVehicles {
 
     // Desert Norweegies
     class MNP_NOR_D_Soldier_F : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NOR_D_A";
         HK416_RIFLEMAN
         EURO_MEN_GOGGLES
@@ -431,6 +453,7 @@ class CfgVehicles {
         respawnLinkedItems[] = { "FirstAidKit", "H_HelmetB_light_sand", "MNP_Vest_NOR_D_1", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_NOR_D_Soldier_O : MNP_I_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NOR_D_B";
         HK416_FTL
         EURO_MEN_GOGGLES

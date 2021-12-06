@@ -1,7 +1,7 @@
 class CfgVehicles {
     class B_Soldier_base_F;
     class MNP_B_Soldier_base_F : B_Soldier_base_F {
-        scope = 2;
+        scope = 1;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody";
         author = "Killoch";
@@ -9,6 +9,7 @@ class CfgVehicles {
 
     // Canadian Rifles
     class MNP_Canada_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Canada";
         class Wounds {
             tex[] = {};
@@ -24,6 +25,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_T", "MNP_Vest_Canada_T", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_S : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Canada_S";
         class Wounds {
             tex[] = {};
@@ -59,6 +61,7 @@ class CfgVehicles {
 
     // Canadian Desert Rifles
     class MNP_Canada_Soldier_DF : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Canada_D";
         class Wounds {
             tex[] = {};
@@ -74,6 +77,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_Canada_D", "MNP_Vest_Canada_D", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_Canada_Soldier_DS : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Canada_DS";
         class Wounds {
             tex[] = {};
@@ -108,6 +112,7 @@ class CfgVehicles {
 
     // Australia
     class MNP_AUS_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Australia";
         class Wounds
         {
@@ -124,6 +129,7 @@ class CfgVehicles {
         faction = MNP_AUS;
     };
     class MNP_AUS_Soldier_S : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Australia_S";
         class Wounds
         {
@@ -159,6 +165,7 @@ class CfgVehicles {
 
     // Republic of Korea
     class MNP_ROK_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_ROK_B";
         class Wounds {
             tex[] = {};
@@ -174,6 +181,7 @@ class CfgVehicles {
         faction = MNP_ROK;
     };
     class MNP_ROK_Soldier_O : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_ROK_A";
         class Wounds {
             tex[] = {};
@@ -208,6 +216,7 @@ class CfgVehicles {
 
     // US Arctic Warfare
     class MNP_USMCA_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_USMC_arctic";
         class Wounds {
             tex[] = {};
@@ -223,6 +232,7 @@ class CfgVehicles {
         faction = MNP_USMCA_SN;
     };
     class MNP_USMCA_Soldier_O : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_USMC_arctic_B";
         class Wounds {
             tex[] = {};
@@ -258,6 +268,7 @@ class CfgVehicles {
 
     // Ukrainian
     class MNP_UKR_A : MNP_B_Soldier_base_F{
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Ukrainian";
         class Wounds {
             tex[] = {};
@@ -296,6 +307,7 @@ class CfgVehicles {
 
     // ROK Marines
     class MNP_ROKMC_A : MNP_B_Soldier_base_F{
+        scope = 2;
         uniformClass = "MNP_CombatUniform_ROKMC";
         class Wounds
         {
@@ -334,7 +346,8 @@ class CfgVehicles {
     };
 
     // Israeli Army
-    class MNP_ISR_A : MNP_B_Soldier_base_F{
+    class MNP_ISR_A : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_ISR";
         class Wounds
         {
@@ -374,6 +387,7 @@ class CfgVehicles {
 
     // MNP_IRG_DE -- These are Iran, needs classname changed and woodland version
     class MNP_US6co_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_6CO";
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         FAL_RIFLEMAN
@@ -386,6 +400,7 @@ class CfgVehicles {
         faction = MNP_IRG_DE;
     };
     class MNP_US6co_Soldier_O : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_6CO_B";
         hiddenSelections[] = {"Camo1", "Insignia", "Clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_6co_A.paa"};
@@ -416,6 +431,7 @@ class CfgVehicles {
 
     // Australian Multicam
     class MNP_AMCU_Soldier_F : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_AMCU_T";
         class Wounds
         {
@@ -432,6 +448,7 @@ class CfgVehicles {
         faction = MNP_AMCU;
     };
     class MNP_AMCU_Soldier_O : MNP_B_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_AMCU_ST";
         class Wounds
         {

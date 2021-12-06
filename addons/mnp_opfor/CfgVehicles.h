@@ -1,8 +1,7 @@
 class CfgVehicles {
     class O_Soldier_base_F;
-    // Peoples Liberation Army units
     class MNP_O_Soldier_base_F : O_Soldier_base_F {
-        scope = 2;
+        scope = 1;
         modelSides[] = {3,1,0,2};
         nakedUniform = "U_BasicBody"; //class for "naked" body
         class HitPoints {
@@ -173,7 +172,10 @@ class CfgVehicles {
         armorStructural = 3;
         explosionShielding = 0.3;
     };
+
+    // Peoples Liberation Army units
     class MNP_CN_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
@@ -190,6 +192,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -202,6 +205,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_MilCap_CN_T", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_AR : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -215,6 +219,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_MED : MNP_O_Soldier_base_F{
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -229,6 +234,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_RAT : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -242,6 +248,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CN_Soldier_MG : MNP_O_Soldier_base_F{
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
@@ -256,6 +263,7 @@ class CfgVehicles {
     };
     // Peoples Liberation Army units WOODLAND
     class MNP_CW_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
@@ -272,6 +280,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -284,6 +293,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_AR : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -297,6 +307,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_MED : MNP_O_Soldier_base_F{
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -311,6 +322,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CW_Soldier_RAT : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -323,7 +335,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_CW_Soldier_MG : MNP_O_Soldier_base_F{
+    class MNP_CW_Soldier_MG : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_J";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
@@ -337,7 +350,8 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_CNJ", "MNP_Vest_ChinaH_J", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Peoples Liberation Navy units, Marine
-    class MNP_CM_Soldier_F : MNP_O_Soldier_base_F{
+    class MNP_CM_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ASIAN_MEN
@@ -354,6 +368,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
@@ -366,6 +381,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_MilCap_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_AR : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -378,7 +394,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_CM_Soldier_MED : MNP_O_Soldier_base_F{
+    class MNP_CM_Soldier_MED : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         attendant = 1;
         ASIAN_MEN
@@ -393,6 +410,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CM_Soldier_RAT : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -405,7 +423,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_CM_Soldier_MG : MNP_O_Soldier_base_F{
+    class MNP_CM_Soldier_MG : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_CMAR";
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
         ASIAN_MEN
@@ -419,7 +438,8 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_CM", "V_TacVest_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Peoples Liberation Army Units, Arid
-    class MNP_CD_Soldier_F : MNP_O_Soldier_base_F{
+    class MNP_CD_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         class Wounds
@@ -436,6 +456,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -448,6 +469,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_MilCap_CN_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_AR : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -460,7 +482,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_CD_Soldier_MED : MNP_O_Soldier_base_F{
+    class MNP_CD_Soldier_MED : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -475,6 +498,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     class MNP_CD_Soldier_RAT : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -487,7 +511,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_CD_Soldier_MG : MNP_O_Soldier_base_F{
+    class MNP_CD_Soldier_MG : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_China_D";
         ASIAN_MEN
         model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -501,7 +526,8 @@ class CfgVehicles {
         respawnLinkedItems[] = {"MNP_Helmet_China_D", "V_TacVest_brn", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
     // Desert
-    class MNP_RU_Soldier_MEDIUM_D : MNP_O_Soldier_base_F{
+    class MNP_RU_Soldier_MEDIUM_D : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_RU_Med_D";
         RUSSIAN_MEN_GOGGLES
         class Wounds
@@ -518,7 +544,7 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_RD", "MNP_Vest_RU_D", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_RU_Soldier_O_D : MNP_RU_Soldier_MEDIUM_D{
+    class MNP_RU_Soldier_O_D : MNP_RU_Soldier_MEDIUM_D {
         class Wounds
         {
             tex[] = {};
@@ -528,13 +554,13 @@ class CfgVehicles {
         linkedItems[] = {"MNP_MilCap_RU_D", "MNP_Vest_RU_D2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_MilCap_RU_D", "MNP_Vest_RU_D2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_RU_Soldier_AR_D : MNP_RU_Soldier_MEDIUM_D{
+    class MNP_RU_Soldier_AR_D : MNP_RU_Soldier_MEDIUM_D {
         uniformClass = "MNP_CombatUniform_RU_Med_DB";
         model = "\A3\Characters_F_beta\indep\ia_soldier_02.p3d";
         backpack = "B_Kitbag_cbr";
         RPK74M_AR
     };
-    class MNP_RU_Soldier_MG_D : MNP_RU_Soldier_MEDIUM_D{
+    class MNP_RU_Soldier_MG_D : MNP_RU_Soldier_MEDIUM_D
         backpack = "B_Kitbag_cbr";
         PKP_MG
     };
@@ -551,6 +577,7 @@ class CfgVehicles {
     };
     // North Korean Conscripts
     class MNP_NK_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NKR_rg";
         ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -563,6 +590,7 @@ class CfgVehicles {
         faction = MNP_KOR_OD;
     };
     class MNP_NK_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NKR_Sh";
         ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
@@ -592,6 +620,7 @@ class CfgVehicles {
     };
     // North Korean Regulars
     class MNP_NKC_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NKC_rg";
         ASIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -604,6 +633,7 @@ class CfgVehicles {
         faction = MNP_KOR_WD;
     };
     class MNP_NKC_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_NKC_Sh";
         ASIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
@@ -633,6 +663,7 @@ class CfgVehicles {
     };
     // Russian arctic command
     class MNP_RU_Soldier_Arctic_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_Russia_arctic";
         RUSSIAN_MEN_GOGGLES
         model = "\A3\Characters_F\OPFOR\O_soldier_01.p3d";
@@ -668,6 +699,7 @@ class CfgVehicles {
     };
     // RU Airbourne
     class MNP_RO3_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_RO3_rg";
         RUSSIAN_MEN
         Model = "\A3\Characters_F\OPFOR\O_officer.p3d";
@@ -680,6 +712,7 @@ class CfgVehicles {
         faction = MNP_RU_AIR;
     };
     class MNP_RO3_Soldier_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_RO3_Sh";
         RUSSIAN_MEN
         hiddenSelections[] = {"Camo1", "Camo2", "Insignia", "Clan"};
@@ -717,6 +750,7 @@ class CfgVehicles {
     };
     // Autumn Novorussians
     class MNP_DPR_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_DPR_A";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         RUSSIAN_MEN
@@ -755,6 +789,7 @@ class CfgVehicles {
     };
     // Summer Novorussians
     class MNP_DPR_T_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_DPR_B";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         RUSSIAN_MEN
@@ -793,6 +828,7 @@ class CfgVehicles {
     };
     // Iran Army
     class MNP_IR_IRGC_Soldier_F : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_IR_IRGC_A";
         model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
         ARAB_MEN
@@ -834,7 +870,8 @@ class CfgVehicles {
         G3KA4_MED
     };
     // Iranian Revolutionary Guards
-    class MNP_IR_IRGC_Soldier_MEDIUM : MNP_O_Soldier_base_F{
+    class MNP_IR_IRGC_Soldier_MEDIUM : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_IR_BSJ_A";
         hiddenSelections[] = {"Camo1", "Camo2", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_A.paa", "\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
@@ -850,7 +887,8 @@ class CfgVehicles {
         linkedItems[] = {"MNP_Helmet_PAGST_IBSJ", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MNP_Helmet_PAGST_IBSJ", "CUP_V_O_SLA_M23_1_BRN", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
     };
-    class MNP_IR_IRGC_Soldier_Med_O : MNP_O_Soldier_base_F{
+    class MNP_IR_IRGC_Soldier_Med_O : MNP_O_Soldier_base_F {
+        scope = 2;
         uniformClass = "MNP_CombatUniform_IR_BSJ_Med_B";
         hiddenSelections[] = {"Camo", "insignia", "clan"};
         hiddenSelectionsTextures[] = {"\x\mnp_units\addons\mnp_main\data\C_IR_BSJ_B.paa"};
